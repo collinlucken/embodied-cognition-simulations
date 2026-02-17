@@ -1,0 +1,48 @@
+# ===========================
+# PRIVATE: Strategy & Planning
+# ===========================
+Community_2_Landscape_Map.md
+Research_Program_Update_Plan.md
+Philosophical_Stress_Test_Notes.docx
+Revised_Program_And_Paper_1.docx
+Research_Program_Plan_v1_ARCHIVED.docx
+One_Month_Theoretical_Groundwork_Revised.docx
+One_Month_Theoretical_Groundwork_v1_ARCHIVED.docx
+Experiments_First_Timeline.docx
+Iteration_Control_Protocol_Revised.docx
+Philosophy_Paper_Review_Guide_Enhanced.docx
+Literature_Tracker.xlsx
+Conversation_Positivism_and_Enactivist_Metaphysics.md
+
+# ===========================
+# PRIVATE: Draft Papers
+# ===========================
+Paper_1_Methodology/
+Paper_2_Constitutive_vs_Causal/
+Paper_3_Representation_Revisited/
+Paper_4_Social_Interaction/
+Papers_5_6_Active_Inference/
+
+# ===========================
+# PRIVATE: Session & Workflow
+# ===========================
+_NEXT_SESSION.md
+_PROGRAM_STATE.md
+_SESSION_LOG.md
+_autonomous_research_session.md
+CONSISTENCY_AUDIT_REPORT.md
+IMPLEMENTATION_SUMMARY.md
+fetch_papers.py
+fetch_papers_report.txt
+_original_downloads/
+
+# ===========================
+# System / Cache
+# ===========================
+.DS_Store
+.claude/
+.pytest_cache/
+pytest-cache-files-*/
+__pycache__/
+*.pyc
+*.pyo

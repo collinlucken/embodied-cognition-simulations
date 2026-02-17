@@ -1,0 +1,240 @@
+{
+  "conditions": {
+    "net2_seed42": {
+      "num_neurons": 2,
+      "seed": 42,
+      "best_fitness": 0.09989999999999262,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    },
+    "net2_seed137": {
+      "num_neurons": 2,
+      "seed": 137,
+      "best_fitness": 0.09989999999999262,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    },
+    "net2_seed256": {
+      "num_neurons": 2,
+      "seed": 256,
+      "best_fitness": 0.09989999999999322,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net3_seed42": {
+      "num_neurons": 3,
+      "seed": 42,
+      "best_fitness": 0.09989999999999262,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    },
+    "net3_seed137": {
+      "num_neurons": 3,
+      "seed": 137,
+      "best_fitness": 0.09989999999999585,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net3_seed256": {
+      "num_neurons": 3,
+      "seed": 256,
+      "best_fitness": 0.09989999999999585,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net4_seed42": {
+      "num_neurons": 4,
+      "seed": 42,
+      "best_fitness": 0.09989999999999322,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net4_seed137": {
+      "num_neurons": 4,
+      "seed": 137,
+      "best_fitness": 0.09989999999999506,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    },
+    "net4_seed256": {
+      "num_neurons": 4,
+      "seed": 256,
+      "best_fitness": 0.09989999999999322,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net5_seed42": {
+      "num_neurons": 5,
+      "seed": 42,
+      "best_fitness": 0.09596798438400893,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net5_seed137": {
+      "num_neurons": 5,
+      "seed": 137,
+      "best_fitness": 0.09989999999999262,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    },
+    "net5_seed256": {
+      "num_neurons": 5,
+      "seed": 256,
+      "best_fitness": 0.09989999999999262,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    },
+    "net6_seed42": {
+      "num_neurons": 6,
+      "seed": 42,
+      "best_fitness": 0.09596355925011209,
+      "mean_perception_count": 501.0,
+      "mean_perception_fraction": 0.1002,
+      "perception_counts": [
+        501,
+        501,
+        501
+      ]
+    },
+    "net6_seed137": {
+      "num_neurons": 6,
+      "seed": 137,
+      "best_fitness": 0.0959869512824451,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net6_seed256": {
+      "num_neurons": 6,
+      "seed": 256,
+      "best_fitness": 0.094716552484351,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net8_seed42": {
+      "num_neurons": 8,
+      "seed": 42,
+      "best_fitness": 0.09989999999999322,
+      "mean_perception_count": 0.0,
+      "mean_perception_fraction": 0.0,
+      "perception_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    "net8_seed137": {
+      "num_neurons": 8,
+      "seed": 137,
+      "best_fitness": 0.0997443302833468,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    },
+    "net8_seed256": {
+      "num_neurons": 8,
+      "seed": 256,
+      "best_fitness": 0.09989999999999262,
+      "mean_perception_count": 500.0,
+      "mean_perception_fraction": 0.10000000000000002,
+      "perception_counts": [
+        500,
+        500,
+        500
+      ]
+    }
+  },
+  "meta": {
+    "timestamp": "20260217_152352",
+    "sizes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "seeds": [
+      42,
+      137,
+      256
+    ],
+    "generations": 200,
+    "evo_episode": 2000,
+    "analysis_episode": 5000,
+    "max_speed": 5.0
+  }
+}

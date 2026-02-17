@@ -1,0 +1,4431 @@
+{
+  "meta": {
+    "timestamp": "20260217_171255",
+    "n_agents": 42,
+    "skipped": 18
+  },
+  "correlations": {
+    "ramsey_best_causal_role": {
+      "rho": 0.1355536375997445,
+      "p": 0.39203260335718015
+    },
+    "ramsey_mean_causal_role": {
+      "rho": 0.027776719028827213,
+      "p": 0.8613823798774942
+    },
+    "ramsey_mean_disruption": {
+      "rho": -0.023256756228319228,
+      "p": 0.8837697323235567
+    },
+    "shea_dissociation": {
+      "rho": 0.2376727038942868,
+      "p": 0.12961474415721852
+    },
+    "shea_consistency_advantage": {
+      "rho": -0.10623556590706101,
+      "p": 0.5031086945394038
+    },
+    "gm_mi_gain": {
+      "rho": 0.2924753841697635,
+      "p": 0.06016439185291087
+    },
+    "gm_mediation": {
+      "rho": 0.020420566444377862,
+      "p": 0.8978642266883778
+    },
+    "gm_te_stim_state": {
+      "rho": 0.046110210696920576,
+      "p": 0.7718435242499481
+    },
+    "gm_te_state_action": {
+      "rho": 0.1393784693822616,
+      "p": 0.3786837681201335
+    },
+    "decoupling_invariance": {
+      "rho": -0.457031725183695,
+      "p": 0.002344691896980373
+    },
+    "decoupling_recovery": {
+      "rho": -0.4177979525950472,
+      "p": 0.005903468454786888
+    },
+    "decoupling_persistence": {
+      "rho": -0.4391410048622366,
+      "p": 0.003620368522960781
+    }
+  },
+  "composite_vs_ed": {
+    "rho": -0.03800494310481435,
+    "p": 0.8111416933303331
+  },
+  "conditions": [
+    {
+      "run_id": "net2_seed512",
+      "num_neurons": 2,
+      "seed": 512,
+      "ed_score": 0.24668995706988922,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.002224669396281809,
+        "mean_causal_role": 0.0011123346981409044,
+        "mean_disruption": 0.006229074309589066,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.012458148619178133,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.002224669396281809
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8932197325470816,
+        "random_response": 0.8929892634925997,
+        "dissociation_score": 0.0002580205587540996,
+        "consistency_advantage": -0.0022502683749248565,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.4451955511353316,
+        "mi_stim_action": 0.08701482860817045,
+        "mi_baseline": 0.03425772376629865,
+        "mi_gain": 0.41093782736903295,
+        "te_stim_state": 0.013206531798159504,
+        "te_state_action": 0.010715404239351453,
+        "te_stim_action": 0.0012719234466898044,
+        "mediation_score": 0.11117190683000527,
+        "passed": true
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9993513523520803,
+        "mean_persistence": 0.9945268887458854,
+        "invariance_score": 0.9969391205489828,
+        "per_trial": [
+          {
+            "recovery": 0.9995491203693504,
+            "persistence": 0.9962776996376618
+          },
+          {
+            "recovery": 0.9996947016569436,
+            "persistence": 0.9972156218600676
+          },
+          {
+            "recovery": 0.999507477316913,
+            "persistence": 0.9958638465495462
+          },
+          {
+            "recovery": 0.9994529101904905,
+            "persistence": 0.9954448150663152
+          },
+          {
+            "recovery": 0.9999616147281085,
+            "persistence": 0.9972506737520506
+          },
+          {
+            "recovery": 0.9990208140854933,
+            "persistence": 0.9921805547920388
+          },
+          {
+            "recovery": 0.9986719950276954,
+            "persistence": 0.9899985365261006
+          },
+          {
+            "recovery": 0.9989521854416482,
+            "persistence": 0.9919833617833023
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net2_seed1024",
+      "num_neurons": 2,
+      "seed": 1024,
+      "ed_score": 0.6335295896350832,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.16662599378508308,
+        "mean_causal_role": 0.1386701397496844,
+        "mean_disruption": 0.08537781501161804,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0448608444805993,
+            "context_dependence": 0.3714285714285714,
+            "causal_role_score": 0.16662599378508308
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.12589478554263678,
+            "context_dependence": 0.11071428571428568,
+            "causal_role_score": 0.11071428571428568
+          }
+        ],
+        "passed": true
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.5451052133265262,
+        "random_response": 0.4625271106247675,
+        "dissociation_score": 0.15149020901455437,
+        "consistency_advantage": -0.09381529396720084,
+        "passed": true
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.40228044969015775,
+        "mi_stim_action": 0.36108644923981936,
+        "mi_baseline": 0.030590894931720847,
+        "mi_gain": 0.3716895547584369,
+        "te_stim_state": 0.017820735094614557,
+        "te_state_action": 0.022651485363919865,
+        "te_stim_action": 0.01985792532974294,
+        "mediation_score": 0.02032668502788413,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.5124511839942615,
+        "mean_persistence": 0.42907344630765976,
+        "invariance_score": 0.4707623151509606,
+        "per_trial": [
+          {
+            "recovery": 0.6308170879641767,
+            "persistence": 0.5227250863813886
+          },
+          {
+            "recovery": 0.5890707839992905,
+            "persistence": 0.46372410141495535
+          },
+          {
+            "recovery": 0.6037751575634398,
+            "persistence": 0.4836133035875668
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.12615859945166574
+          },
+          {
+            "recovery": 0.5168769365912179,
+            "persistence": 0.41211622482310084
+          },
+          {
+            "recovery": 0.5594540148898397,
+            "persistence": 0.46243235154648843
+          },
+          {
+            "recovery": 0.6557656785026924,
+            "persistence": 0.5602421543989633
+          },
+          {
+            "recovery": 0.543849812443435,
+            "persistence": 0.40157574885714864
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net2_seed2048",
+      "num_neurons": 2,
+      "seed": 2048,
+      "ed_score": 0.6926529964058543,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.017857142857142853,
+        "mean_causal_role": 0.008928571428571426,
+        "mean_disruption": 0.061399150264225516,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.12279830052845103,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.017857142857142853
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.6086794689368902,
+        "random_response": 0.6059845109497944,
+        "dissociation_score": 0.0044275486929150195,
+        "consistency_advantage": -0.03584356950762137,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.3649144848904906,
+        "mi_stim_action": 0.3669343133916736,
+        "mi_baseline": 0.03006715383460845,
+        "mi_gain": 0.33484733105588216,
+        "te_stim_state": 0.009177438654335235,
+        "te_state_action": 0.020907307885739593,
+        "te_stim_action": 0.010375452670557589,
+        "mediation_score": 0.018491438417399326,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.46764250674020635,
+        "mean_persistence": 0.2671822989780127,
+        "invariance_score": 0.36741240285910953,
+        "per_trial": [
+          {
+            "recovery": 0.7942674736107229,
+            "persistence": 0.30676395338363505
+          },
+          {
+            "recovery": 0.5752614336552335,
+            "persistence": 0.27600882595839205
+          },
+          {
+            "recovery": 0.6404225295638825,
+            "persistence": 0.2773641282171365
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.2250897536486346
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.02869252281680934
+          },
+          {
+            "recovery": 0.4252753389882137,
+            "persistence": 0.39287300697148686
+          },
+          {
+            "recovery": 0.9241130800700875,
+            "persistence": 0.3654505255681334
+          },
+          {
+            "recovery": 0.3818001980335106,
+            "persistence": 0.265215675259874
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net2_seed3141",
+      "num_neurons": 2,
+      "seed": 3141,
+      "ed_score": 0.34645314289689627,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.06066640570547231,
+        "mean_causal_role": 0.056298405778139285,
+        "mean_disruption": 0.010038853878324022,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0053067568022721725,
+            "context_dependence": 0.9785714285714284,
+            "causal_role_score": 0.05193040585080625
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.014770950954375871,
+            "context_dependence": 0.4107142857142856,
+            "causal_role_score": 0.06066640570547231
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.4065826460084611,
+        "random_response": 0.4073688534232309,
+        "dissociation_score": -0.0019299644736289943,
+        "consistency_advantage": -0.0047133738085795435,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.4146554960980233,
+        "mi_stim_action": 0.533280429959027,
+        "mi_baseline": 0.04017978113585663,
+        "mi_gain": 0.3744757149621667,
+        "te_stim_state": 0.006683782548312034,
+        "te_state_action": 0.08019314263545622,
+        "te_stim_action": 0.038693168036333936,
+        "mediation_score": 0.013852049402841807,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9980572997903951,
+        "mean_persistence": 0.9930063395764759,
+        "invariance_score": 0.9955318196834355,
+        "per_trial": [
+          {
+            "recovery": 0.9992105897468282,
+            "persistence": 0.9972396401296215
+          },
+          {
+            "recovery": 0.9982259909248138,
+            "persistence": 0.9935440150828805
+          },
+          {
+            "recovery": 0.9993115146872719,
+            "persistence": 0.9976821124134901
+          },
+          {
+            "recovery": 0.9979562442401348,
+            "persistence": 0.9926375403275552
+          },
+          {
+            "recovery": 0.9987829986710657,
+            "persistence": 0.9958807886863545
+          },
+          {
+            "recovery": 0.9974526952638881,
+            "persistence": 0.9909617140188437
+          },
+          {
+            "recovery": 0.9964057357007277,
+            "persistence": 0.9866570916950574
+          },
+          {
+            "recovery": 0.9971126290884305,
+            "persistence": 0.9894478142580048
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net2_seed4096",
+      "num_neurons": 2,
+      "seed": 4096,
+      "ed_score": 0.050016089520602346,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.1198977366093424,
+        "mean_causal_role": 0.0599488683046712,
+        "mean_disruption": 0.00599488683046712,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.01198977366093424,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.1198977366093424
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.5788643141358764,
+        "random_response": 0.5797991015267103,
+        "dissociation_score": -0.001612260847546182,
+        "consistency_advantage": -0.0026945078389344524,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.1744954279142159,
+        "mi_stim_action": 0.2068237579444805,
+        "mi_baseline": 0.05080115432080179,
+        "mi_gain": 0.12369427359341412,
+        "te_stim_state": 0.005388622525704975,
+        "te_state_action": 0.011576708272315835,
+        "te_stim_action": 0.0033778538921474116,
+        "mediation_score": 0.018462624594302708,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9979514849445206,
+        "mean_persistence": 0.9848836447852936,
+        "invariance_score": 0.9914175648649071,
+        "per_trial": [
+          {
+            "recovery": 0.9979834905493818,
+            "persistence": 0.9849879241679756
+          },
+          {
+            "recovery": 0.9978641275833858,
+            "persistence": 0.9842094387155065
+          },
+          {
+            "recovery": 0.9981934555762481,
+            "persistence": 0.9865610219949529
+          },
+          {
+            "recovery": 0.9980633847439973,
+            "persistence": 0.9857462995773205
+          },
+          {
+            "recovery": 0.9986781368718283,
+            "persistence": 0.9902900578742769
+          },
+          {
+            "recovery": 0.9984098620811952,
+            "persistence": 0.9884191945305077
+          },
+          {
+            "recovery": 0.9967978292303745,
+            "persistence": 0.9763522747296818
+          },
+          {
+            "recovery": 0.9976215929197537,
+            "persistence": 0.9825029466921257
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net2_seed5555",
+      "num_neurons": 2,
+      "seed": 5555,
+      "ed_score": 0.037402190484319905,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0023939290705435857,
+        "mean_causal_role": 0.0012089530306780168,
+        "mean_disruption": 0.006704249270649828,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 2.4957462555708077e-06,
+            "context_dependence": 0.9607142857142855,
+            "causal_role_score": 2.397699081244811e-05
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.013406002795044085,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.0023939290705435857
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.6918986609171991,
+        "random_response": 0.6916728943444742,
+        "dissociation_score": 0.00032630005733151954,
+        "consistency_advantage": -0.0030292648795452967,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.5193664239418982,
+        "mi_stim_action": 0.185453263890329,
+        "mi_baseline": 0.03159879489648132,
+        "mi_gain": 0.48776762904541693,
+        "te_stim_state": 0.011950902807526642,
+        "te_state_action": 0.0075229994883846685,
+        "te_stim_action": 0.010971383650231384,
+        "mediation_score": 0.008193901942615897,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9695409762624407,
+        "mean_persistence": 0.8400413013290389,
+        "invariance_score": 0.9047911387957398,
+        "per_trial": [
+          {
+            "recovery": 0.9712099459130643,
+            "persistence": 0.841723294098
+          },
+          {
+            "recovery": 0.9698147844974719,
+            "persistence": 0.840298839285899
+          },
+          {
+            "recovery": 0.971195106381903,
+            "persistence": 0.8416991986099105
+          },
+          {
+            "recovery": 0.9692445861146994,
+            "persistence": 0.8397234046210048
+          },
+          {
+            "recovery": 0.9699631818271282,
+            "persistence": 0.8404130344997905
+          },
+          {
+            "recovery": 0.9682056642027596,
+            "persistence": 0.8386986500850067
+          },
+          {
+            "recovery": 0.9682544478933042,
+            "persistence": 0.838815300844137
+          },
+          {
+            "recovery": 0.9684400932691954,
+            "persistence": 0.8389586885885626
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net2_seed7777",
+      "num_neurons": 2,
+      "seed": 7777,
+      "ed_score": 0.14689964838445083,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.6042913806276409,
+        "mean_causal_role": 0.3021487076900111,
+        "mean_disruption": 0.03021487625513964,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.060429138062764086,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.6042913806276409
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 6.144475151940535e-07,
+            "context_dependence": 0.982142857142857,
+            "causal_role_score": 6.034752381370168e-06
+          }
+        ],
+        "passed": true
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.7331983072784409,
+        "random_response": 0.7272749339792616,
+        "dissociation_score": 0.00807881474954072,
+        "consistency_advantage": -0.01460909205692789,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.18182765896271214,
+        "mi_stim_action": 0.242739888757721,
+        "mi_baseline": 0.033820856938485466,
+        "mi_gain": 0.14800680202422667,
+        "te_stim_state": 0.006749088035389095,
+        "te_state_action": 0.008109700932417405,
+        "te_stim_action": 0.00723662818392988,
+        "mediation_score": 0.007562295843697676,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8514747904915659,
+        "mean_persistence": 0.7370855968575296,
+        "invariance_score": 0.7942801936745478,
+        "per_trial": [
+          {
+            "recovery": 0.8617267079324776,
+            "persistence": 0.7415867323473926
+          },
+          {
+            "recovery": 0.852138585647531,
+            "persistence": 0.7373510784828486
+          },
+          {
+            "recovery": 0.8638563659044309,
+            "persistence": 0.7426652427687875
+          },
+          {
+            "recovery": 0.8509176760277863,
+            "persistence": 0.7369688385693653
+          },
+          {
+            "recovery": 0.8617226852587456,
+            "persistence": 0.742126925221519
+          },
+          {
+            "recovery": 0.8486085553152641,
+            "persistence": 0.7362128055485482
+          },
+          {
+            "recovery": 0.8314061932963838,
+            "persistence": 0.7273262930094718
+          },
+          {
+            "recovery": 0.8414215545499087,
+            "persistence": 0.7324468589123037
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net3_seed512",
+      "num_neurons": 3,
+      "seed": 512,
+      "ed_score": 0.1686530408637274,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0,
+        "mean_causal_role": 0.0,
+        "mean_disruption": 1.685799648024992e-12,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 5.0573989440749756e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.99999999986635,
+        "random_response": 0.999999999865733,
+        "dissociation_score": 6.170619571691323e-13,
+        "consistency_advantage": -6.5672515551580305e-12,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.17547107282586039,
+        "mi_stim_action": 0.07236919844694167,
+        "mi_baseline": 0.041807439627760346,
+        "mi_gain": 0.13366363319810004,
+        "te_stim_state": 0.010160228155357373,
+        "te_state_action": 0.010278993804235248,
+        "te_stim_action": 0.009654080962465464,
+        "mediation_score": 0.0108167836877327,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.6218990413536633,
+        "mean_persistence": 0.7446207566925498,
+        "invariance_score": 0.6832598990231065,
+        "per_trial": [
+          {
+            "recovery": 0.6192415151821069,
+            "persistence": 0.7454186733113433
+          },
+          {
+            "recovery": 0.6208640806198308,
+            "persistence": 0.7448443252866326
+          },
+          {
+            "recovery": 0.6206716530501326,
+            "persistence": 0.7451849710841543
+          },
+          {
+            "recovery": 0.6231662078728153,
+            "persistence": 0.7443480726999108
+          },
+          {
+            "recovery": 0.6260764922945419,
+            "persistence": 0.7440368687879946
+          },
+          {
+            "recovery": 0.6272324218813797,
+            "persistence": 0.7434678316520884
+          },
+          {
+            "recovery": 0.6163854911746514,
+            "persistence": 0.7452305418347003
+          },
+          {
+            "recovery": 0.6215544687538473,
+            "persistence": 0.7444347688835745
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net3_seed1024",
+      "num_neurons": 3,
+      "seed": 1024,
+      "ed_score": 0.027760117454271184,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.07998149202782473,
+        "mean_causal_role": 0.0510129255413079,
+        "mean_disruption": 0.009364329462274695,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.010177134172590903,
+            "context_dependence": 0.7178571428571427,
+            "causal_role_score": 0.07305728459609898
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.01791585421423274,
+            "context_dependence": 0.4464285714285714,
+            "causal_role_score": 0.07998149202782473
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 4.440892098500626e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.6251913087632563,
+        "random_response": 0.6259866932408581,
+        "dissociation_score": -0.0012706092416819306,
+        "consistency_advantage": -0.0021231994341772546,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.4811916694604066,
+        "mi_stim_action": 0.45455131845312957,
+        "mi_baseline": 0.03675100239139706,
+        "mi_gain": 0.44444066706900953,
+        "te_stim_state": 0.012358684150414662,
+        "te_state_action": 0.033068701518448956,
+        "te_stim_action": 0.00918514107659002,
+        "mediation_score": 0.04448937088200656,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9169085936167272,
+        "mean_persistence": 0.8982400385367673,
+        "invariance_score": 0.9075743160767472,
+        "per_trial": [
+          {
+            "recovery": 0.9169349745780925,
+            "persistence": 0.8984176891733372
+          },
+          {
+            "recovery": 0.9168842382197115,
+            "persistence": 0.8982612527591952
+          },
+          {
+            "recovery": 0.9169994445541586,
+            "persistence": 0.8984323751928929
+          },
+          {
+            "recovery": 0.9169396491696602,
+            "persistence": 0.8982169980820514
+          },
+          {
+            "recovery": 0.9171358058875816,
+            "persistence": 0.898336722597367
+          },
+          {
+            "recovery": 0.917035349455105,
+            "persistence": 0.8981347404686779
+          },
+          {
+            "recovery": 0.9165429140522974,
+            "persistence": 0.8980188459235826
+          },
+          {
+            "recovery": 0.9167963730172111,
+            "persistence": 0.8981016840970343
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net3_seed2048",
+      "num_neurons": 3,
+      "seed": 2048,
+      "ed_score": 0.30618761333180605,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.004449798163105755,
+        "mean_causal_role": 0.001483266054368585,
+        "mean_disruption": 0.008306290015437853,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.024918869713392234,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.004449798163105755
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 3.329213275430713e-10,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8352630738562461,
+        "random_response": 0.8347286539665865,
+        "dissociation_score": 0.0006398222385102216,
+        "consistency_advantage": -0.005351388176198116,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.5294353067379198,
+        "mi_stim_action": 0.36488072874740674,
+        "mi_baseline": 0.02548139000439864,
+        "mi_gain": 0.5039539167335212,
+        "te_stim_state": 0.006654148437343771,
+        "te_state_action": 0.023025408008795864,
+        "te_stim_action": 0.00526206343581645,
+        "mediation_score": 0.029111274182687833,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9340043880476112,
+        "mean_persistence": 0.9169110317052158,
+        "invariance_score": 0.9254577098764135,
+        "per_trial": [
+          {
+            "recovery": 0.9327377270367697,
+            "persistence": 0.9158675926141631
+          },
+          {
+            "recovery": 0.9337251523784633,
+            "persistence": 0.9167727506325928
+          },
+          {
+            "recovery": 0.9329445083412664,
+            "persistence": 0.9159020680494513
+          },
+          {
+            "recovery": 0.9343473332482168,
+            "persistence": 0.9171335158396998
+          },
+          {
+            "recovery": 0.9343638768456084,
+            "persistence": 0.9166723288980207
+          },
+          {
+            "recovery": 0.9354487953074937,
+            "persistence": 0.9177033265831128
+          },
+          {
+            "recovery": 0.9339217913087569,
+            "persistence": 0.9176242369458607
+          },
+          {
+            "recovery": 0.9345459199143148,
+            "persistence": 0.9176124340788254
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net3_seed3141",
+      "num_neurons": 3,
+      "seed": 3141,
+      "ed_score": 0.4853017531371325,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0025591223802762133,
+        "mean_causal_role": 0.0008530407934254045,
+        "mean_disruption": 0.004777028443182265,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.014331085329546796,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.0025591223802762133
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8372425007740963,
+        "random_response": 0.8369844137968243,
+        "dissociation_score": 0.00030825833260185687,
+        "consistency_advantage": -0.0027182502821223374,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.4396534983267375,
+        "mi_stim_action": 0.32292071245775444,
+        "mi_baseline": 0.04383585861891648,
+        "mi_gain": 0.395817639707821,
+        "te_stim_state": 0.00409311662804103,
+        "te_state_action": 0.029963062535764806,
+        "te_stim_action": 0.0055664360446359695,
+        "mediation_score": 0.022028508007798986,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9969605609325677,
+        "mean_persistence": 0.986080156914154,
+        "invariance_score": 0.9915203589233608,
+        "per_trial": [
+          {
+            "recovery": 0.9965863673813486,
+            "persistence": 0.9840855667282749
+          },
+          {
+            "recovery": 0.9968443314369001,
+            "persistence": 0.9855770167700985
+          },
+          {
+            "recovery": 0.996746507058858,
+            "persistence": 0.9847871913691123
+          },
+          {
+            "recovery": 0.9971198936051964,
+            "persistence": 0.9868671823243151
+          },
+          {
+            "recovery": 0.9974033719267852,
+            "persistence": 0.9879366498198606
+          },
+          {
+            "recovery": 0.9975814690961607,
+            "persistence": 0.9889098083367113
+          },
+          {
+            "recovery": 0.9964252267729151,
+            "persistence": 0.9840878208363062
+          },
+          {
+            "recovery": 0.9969773201823772,
+            "persistence": 0.986390019128553
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net3_seed4096",
+      "num_neurons": 3,
+      "seed": 4096,
+      "ed_score": 0.1625445884672047,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0015255059447924037,
+        "mean_causal_role": 0.0005086144040628554,
+        "mean_disruption": 0.002847627652969139,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 2.3550292294061136e-08,
+            "context_dependence": 0.9964285714285712,
+            "causal_role_score": 2.3466184107296627e-07
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.008542833290837463,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.0015255059447924037
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 2.6117777659114457e-08,
+            "context_dependence": 0.3928571428571428,
+            "causal_role_score": 1.026055550893782e-07
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9720946341832591,
+        "random_response": 0.971902699430311,
+        "dissociation_score": 0.00019744451434952983,
+        "consistency_advantage": -0.002247564946941837,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.17568664237099663,
+        "mi_stim_action": 0.20396540667369845,
+        "mi_baseline": 0.03686687363019958,
+        "mi_gain": 0.13881976874079704,
+        "te_stim_state": 0.00976233441913349,
+        "te_state_action": 0.018025876722931683,
+        "te_stim_action": 0.007940685750393597,
+        "mediation_score": 0.022158348025620594,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.7269389783918547,
+        "mean_persistence": 0.842974819005943,
+        "invariance_score": 0.7849568986988988,
+        "per_trial": [
+          {
+            "recovery": 0.7298542863490209,
+            "persistence": 0.8434310748965845
+          },
+          {
+            "recovery": 0.7275683658253944,
+            "persistence": 0.8432750942229568
+          },
+          {
+            "recovery": 0.7292721012909102,
+            "persistence": 0.8430160837211766
+          },
+          {
+            "recovery": 0.726074601420727,
+            "persistence": 0.8426790582189003
+          },
+          {
+            "recovery": 0.7257777834821268,
+            "persistence": 0.8415767987583146
+          },
+          {
+            "recovery": 0.7235418670550193,
+            "persistence": 0.8415212602531117
+          },
+          {
+            "recovery": 0.727591192491873,
+            "persistence": 0.8449405298637959
+          },
+          {
+            "recovery": 0.7258316292197662,
+            "persistence": 0.8433586521127037
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net3_seed5555",
+      "num_neurons": 3,
+      "seed": 5555,
+      "ed_score": 0.1649464818352299,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.19350602201902728,
+        "mean_causal_role": 0.06450200733967576,
+        "mean_disruption": 0.0064502007339675765,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.01935060220190273,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.19350602201902728
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": true
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8346587277587264,
+        "random_response": 0.8362063221047763,
+        "dissociation_score": -0.0018507326542981858,
+        "consistency_advantage": -0.003197211513182233,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.20871460030131228,
+        "mi_stim_action": 0.3225138094129907,
+        "mi_baseline": 0.04941091225618344,
+        "mi_gain": 0.15930368804512884,
+        "te_stim_state": 0.012210052704682894,
+        "te_state_action": 0.013788249228137511,
+        "te_stim_action": 0.011441764904346494,
+        "mediation_score": 0.014712812085907061,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9334910977098783,
+        "mean_persistence": 0.9168561272693122,
+        "invariance_score": 0.9251736124895953,
+        "per_trial": [
+          {
+            "recovery": 0.9334634760840688,
+            "persistence": 0.9170345205142867
+          },
+          {
+            "recovery": 0.9334561076966819,
+            "persistence": 0.9168431002914281
+          },
+          {
+            "recovery": 0.9335334927643344,
+            "persistence": 0.917133084141468
+          },
+          {
+            "recovery": 0.9335351214594587,
+            "persistence": 0.9168827465449423
+          },
+          {
+            "recovery": 0.9337233695370794,
+            "persistence": 0.9172483395926196
+          },
+          {
+            "recovery": 0.9336734440046811,
+            "persistence": 0.9169468883466265
+          },
+          {
+            "recovery": 0.9331375316699834,
+            "persistence": 0.9161715486334937
+          },
+          {
+            "recovery": 0.9334062384627382,
+            "persistence": 0.9165887900896328
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net3_seed7777",
+      "num_neurons": 3,
+      "seed": 7777,
+      "ed_score": 0.8286768522294461,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 3.991070125513214e-05,
+        "mean_causal_role": 1.3303567085044046e-05,
+        "mean_disruption": 7.449997568939666e-05,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 4.2188474935755947e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.00022349992702874004,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 3.991070125513214e-05
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 3.902804005898967e-14,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9994224648952735,
+        "random_response": 0.9994471438251877,
+        "dissociation_score": -2.469258136027848e-05,
+        "consistency_advantage": -0.00011180224798871062,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.2050295703871612,
+        "mi_stim_action": 0.1433126353459655,
+        "mi_baseline": 0.04396022325596993,
+        "mi_gain": 0.16106934713119125,
+        "te_stim_state": 0.006059841817178779,
+        "te_state_action": 0.01742756950435559,
+        "te_stim_action": 0.007281057052599391,
+        "mediation_score": 0.014502538732044936,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9146990231289203,
+        "mean_persistence": 0.894597466713912,
+        "invariance_score": 0.9046482449214162,
+        "per_trial": [
+          {
+            "recovery": 0.9143070945337545,
+            "persistence": 0.8938719264961527
+          },
+          {
+            "recovery": 0.9144081058130746,
+            "persistence": 0.8941823664127958
+          },
+          {
+            "recovery": 0.9146200596430687,
+            "persistence": 0.8943983828820963
+          },
+          {
+            "recovery": 0.9148761144016962,
+            "persistence": 0.8949527711544553
+          },
+          {
+            "recovery": 0.9158582633673483,
+            "persistence": 0.8963436832427478
+          },
+          {
+            "recovery": 0.9160395798662625,
+            "persistence": 0.8966634530428028
+          },
+          {
+            "recovery": 0.9131548482157743,
+            "persistence": 0.8921996812983188
+          },
+          {
+            "recovery": 0.9143281191903834,
+            "persistence": 0.8941674691819274
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net4_seed512",
+      "num_neurons": 4,
+      "seed": 512,
+      "ed_score": 0.5940880124023208,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.13424487884965763,
+        "mean_causal_role": 0.055173782663930346,
+        "mean_disruption": 0.008072553612473388,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.019276187732258535,
+            "context_dependence": 0.6964285714285713,
+            "causal_role_score": 0.13424487884965763
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.013014010455683086,
+            "context_dependence": 0.6642857142857141,
+            "causal_role_score": 0.08645021231275192
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 1.626195193319783e-08,
+            "context_dependence": 0.24285714285714283,
+            "causal_role_score": 3.949331183776616e-08
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.4778971045916913,
+        "random_response": 0.47531147511192184,
+        "dissociation_score": 0.005410431356303374,
+        "consistency_advantage": -0.006833032215447059,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.25555280964434157,
+        "mi_stim_action": 0.20119907892435052,
+        "mi_baseline": 0.03724037193857166,
+        "mi_gain": 0.2183124377057699,
+        "te_stim_state": 0.007044344607379946,
+        "te_state_action": 0.018475669161380992,
+        "te_stim_action": 0.0017548236901334946,
+        "mediation_score": 0.07412417383137995,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.0,
+        "mean_persistence": 0.0,
+        "invariance_score": 0.0,
+        "per_trial": [
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net4_seed1024",
+      "num_neurons": 4,
+      "seed": 1024,
+      "ed_score": 0.310066497626349,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0,
+        "mean_causal_role": 0.0,
+        "mean_disruption": 2.5647817203378055e-13,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 1.0259126881351222e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999999999759325,
+        "random_response": 0.9999999999764779,
+        "dissociation_score": -5.454525720111696e-13,
+        "consistency_advantage": -9.799715125993927e-13,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.20905095036936272,
+        "mi_stim_action": 0.06643358074722272,
+        "mi_baseline": 0.046421209619078585,
+        "mi_gain": 0.16262974075028414,
+        "te_stim_state": 0.006032829046008076,
+        "te_state_action": 0.019675402074207357,
+        "te_stim_action": 0.005781843816180937,
+        "mediation_score": 0.020525945520616803,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.7866965857569564,
+        "mean_persistence": 0.8802298820865861,
+        "invariance_score": 0.8334632339217714,
+        "per_trial": [
+          {
+            "recovery": 0.781557497150373,
+            "persistence": 0.880370652420241
+          },
+          {
+            "recovery": 0.7861074073833361,
+            "persistence": 0.8802508521364683
+          },
+          {
+            "recovery": 0.781187803725399,
+            "persistence": 0.8803708446225134
+          },
+          {
+            "recovery": 0.7874281200653623,
+            "persistence": 0.8802047789558359
+          },
+          {
+            "recovery": 0.7840502897125683,
+            "persistence": 0.880269045930262
+          },
+          {
+            "recovery": 0.7897990553805898,
+            "persistence": 0.8801222965354834
+          },
+          {
+            "recovery": 0.7927860357026285,
+            "persistence": 0.8801148573516047
+          },
+          {
+            "recovery": 0.7906564769353944,
+            "persistence": 0.8801357287402803
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net4_seed2048",
+      "num_neurons": 4,
+      "seed": 2048,
+      "ed_score": 0.9643516172288313,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.11049818299212043,
+        "mean_causal_role": 0.0283676162839083,
+        "mean_disruption": 0.00972312529465847,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 9.401392083940862e-07,
+            "context_dependence": 0.22499999999999998,
+            "causal_role_score": 2.1153132188866938e-06
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.016632934249645803,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.002970166830293893
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.022258626789779655,
+            "context_dependence": 0.4964285714285714,
+            "causal_role_score": 0.11049818299212043
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 2.960594732333751e-17,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8116679045134308,
+        "random_response": 0.8119478840008134,
+        "dissociation_score": -0.000344824455977379,
+        "consistency_advantage": -0.002753945900218998,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.49011575817992803,
+        "mi_stim_action": 0.25599327462198396,
+        "mi_baseline": 0.027955702276111882,
+        "mi_gain": 0.46216005590381615,
+        "te_stim_state": 0.012094265761995307,
+        "te_state_action": 0.02177603332462405,
+        "te_stim_action": 0.015184496270070208,
+        "mediation_score": 0.017343202328471013,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.7234438597097717,
+        "mean_persistence": 0.9049386076507111,
+        "invariance_score": 0.8141912336802414,
+        "per_trial": [
+          {
+            "recovery": 0.6400007529727172,
+            "persistence": 0.9055680500621285
+          },
+          {
+            "recovery": 0.7075903245786033,
+            "persistence": 0.9051374929804548
+          },
+          {
+            "recovery": 0.6632322330187683,
+            "persistence": 0.9053621745769388
+          },
+          {
+            "recovery": 0.7525366733125363,
+            "persistence": 0.9047151419574662
+          },
+          {
+            "recovery": 0.7701102354966451,
+            "persistence": 0.904380330386118
+          },
+          {
+            "recovery": 0.8150234622726106,
+            "persistence": 0.9039389427229592
+          },
+          {
+            "recovery": 0.6871767852764192,
+            "persistence": 0.9055662974401855
+          },
+          {
+            "recovery": 0.751880410749874,
+            "persistence": 0.9048404310794383
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net4_seed3141",
+      "num_neurons": 4,
+      "seed": 3141,
+      "ed_score": 0.48061790253670533,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.029053386611399966,
+        "mean_causal_role": 0.007359935687682854,
+        "mean_disruption": 0.0013170537150780184,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.003104942080607631,
+            "context_dependence": 0.9357142857142854,
+            "causal_role_score": 0.029053386611399966
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.002163256642035353,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.00038629582893488437
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 1.608277241752868e-08,
+            "context_dependence": 0.37499999999999994,
+            "causal_role_score": 6.031039656573255e-08
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 5.4896672393075126e-11,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9865509846998805,
+        "random_response": 0.9864002991288,
+        "dissociation_score": 0.000152739770592074,
+        "consistency_advantage": -0.000704935585286172,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.17727692767429204,
+        "mi_stim_action": 0.18481941298897198,
+        "mi_baseline": 0.035602813750073015,
+        "mi_gain": 0.14167411392421903,
+        "te_stim_state": 0.009609264125489528,
+        "te_state_action": 0.026666528198994954,
+        "te_stim_action": 0.012294777131454965,
+        "mediation_score": 0.020840139670263807,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.0,
+        "mean_persistence": 0.06856487199488732,
+        "invariance_score": 0.03428243599744366,
+        "per_trial": [
+          {
+            "recovery": 0.0,
+            "persistence": 0.05873498414421263
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.06593882369142423
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.06081332585528065
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0714034720067126
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.07287558447163867
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0814070476848906
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0651910105192115
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.07215472758572772
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net4_seed4096",
+      "num_neurons": 4,
+      "seed": 4096,
+      "ed_score": 0.6087778843386824,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.14639607420962025,
+        "mean_causal_role": 0.03659901855240506,
+        "mean_disruption": 0.0036599018552414334,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.014639607420962026,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.14639607420962025
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 1.1842378929335003e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 3.589721112954673e-15,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9351330204888677,
+        "random_response": 0.9383751366257252,
+        "dissociation_score": -0.0034550320125869595,
+        "consistency_advantage": -0.006081482310462763,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.3459175796370233,
+        "mi_stim_action": 0.2803629006997319,
+        "mi_baseline": 0.027296196137293283,
+        "mi_gain": 0.31862138349973,
+        "te_stim_state": 0.006516927969317132,
+        "te_state_action": 0.03271257465985486,
+        "te_stim_action": 0.009904012438263332,
+        "mediation_score": 0.021522990917774282,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8415124419029929,
+        "mean_persistence": 0.7151185117729446,
+        "invariance_score": 0.7783154768379688,
+        "per_trial": [
+          {
+            "recovery": 0.843450135073087,
+            "persistence": 0.7140590679838599
+          },
+          {
+            "recovery": 0.8417654109491716,
+            "persistence": 0.7149839058464547
+          },
+          {
+            "recovery": 0.8436393859613662,
+            "persistence": 0.7140702816886436
+          },
+          {
+            "recovery": 0.8413194373639659,
+            "persistence": 0.715343698474678
+          },
+          {
+            "recovery": 0.8427712741146823,
+            "persistence": 0.7149148361488857
+          },
+          {
+            "recovery": 0.840487702495893,
+            "persistence": 0.7159705541425825
+          },
+          {
+            "recovery": 0.8387653029014477,
+            "persistence": 0.7158212841597282
+          },
+          {
+            "recovery": 0.8399008863643296,
+            "persistence": 0.7157844657387245
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net4_seed5555",
+      "num_neurons": 4,
+      "seed": 5555,
+      "ed_score": 0.5699582979681375,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 6.644696978834e-05,
+        "mean_causal_role": 1.6611742447085e-05,
+        "mean_disruption": 1.6611924752070923e-06,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 6.6446969788340004e-06,
+            "context_dependence": 1.0,
+            "causal_role_score": 6.644696978834e-05
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 7.118638271445358e-11,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 1.7356116543965072e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999633243290464,
+        "random_response": 0.9999637429354498,
+        "dissociation_score": -4.186215813081734e-07,
+        "consistency_advantage": -7.75138070530542e-07,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.20576189291767966,
+        "mi_stim_action": 0.1933845197112518,
+        "mi_baseline": 0.04000532296710135,
+        "mi_gain": 0.1657565699505783,
+        "te_stim_state": 0.009226575220075806,
+        "te_state_action": 0.0227923568146675,
+        "te_stim_action": 0.006255592668796592,
+        "mediation_score": 0.033611808491567634,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8138940798536531,
+        "mean_persistence": 0.0,
+        "invariance_score": 0.40694703992682657,
+        "per_trial": [
+          {
+            "recovery": 0.8131684911896666,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.8138454359457741,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.813095496358185,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.8140107305301244,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.8134921409611213,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.8142937517822693,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.8147846766494425,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.8144619154126421,
+            "persistence": 0.0
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net4_seed7777",
+      "num_neurons": 4,
+      "seed": 7777,
+      "ed_score": 0.03010892366401483,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.05747856464916723,
+        "mean_causal_role": 0.041170558617391995,
+        "mean_disruption": 0.00825306495028826,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.009187139762080106,
+            "context_dependence": 0.5821428571428571,
+            "causal_role_score": 0.05348227790068061
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.009919535388655228,
+            "context_dependence": 0.3107142857142856,
+            "causal_role_score": 0.030821413529035876
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.008606416097201511,
+            "context_dependence": 0.6678571428571428,
+            "causal_role_score": 0.05747856464916723
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.005299168553216193,
+            "context_dependence": 0.43214285714285705,
+            "causal_role_score": 0.02289997839068426
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.6641828806741766,
+        "random_response": 0.6647050004016154,
+        "dissociation_score": -0.0007854908976512862,
+        "consistency_advantage": -0.0038973515703016465,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.16854327972778727,
+        "mi_stim_action": 0.3848142880461327,
+        "mi_baseline": 0.05523370620058854,
+        "mi_gain": 0.11330957352719873,
+        "te_stim_state": 0.011821774821528158,
+        "te_state_action": 0.04249101424094895,
+        "te_stim_action": 0.021237798892272286,
+        "mediation_score": 0.023651017406526365,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9999999907717452,
+        "mean_persistence": 0.998911176414438,
+        "invariance_score": 0.9994555835930916,
+        "per_trial": [
+          {
+            "recovery": 0.9999999937854364,
+            "persistence": 0.9992866425563187
+          },
+          {
+            "recovery": 0.9999999927480965,
+            "persistence": 0.9990698496997995
+          },
+          {
+            "recovery": 0.9999999914766337,
+            "persistence": 0.9991330059818635
+          },
+          {
+            "recovery": 0.9999999895139193,
+            "persistence": 0.9988208411551147
+          },
+          {
+            "recovery": 0.9999999826648743,
+            "persistence": 0.9985185484618304
+          },
+          {
+            "recovery": 0.9999999828899653,
+            "persistence": 0.9983680262180495
+          },
+          {
+            "recovery": 0.9999999999912752,
+            "persistence": 0.999167509668604
+          },
+          {
+            "recovery": 0.9999999931037611,
+            "persistence": 0.9989249875739241
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net5_seed512",
+      "num_neurons": 5,
+      "seed": 512,
+      "ed_score": 0.2769701302384463,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0,
+        "mean_causal_role": 0.0,
+        "mean_disruption": 4.4408920985006264e-17,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 2.220446049250313e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999999999999599,
+        "random_response": 0.9999999999999596,
+        "dissociation_score": 3.330669073875603e-16,
+        "consistency_advantage": -1.952949300552226e-15,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.15888704574877233,
+        "mi_stim_action": 0.04714735460508912,
+        "mi_baseline": 0.04287401634594934,
+        "mi_gain": 0.11601302940282299,
+        "te_stim_state": 0.012307588276662396,
+        "te_state_action": 0.026973406199545663,
+        "te_stim_action": 0.009528834908582369,
+        "mediation_score": 0.0348356063990373,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.4005362666090341,
+        "mean_persistence": 0.7058097516561073,
+        "invariance_score": 0.5531730091325706,
+        "per_trial": [
+          {
+            "recovery": 0.4013374290116475,
+            "persistence": 0.7043555167008599
+          },
+          {
+            "recovery": 0.40084622900408273,
+            "persistence": 0.7053204463981536
+          },
+          {
+            "recovery": 0.4008620960005409,
+            "persistence": 0.7050003056460148
+          },
+          {
+            "recovery": 0.4001189852714915,
+            "persistence": 0.7064342936568302
+          },
+          {
+            "recovery": 0.3991738753326036,
+            "persistence": 0.7075884519067065
+          },
+          {
+            "recovery": 0.398883667708274,
+            "persistence": 0.708369077619881
+          },
+          {
+            "recovery": 0.4024004816890244,
+            "persistence": 0.7035576945449116
+          },
+          {
+            "recovery": 0.4006673688546082,
+            "persistence": 0.7058522267755
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net5_seed1024",
+      "num_neurons": 5,
+      "seed": 1024,
+      "ed_score": 0.3526609798873622,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.003235448223471311,
+        "mean_causal_role": 0.0006470896446942622,
+        "mean_disruption": 0.0036237020102886388,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 1.4432899320127035e-15,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.018118510051439347,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.003235448223471311
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 2.4054832200211726e-15,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8421051677106093,
+        "random_response": 0.8424382836877354,
+        "dissociation_score": -0.0003954188497559164,
+        "consistency_advantage": -0.0033993161201925533,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.38893327846596204,
+        "mi_stim_action": 0.2367069213685018,
+        "mi_baseline": 0.029965579771700668,
+        "mi_gain": 0.3589676986942614,
+        "te_stim_state": 0.007211671548456713,
+        "te_state_action": 0.019055716620555635,
+        "te_stim_action": 0.013270786985277144,
+        "mediation_score": 0.010354564124662605,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9882087255426453,
+        "mean_persistence": 0.9811857361359236,
+        "invariance_score": 0.9846972308392845,
+        "per_trial": [
+          {
+            "recovery": 0.9882055286903929,
+            "persistence": 0.980307060733252
+          },
+          {
+            "recovery": 0.9882117641619625,
+            "persistence": 0.980943220624026
+          },
+          {
+            "recovery": 0.9882067503210643,
+            "persistence": 0.980746201807128
+          },
+          {
+            "recovery": 0.9882134748138934,
+            "persistence": 0.9816775459797116
+          },
+          {
+            "recovery": 0.9882060049476261,
+            "persistence": 0.9823632549778107
+          },
+          {
+            "recovery": 0.9882094823968312,
+            "persistence": 0.9828407615045888
+          },
+          {
+            "recovery": 0.9882019169129996,
+            "persistence": 0.9793883558027224
+          },
+          {
+            "recovery": 0.9882148820963916,
+            "persistence": 0.9812194876581498
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net5_seed2048",
+      "num_neurons": 5,
+      "seed": 2048,
+      "ed_score": 0.7267054762759104,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0028519071945330874,
+        "mean_causal_role": 0.0009766670293534848,
+        "mean_disruption": 0.0025170245382162963,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 1.2700951401711791e-14,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.01131468897487804,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.0020204801740853636
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 2.91940750639282e-06,
+            "context_dependence": 0.37499999999999994,
+            "causal_role_score": 1.0947778148973074e-05
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0012675143086813723,
+            "context_dependence": 0.22499999999999998,
+            "causal_role_score": 0.0028519071945330874
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 2.9753977059954196e-15,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9435877484689776,
+        "random_response": 0.9329605640304216,
+        "dissociation_score": 0.011262529060809894,
+        "consistency_advantage": -0.01272751370529613,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.2530698266238054,
+        "mi_stim_action": 0.11901589210093366,
+        "mi_baseline": 0.04323437933436969,
+        "mi_gain": 0.2098354472894357,
+        "te_stim_state": 0.01004622488409923,
+        "te_state_action": 0.017230329179316342,
+        "te_stim_action": 0.013425284299911688,
+        "mediation_score": 0.012892603634469998,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8658951687183822,
+        "mean_persistence": 0.47142019044794575,
+        "invariance_score": 0.668657679583164,
+        "per_trial": [
+          {
+            "recovery": 0.8836319517790824,
+            "persistence": 0.47733224730582324
+          },
+          {
+            "recovery": 0.8799674303739204,
+            "persistence": 0.4725963410963022
+          },
+          {
+            "recovery": 0.880295238736699,
+            "persistence": 0.4733450408546347
+          },
+          {
+            "recovery": 0.8716598596857837,
+            "persistence": 0.46309541609411786
+          },
+          {
+            "recovery": 0.8334151711665166,
+            "persistence": 0.4242485610725475
+          },
+          {
+            "recovery": 0.8107212772052391,
+            "persistence": 0.5063107833582352
+          },
+          {
+            "recovery": 0.8894690816386411,
+            "persistence": 0.48446410211874125
+          },
+          {
+            "recovery": 0.8780013391611754,
+            "persistence": 0.46996903168316406
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net5_seed3141",
+      "num_neurons": 5,
+      "seed": 3141,
+      "ed_score": 0.27099547468040797,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0,
+        "mean_causal_role": 0.0,
+        "mean_disruption": 1.777684799364465e-10,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 8.860071639323526e-10,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 3.911685790095968e-14,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 2.7961188919789493e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999999938063505,
+        "random_response": 0.999999993677733,
+        "dissociation_score": 1.2861756184259709e-10,
+        "consistency_advantage": -2.4538463418785593e-10,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.17598949667740627,
+        "mi_stim_action": 0.11147166874061387,
+        "mi_baseline": 0.044325114348728434,
+        "mi_gain": 0.13166438232867783,
+        "te_stim_state": 0.010751791881928083,
+        "te_state_action": 0.00990904838858754,
+        "te_stim_action": 0.007289711307069055,
+        "mediation_score": 0.014613118190367397,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.7963239797023792,
+        "mean_persistence": 0.7438770079148953,
+        "invariance_score": 0.7701004938086373,
+        "per_trial": [
+          {
+            "recovery": 0.7951332521584062,
+            "persistence": 0.7438247596562255
+          },
+          {
+            "recovery": 0.7961926777465643,
+            "persistence": 0.743886587327276
+          },
+          {
+            "recovery": 0.795019590905248,
+            "persistence": 0.7437860868606323
+          },
+          {
+            "recovery": 0.7964709081970206,
+            "persistence": 0.7438652724089858
+          },
+          {
+            "recovery": 0.7956030274977691,
+            "persistence": 0.743731119547351
+          },
+          {
+            "recovery": 0.7969760565859474,
+            "persistence": 0.7438288168385132
+          },
+          {
+            "recovery": 0.7979074582250938,
+            "persistence": 0.744124953497262
+          },
+          {
+            "recovery": 0.797288866302984,
+            "persistence": 0.7439684671829165
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net5_seed4096",
+      "num_neurons": 5,
+      "seed": 4096,
+      "ed_score": 0.3815087942616025,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 3.8506940625544694e-10,
+        "mean_causal_role": 7.70138812510894e-11,
+        "mean_disruption": 4.4328142934091376e-10,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 1.5025018266593785e-15,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 2.1563886750305033e-09,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 3.8506940625544694e-10
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 8.449981455290375e-13,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 5.917197102670949e-11,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.999999996643084,
+        "random_response": 0.9999999967803519,
+        "dissociation_score": -1.3726786418430612e-10,
+        "consistency_advantage": -6.240620937368915e-10,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.2050295703871612,
+        "mi_stim_action": 0.15501303426296742,
+        "mi_baseline": 0.04396022325596993,
+        "mi_gain": 0.16106934713119125,
+        "te_stim_state": 0.006032829046008076,
+        "te_state_action": 0.014785785753004904,
+        "te_stim_action": 0.014396288280989405,
+        "mediation_score": 0.006195619342884367,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8161776015917928,
+        "mean_persistence": 0.4066701983575186,
+        "invariance_score": 0.6114238999746557,
+        "per_trial": [
+          {
+            "recovery": 0.8144573258516726,
+            "persistence": 0.4090692450808876
+          },
+          {
+            "recovery": 0.8161228105494895,
+            "persistence": 0.4074385768076374
+          },
+          {
+            "recovery": 0.8141898726349484,
+            "persistence": 0.4081486167023033
+          },
+          {
+            "recovery": 0.8164200860680779,
+            "persistence": 0.4057299203889748
+          },
+          {
+            "recovery": 0.8149295386017369,
+            "persistence": 0.4041703245833319
+          },
+          {
+            "recovery": 0.8169132602849267,
+            "persistence": 0.4027066375474051
+          },
+          {
+            "recovery": 0.818738805070969,
+            "persistence": 0.409666701133074
+          },
+          {
+            "recovery": 0.8176491136725214,
+            "persistence": 0.40643156461653496
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net5_seed5555",
+      "num_neurons": 5,
+      "seed": 5555,
+      "ed_score": 0.526639437797206,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.13788731656776892,
+        "mean_causal_role": 0.04438739757884913,
+        "mean_disruption": 0.0044729868524529025,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.013838153634041329,
+            "context_dependence": 0.9964285714285712,
+            "causal_role_score": 0.13788731656776892
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 2.3777110502720688e-09,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.008526778250512134,
+            "context_dependence": 0.9857142857142854,
+            "causal_role_score": 0.08404967132647673
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.7238436209359362,
+        "random_response": 0.7247118879155412,
+        "dissociation_score": -0.0011980857414969686,
+        "consistency_advantage": -0.002074254662543104,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.3317670428415367,
+        "mi_stim_action": 0.40809497877490175,
+        "mi_baseline": 0.0483006678238338,
+        "mi_gain": 0.2834663750177029,
+        "te_stim_state": 0.013426972896349476,
+        "te_state_action": 0.015200666699235595,
+        "te_stim_action": 0.01939266415310542,
+        "mediation_score": 0.010524000939987245,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9071523972589577,
+        "mean_persistence": 0.840246166775753,
+        "invariance_score": 0.8736992820173554,
+        "per_trial": [
+          {
+            "recovery": 0.9069653503881241,
+            "persistence": 0.8395870945982896
+          },
+          {
+            "recovery": 0.9071093581009149,
+            "persistence": 0.8401076809751816
+          },
+          {
+            "recovery": 0.9070007999937968,
+            "persistence": 0.839708331107444
+          },
+          {
+            "recovery": 0.9072057153954036,
+            "persistence": 0.8404346137648468
+          },
+          {
+            "recovery": 0.907222096179136,
+            "persistence": 0.8404718195857017
+          },
+          {
+            "recovery": 0.9073754694074498,
+            "persistence": 0.8409891426015621
+          },
+          {
+            "recovery": 0.9071152472077594,
+            "persistence": 0.8401583882633175
+          },
+          {
+            "recovery": 0.9072251413990765,
+            "persistence": 0.8405122633096811
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net5_seed7777",
+      "num_neurons": 5,
+      "seed": 7777,
+      "ed_score": 0.43081430021282924,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 8.596067582268748e-07,
+        "mean_causal_role": 1.7192135164537494e-07,
+        "mean_disruption": 9.62759652556322e-07,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 3.8284190632490816e-13,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 4.8137978460705e-06,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 8.596067582268748e-07
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 3.386920373789811e-14,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9995795413107291,
+        "random_response": 0.9995827539811556,
+        "dissociation_score": -3.2140114599529652e-06,
+        "consistency_advantage": -2.1088899422690997e-05,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.21592874606700185,
+        "mi_stim_action": 0.0301773670165133,
+        "mi_baseline": 0.05326994664533835,
+        "mi_gain": 0.1626587994216635,
+        "te_stim_state": 0.004926376167661478,
+        "te_state_action": 0.0038027041262323757,
+        "te_stim_action": 0.005296608304884418,
+        "mediation_score": 0.003536228030084203,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.08773574731775471,
+        "mean_persistence": 0.4331594671449894,
+        "invariance_score": 0.26044760723137206,
+        "per_trial": [
+          {
+            "recovery": 0.08600632603994507,
+            "persistence": 0.4326144971899165
+          },
+          {
+            "recovery": 0.08708908214663058,
+            "persistence": 0.4329316446260175
+          },
+          {
+            "recovery": 0.08682515977301786,
+            "persistence": 0.4329540102625147
+          },
+          {
+            "recovery": 0.0884876019330737,
+            "persistence": 0.4334522962868106
+          },
+          {
+            "recovery": 0.09011265844233496,
+            "persistence": 0.43417074989419746
+          },
+          {
+            "recovery": 0.09100987299685748,
+            "persistence": 0.43436600616331145
+          },
+          {
+            "recovery": 0.08471114838229687,
+            "persistence": 0.4317597968059601
+          },
+          {
+            "recovery": 0.0876441288278812,
+            "persistence": 0.4330267359311867
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net6_seed512",
+      "num_neurons": 6,
+      "seed": 512,
+      "ed_score": 0.27684627640722514,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.029141041379339896,
+        "mean_causal_role": 0.005885641540078624,
+        "mean_disruption": 0.002140549919228121,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 1.7051580863514105e-06,
+            "context_dependence": 0.914285714285714,
+            "causal_role_score": 1.5590016789498606e-05
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0050706499894584015,
+            "context_dependence": 0.12142857142857141,
+            "causal_role_score": 0.006157217844342344
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.007770944367823973,
+            "context_dependence": 0.37499999999999994,
+            "causal_role_score": 0.029141041379339896
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.844248233332583,
+        "random_response": 0.8442866753711857,
+        "dissociation_score": -4.553197358681895e-05,
+        "consistency_advantage": -0.0007344700572988285,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.37722901116095153,
+        "mi_stim_action": 0.338597358586755,
+        "mi_baseline": 0.03539179774283285,
+        "mi_gain": 0.3418372134181187,
+        "te_stim_state": 0.00682899852985043,
+        "te_state_action": 0.06079067313798742,
+        "te_stim_action": 0.01425896888524883,
+        "mediation_score": 0.029112224635873752,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9979938263560328,
+        "mean_persistence": 0.9846976373343437,
+        "invariance_score": 0.9913457318451883,
+        "per_trial": [
+          {
+            "recovery": 0.9978800473092059,
+            "persistence": 0.9838959269890952
+          },
+          {
+            "recovery": 0.9979590878172356,
+            "persistence": 0.9844525825075623
+          },
+          {
+            "recovery": 0.9979355387875863,
+            "persistence": 0.9842915942926357
+          },
+          {
+            "recovery": 0.9980534997316985,
+            "persistence": 0.9851222309500913
+          },
+          {
+            "recovery": 0.9981556648914012,
+            "persistence": 0.9858599461456046
+          },
+          {
+            "recovery": 0.9982132683182251,
+            "persistence": 0.9862556672591555
+          },
+          {
+            "recovery": 0.9977648124571172,
+            "persistence": 0.983052101114198
+          },
+          {
+            "recovery": 0.9979886915357926,
+            "persistence": 0.9846510494164067
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net6_seed1024",
+      "num_neurons": 6,
+      "seed": 1024,
+      "ed_score": 0.5125302190003052,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.020730929023691474,
+        "mean_causal_role": 0.004145893451376312,
+        "mean_disruption": 0.00597124684220507,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.02320864655385378,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.004144401170331031
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 8.137129429523309e-09,
+            "context_dependence": 0.37499999999999994,
+            "causal_role_score": 3.0514235360712405e-08
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 2.220446049250313e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.012618826362246989,
+            "context_dependence": 0.16428571428571426,
+            "causal_role_score": 0.020730929023691474
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8817076380124006,
+        "random_response": 0.8812114888315227,
+        "dissociation_score": 0.0005627139422273521,
+        "consistency_advantage": -0.004982088617433416,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.18550441382088723,
+        "mi_stim_action": 0.14385748844846802,
+        "mi_baseline": 0.025455219358861303,
+        "mi_gain": 0.16004919446202592,
+        "te_stim_state": 0.008567040059408698,
+        "te_state_action": 0.014588557444077457,
+        "te_stim_action": 0.006234430815589692,
+        "mediation_score": 0.02004364409271005,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.588409087458952,
+        "mean_persistence": 0.20998124148840552,
+        "invariance_score": 0.39919516447367875,
+        "per_trial": [
+          {
+            "recovery": 0.5909800060554438,
+            "persistence": 0.20979719317522405
+          },
+          {
+            "recovery": 0.5896972980198472,
+            "persistence": 0.21026006316513757
+          },
+          {
+            "recovery": 0.5899217195894236,
+            "persistence": 0.2088257772579497
+          },
+          {
+            "recovery": 0.5875912249211355,
+            "persistence": 0.20942067538439424
+          },
+          {
+            "recovery": 0.5844999291777089,
+            "persistence": 0.20687874376791182
+          },
+          {
+            "recovery": 0.5828357261352924,
+            "persistence": 0.20823148030345007
+          },
+          {
+            "recovery": 0.5927080994722885,
+            "persistence": 0.2151101518636951
+          },
+          {
+            "recovery": 0.589038696300477,
+            "persistence": 0.21132584698948165
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net6_seed2048",
+      "num_neurons": 6,
+      "seed": 2048,
+      "ed_score": 0.3348823912116018,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0,
+        "mean_causal_role": 0.0,
+        "mean_disruption": 5.674473236973023e-17,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 3.4046839421838136e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999999999999153,
+        "random_response": 0.999999999999916,
+        "dissociation_score": -6.661338147751499e-16,
+        "consistency_advantage": -8.583345366486736e-16,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.1827114763875688,
+        "mi_stim_action": 0.1293519113082522,
+        "mi_baseline": 0.04515190245862222,
+        "mi_gain": 0.13755957392894658,
+        "te_stim_state": 0.008656423721172979,
+        "te_state_action": 0.019266703954327113,
+        "te_stim_action": 0.01090558135466288,
+        "mediation_score": 0.01529175345744346,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8715395873236049,
+        "mean_persistence": 0.86057969591366,
+        "invariance_score": 0.8660596416186325,
+        "per_trial": [
+          {
+            "recovery": 0.8722082868875892,
+            "persistence": 0.8604306167512481
+          },
+          {
+            "recovery": 0.8718258797830041,
+            "persistence": 0.860546752471601
+          },
+          {
+            "recovery": 0.8718724839485716,
+            "persistence": 0.8604547855408512
+          },
+          {
+            "recovery": 0.8712528240661819,
+            "persistence": 0.8606198184536207
+          },
+          {
+            "recovery": 0.8704880624878838,
+            "persistence": 0.8606215973857025
+          },
+          {
+            "recovery": 0.8701548906723376,
+            "persistence": 0.8607494494197903
+          },
+          {
+            "recovery": 0.8728582786017408,
+            "persistence": 0.8605710554867702
+          },
+          {
+            "recovery": 0.8716559921415297,
+            "persistence": 0.8606434917996961
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net6_seed3141",
+      "num_neurons": 6,
+      "seed": 3141,
+      "ed_score": 0.18538263238909014,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.1145090144444562,
+        "mean_causal_role": 0.029304862226597377,
+        "mean_disruption": 0.0029304862226598046,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.01145090144444562,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.1145090144444562
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0061320158915128065,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.06132015891512806
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 3.9968028886505636e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.848193584775413,
+        "random_response": 0.8473697841339957,
+        "dissociation_score": 0.0009712413017547427,
+        "consistency_advantage": -0.001602343372426985,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.12892279840673337,
+        "mi_stim_action": 0.25870208208237644,
+        "mi_baseline": 0.03005836490017355,
+        "mi_gain": 0.09886443350655982,
+        "te_stim_state": 0.011660722234223875,
+        "te_state_action": 0.008795144518717442,
+        "te_stim_action": 0.011339354341317692,
+        "mediation_score": 0.009043609587132533,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8161884595601707,
+        "mean_persistence": 0.7613569104397213,
+        "invariance_score": 0.788772684999946,
+        "per_trial": [
+          {
+            "recovery": 0.8163708703324577,
+            "persistence": 0.7616374310336014
+          },
+          {
+            "recovery": 0.8162140943123298,
+            "persistence": 0.7613953135486399
+          },
+          {
+            "recovery": 0.8163754169318072,
+            "persistence": 0.7616468969593495
+          },
+          {
+            "recovery": 0.8161586974842434,
+            "persistence": 0.7613125823972695
+          },
+          {
+            "recovery": 0.8162546395614655,
+            "persistence": 0.7614672470918997
+          },
+          {
+            "recovery": 0.8160591712397558,
+            "persistence": 0.7611637627935336
+          },
+          {
+            "recovery": 0.8160150568532908,
+            "persistence": 0.7610767999271502
+          },
+          {
+            "recovery": 0.816059729766016,
+            "persistence": 0.7611552497663271
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net6_seed4096",
+      "num_neurons": 6,
+      "seed": 4096,
+      "ed_score": 0.8691946682001237,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.44310528622427137,
+        "mean_causal_role": 0.07385107810665967,
+        "mean_disruption": 0.00738510831603754,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.04431052862242714,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.44310528622427137
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 1.2127340375626499e-07,
+            "context_dependence": 0.9749999999999999,
+            "causal_role_score": 1.1824156866235834e-06
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 3.939663410316522e-13,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 3.774758283725532e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": true
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8435160956379057,
+        "random_response": 0.8391483081801745,
+        "dissociation_score": 0.0051780724521067155,
+        "consistency_advantage": -0.009436469033420478,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.2513435767677934,
+        "mi_stim_action": 0.2048663777506219,
+        "mi_baseline": 0.045548822337656336,
+        "mi_gain": 0.20579475443013706,
+        "te_stim_state": 0.0042302112295170835,
+        "te_state_action": 0.0010817397001767065,
+        "te_stim_action": 0.001900818480930766,
+        "mediation_score": 0.0024061115574302446,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9059183399937842,
+        "mean_persistence": 0.8878729422114742,
+        "invariance_score": 0.8968956411026292,
+        "per_trial": [
+          {
+            "recovery": 0.905636952180716,
+            "persistence": 0.8970520421461655
+          },
+          {
+            "recovery": 0.9062203751365627,
+            "persistence": 0.8898940182843492
+          },
+          {
+            "recovery": 0.9051100860906423,
+            "persistence": 0.8976396126449716
+          },
+          {
+            "recovery": 0.9059102264270745,
+            "persistence": 0.8874424070799694
+          },
+          {
+            "recovery": 0.9042053626284945,
+            "persistence": 0.893956877037188
+          },
+          {
+            "recovery": 0.905375839729387,
+            "persistence": 0.8825082658471928
+          },
+          {
+            "recovery": 0.9080290727688061,
+            "persistence": 0.8744026770007649
+          },
+          {
+            "recovery": 0.9068588049885912,
+            "persistence": 0.8800876376511916
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net6_seed5555",
+      "num_neurons": 6,
+      "seed": 5555,
+      "ed_score": 0.3561503469535725,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.002556773279407334,
+        "mean_causal_role": 0.0004261566400449875,
+        "mean_disruption": 0.002386332906064038,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 6.745327133887239e-09,
+            "context_dependence": 1.0,
+            "causal_role_score": 6.745327133887238e-08
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.014317930364681075,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.002556773279407334
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 1.6090832370233936e-14,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 6.032635989268916e-08,
+            "context_dependence": 0.16428571428571426,
+            "causal_role_score": 9.910759125227504e-08
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 3.700743415417188e-17,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9065169493782057,
+        "random_response": 0.9068121145182089,
+        "dissociation_score": -0.000325497570309792,
+        "consistency_advantage": -0.002728794041228666,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.25924938877159853,
+        "mi_stim_action": 0.18222996144875347,
+        "mi_baseline": 0.03170302766028277,
+        "mi_gain": 0.22754636111131576,
+        "te_stim_state": 0.008144302601353612,
+        "te_state_action": 0.02315163741975973,
+        "te_stim_action": 0.004359701568194638,
+        "mediation_score": 0.043239359060612687,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.0,
+        "mean_persistence": 0.08357328203595102,
+        "invariance_score": 0.04178664101797551,
+        "per_trial": [
+          {
+            "recovery": 0.0,
+            "persistence": 0.08526407880247289
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.08334189483360421
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0864366933375923
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.08399228540452153
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.08813093398400929
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.08511553690122076
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0756120960155382
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.08069273700864898
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net6_seed7777",
+      "num_neurons": 6,
+      "seed": 7777,
+      "ed_score": 0.5863779766315096,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.00134792544303175,
+        "mean_causal_role": 0.00022697114946560368,
+        "mean_disruption": 2.292755539915851e-05,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.000134792544303175,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.00134792544303175
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 1.2712671313419577e-06,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 2.2701198773963523e-07
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 1.3624161058582256e-11,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 4.21144600674476e-15,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 1.501507332061595e-06,
+            "context_dependence": 0.9107142857142855,
+            "causal_role_score": 1.367444177413238e-05
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9991422776757657,
+        "random_response": 0.9991246644882354,
+        "dissociation_score": 1.762830772331375e-05,
+        "consistency_advantage": -3.314756267457146e-05,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.19063411968514732,
+        "mi_stim_action": 0.10996161688760386,
+        "mi_baseline": 0.048688367693190404,
+        "mi_gain": 0.14194575199195691,
+        "te_stim_state": 0.012708240308655722,
+        "te_state_action": 0.012846706254500337,
+        "te_stim_action": 0.007730672223244306,
+        "mediation_score": 0.021115617106229993,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.7016886953022983,
+        "mean_persistence": 0.01578891690794544,
+        "invariance_score": 0.3587388061051219,
+        "per_trial": [
+          {
+            "recovery": 0.6975019165525291,
+            "persistence": 0.005085084949348895
+          },
+          {
+            "recovery": 0.7018936064404646,
+            "persistence": 0.015224211294099343
+          },
+          {
+            "recovery": 0.6956436096743606,
+            "persistence": 0.0032827883435626593
+          },
+          {
+            "recovery": 0.7015891653402824,
+            "persistence": 0.016882814795902035
+          },
+          {
+            "recovery": 0.6944215926472652,
+            "persistence": 0.006911582772409552
+          },
+          {
+            "recovery": 0.7012858634279544,
+            "persistence": 0.01972704711978157
+          },
+          {
+            "recovery": 0.7140255149340295,
+            "persistence": 0.03371925004062193
+          },
+          {
+            "recovery": 0.7071482934015001,
+            "persistence": 0.025478555947837545
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net8_seed512",
+      "num_neurons": 8,
+      "seed": 512,
+      "ed_score": 0.35264757285045034,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0,
+        "mean_causal_role": 0.0,
+        "mean_disruption": 3.9320398788807625e-15,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 3.14563190310461e-14,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 6,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 7,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999999999992978,
+        "random_response": 0.9999999999992943,
+        "dissociation_score": 3.441691376340402e-15,
+        "consistency_advantage": -3.431759121338032e-14,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.17547107282586039,
+        "mi_stim_action": 0.060687699278781704,
+        "mi_baseline": 0.041807439627760346,
+        "mi_gain": 0.13366363319810004,
+        "te_stim_state": 0.010213094256609281,
+        "te_state_action": 0.03142728042691627,
+        "te_stim_action": 0.011566330351894957,
+        "mediation_score": 0.02774795631010976,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8769059222643749,
+        "mean_persistence": 0.8496181099626359,
+        "invariance_score": 0.8632620161135054,
+        "per_trial": [
+          {
+            "recovery": 0.8769662475291934,
+            "persistence": 0.8497447102483954
+          },
+          {
+            "recovery": 0.8769141057101516,
+            "persistence": 0.849644344321398
+          },
+          {
+            "recovery": 0.8769761879664852,
+            "persistence": 0.8497281611253841
+          },
+          {
+            "recovery": 0.8769023280692623,
+            "persistence": 0.8495862374064889
+          },
+          {
+            "recovery": 0.876948411378663,
+            "persistence": 0.8495961125869365
+          },
+          {
+            "recovery": 0.8768735275785687,
+            "persistence": 0.8494829918064609
+          },
+          {
+            "recovery": 0.8768092055815917,
+            "persistence": 0.8496042441030682
+          },
+          {
+            "recovery": 0.8768573643010835,
+            "persistence": 0.8495580781029548
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net8_seed1024",
+      "num_neurons": 8,
+      "seed": 1024,
+      "ed_score": 0.4583521869981598,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.24696380196982629,
+        "mean_causal_role": 0.030870475246228286,
+        "mean_disruption": 0.0030870475254202146,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.02469638019698263,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.24696380196982629
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 1.2773115898312426e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 6,
+            "mean_disruption": 3.6031104026316523e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 7,
+            "mean_disruption": 1.4986678564810062e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": true
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.596680664005417,
+        "random_response": 0.5945582277193637,
+        "dissociation_score": 0.0035570723405140767,
+        "consistency_advantage": -0.006053816381091317,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.08526510193794667,
+        "mi_stim_action": 0.13322407715521356,
+        "mi_baseline": 0.04081168495988052,
+        "mi_gain": 0.04445341697806615,
+        "te_stim_state": 0.004976030638123213,
+        "te_state_action": 0.00632904145535787,
+        "te_stim_action": 0.004136957050001749,
+        "mediation_score": 0.007610882329433404,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9062446911691788,
+        "mean_persistence": 0.8654933201168801,
+        "invariance_score": 0.8858690056430294,
+        "per_trial": [
+          {
+            "recovery": 0.9062053300318467,
+            "persistence": 0.8655445791506088
+          },
+          {
+            "recovery": 0.9062138629314379,
+            "persistence": 0.8654583114209646
+          },
+          {
+            "recovery": 0.9062629197397697,
+            "persistence": 0.8656589448908685
+          },
+          {
+            "recovery": 0.9062843560832543,
+            "persistence": 0.8655557321601698
+          },
+          {
+            "recovery": 0.9064316233158347,
+            "persistence": 0.8659110301450971
+          },
+          {
+            "recovery": 0.9064076406083383,
+            "persistence": 0.8657202011606373
+          },
+          {
+            "recovery": 0.9059659367179379,
+            "persistence": 0.8648132099587614
+          },
+          {
+            "recovery": 0.9061858599250108,
+            "persistence": 0.8652845520479329
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net8_seed2048",
+      "num_neurons": 8,
+      "seed": 2048,
+      "ed_score": 1.0,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.3184735853536191,
+        "mean_causal_role": 0.05277227638124261,
+        "mean_disruption": 0.0052774324114950545,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.010369121669503316,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.10369121669503316
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 3.848773152033876e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.03184735853536191,
+            "context_dependence": 1.0,
+            "causal_role_score": 0.3184735853536191
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 6.701838639600055e-10,
+            "context_dependence": 1.0,
+            "causal_role_score": 6.701838639600055e-09
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 1.2814430997802143e-10,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 6,
+            "mean_disruption": 2.9782887666603605e-06,
+            "context_dependence": 0.44999999999999996,
+            "causal_role_score": 1.3402299449971621e-05
+          },
+          {
+            "neuron": 7,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": true
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8447276081272065,
+        "random_response": 0.8444211319289955,
+        "dissociation_score": 0.0003628106803451975,
+        "consistency_advantage": 1.2385566176062587e-05,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.26201000991622747,
+        "mi_stim_action": 0.160743745898289,
+        "mi_baseline": 0.04221034884006336,
+        "mi_gain": 0.2197996610761641,
+        "te_stim_state": 0.01655758227843737,
+        "te_state_action": 0.02726024994767262,
+        "te_stim_action": 0.014537065465706822,
+        "mediation_score": 0.031047035281555103,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.3046234024007834,
+        "mean_persistence": 0.1368039026719959,
+        "invariance_score": 0.22071365253638964,
+        "per_trial": [
+          {
+            "recovery": 0.37329427641014123,
+            "persistence": 0.22156186343717588
+          },
+          {
+            "recovery": 0.3342054812959754,
+            "persistence": 0.14361272017004056
+          },
+          {
+            "recovery": 0.37734009480973507,
+            "persistence": 0.2307431351208008
+          },
+          {
+            "recovery": 0.3207556616456173,
+            "persistence": 0.13090440998343267
+          },
+          {
+            "recovery": 0.3480887145007613,
+            "persistence": 0.1674607410963762
+          },
+          {
+            "recovery": 0.2707664070219725,
+            "persistence": 0.09759794820534273
+          },
+          {
+            "recovery": 0.16777294134188914,
+            "persistence": 0.02136501027687221
+          },
+          {
+            "recovery": 0.24476364218017543,
+            "persistence": 0.0811853930859262
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net8_seed3141",
+      "num_neurons": 8,
+      "seed": 3141,
+      "ed_score": 1.0,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0,
+        "mean_causal_role": 0.0,
+        "mean_disruption": 4.087304568874591e-13,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 3.1610417986864076e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 1.0880185641326534e-13,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 6,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 7,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999999961819575,
+        "random_response": 0.9999999993132463,
+        "dissociation_score": -3.1312888969924676e-09,
+        "consistency_advantage": -5.431927452229885e-09,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.41141701721395485,
+        "mi_stim_action": 0.32181253750464034,
+        "mi_baseline": 0.048669020135775565,
+        "mi_gain": 0.3627479970781793,
+        "te_stim_state": 0.027837940364738745,
+        "te_state_action": 0.04532079951449915,
+        "te_stim_action": 0.008869526415613768,
+        "mediation_score": 0.14222805446429787,
+        "passed": true
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.0014897045045636353,
+        "mean_persistence": 0.21135158413393917,
+        "invariance_score": 0.10642064431925141,
+        "per_trial": [
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.83261080495543
+          },
+          {
+            "recovery": 0.011917636036509083,
+            "persistence": 0.8582018681160835
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          },
+          {
+            "recovery": 0.0,
+            "persistence": 0.0
+          }
+        ],
+        "passed": false
+      }
+    },
+    {
+      "run_id": "net8_seed4096",
+      "num_neurons": 8,
+      "seed": 4096,
+      "ed_score": 0.7486179186720255,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.08749032999243687,
+        "mean_causal_role": 0.01710142983879411,
+        "mean_disruption": 0.002771803085833006,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.007505384496482903,
+            "context_dependence": 0.657142857142857,
+            "causal_role_score": 0.049321098119744784
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.014669037364001396,
+            "context_dependence": 0.5964285714285712,
+            "causal_role_score": 0.08749032999243687
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 2.82617898713274e-09,
+            "context_dependence": 0.37499999999999994,
+            "causal_role_score": 1.0598171201747773e-08
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 2.3684757858670006e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 6,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 7,
+            "mean_disruption": 5.255055649892408e-16,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.6071573702617746,
+        "random_response": 0.6062977686128589,
+        "dissociation_score": 0.0014157806378025629,
+        "consistency_advantage": -0.002565839080467508,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.5739632459653707,
+        "mi_stim_action": 0.2091147657021053,
+        "mi_baseline": 0.03186129576267893,
+        "mi_gain": 0.5421019502026918,
+        "te_stim_state": 0.014780314831227062,
+        "te_state_action": 0.02685049615078805,
+        "te_stim_action": 0.0227622512907404,
+        "mediation_score": 0.01743418729664208,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.8639382269172122,
+        "mean_persistence": 0.7527635896119842,
+        "invariance_score": 0.8083509082645982,
+        "per_trial": [
+          {
+            "recovery": 0.8641227187646437,
+            "persistence": 0.7527251938648263
+          },
+          {
+            "recovery": 0.864028081464188,
+            "persistence": 0.7529679476304743
+          },
+          {
+            "recovery": 0.8639816232667479,
+            "persistence": 0.7522572178567821
+          },
+          {
+            "recovery": 0.863826689443406,
+            "persistence": 0.7525150802253424
+          },
+          {
+            "recovery": 0.8635052522831338,
+            "persistence": 0.7511524215316477
+          },
+          {
+            "recovery": 0.8634724345180217,
+            "persistence": 0.751722823839317
+          },
+          {
+            "recovery": 0.8645454343267174,
+            "persistence": 0.7552874544305542
+          },
+          {
+            "recovery": 0.8640235812708392,
+            "persistence": 0.7534805775169298
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net8_seed5555",
+      "num_neurons": 8,
+      "seed": 5555,
+      "ed_score": 0.43651411633691806,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 0.0020885409709623533,
+        "mean_causal_role": 0.00026106762137029417,
+        "mean_disruption": 0.0014619787261374944,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 0.011695829437389182,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 0.0020885409709623533
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 3.7171077327258217e-10,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 6,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 7,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.8409583320982045,
+        "random_response": 0.8411607601188702,
+        "dissociation_score": -0.00024065319052343472,
+        "consistency_advantage": -0.002156357511777682,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.521874435370298,
+        "mi_stim_action": 0.20381496686957723,
+        "mi_baseline": 0.04711147690462747,
+        "mi_gain": 0.4747629584656705,
+        "te_stim_state": 0.01194105727157839,
+        "te_state_action": 0.009175411245165965,
+        "te_stim_action": 0.013163351583530991,
+        "mediation_score": 0.008322788287262036,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.9594495226456518,
+        "mean_persistence": 0.9478043462713293,
+        "invariance_score": 0.9536269344584904,
+        "per_trial": [
+          {
+            "recovery": 0.9594601288401027,
+            "persistence": 0.9480565857295631
+          },
+          {
+            "recovery": 0.9594461406131575,
+            "persistence": 0.9478530750551322
+          },
+          {
+            "recovery": 0.9594721898555868,
+            "persistence": 0.9480665984344712
+          },
+          {
+            "recovery": 0.9594545597730486,
+            "persistence": 0.9477749792237062
+          },
+          {
+            "recovery": 0.9594932171340362,
+            "persistence": 0.9478871395544601
+          },
+          {
+            "recovery": 0.9594684296579663,
+            "persistence": 0.9476069756191305
+          },
+          {
+            "recovery": 0.9593764176222999,
+            "persistence": 0.9475498402044406
+          },
+          {
+            "recovery": 0.9594250976690155,
+            "persistence": 0.9476395763497304
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "run_id": "net8_seed7777",
+      "num_neurons": 8,
+      "seed": 7777,
+      "ed_score": 0.41302432807900297,
+      "ramsey": {
+        "criterion": "Ramsey (2007)",
+        "best_causal_role": 1.1656892497961877e-07,
+        "mean_causal_role": 1.4571115622452346e-08,
+        "mean_disruption": 8.160348391646663e-08,
+        "per_neuron": [
+          {
+            "neuron": 0,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 1,
+            "mean_disruption": 6.527859798858653e-07,
+            "context_dependence": 0.017857142857142853,
+            "causal_role_score": 1.1656892497961877e-07
+          },
+          {
+            "neuron": 2,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 3,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 4,
+            "mean_disruption": 4.4260521174048035e-12,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 5,
+            "mean_disruption": 3.7459961059009096e-11,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 6,
+            "mean_disruption": 0.0,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          },
+          {
+            "neuron": 7,
+            "mean_disruption": 5.432691333832432e-15,
+            "context_dependence": 0.0,
+            "causal_role_score": 0.0
+          }
+        ],
+        "passed": false
+      },
+      "shea": {
+        "criterion": "Shea (2018)",
+        "structured_response": 0.9999974802073449,
+        "random_response": 0.9999974922785033,
+        "dissociation_score": -1.2071188677358786e-08,
+        "consistency_advantage": -6.716217540174978e-08,
+        "passed": false
+      },
+      "gm": {
+        "criterion": "G\u0142adziejewski & Mi\u0142kowski (2017)",
+        "mi_stim_state": 0.1309214646056711,
+        "mi_stim_action": 0.1727464662216036,
+        "mi_baseline": 0.04611105393081383,
+        "mi_gain": 0.08481041067485728,
+        "te_stim_state": 0.00576026544685769,
+        "te_state_action": 0.03713878014818152,
+        "te_stim_action": 0.00801725300471795,
+        "mediation_score": 0.026680279594587266,
+        "passed": false
+      },
+      "decoupling": {
+        "criterion": "Decoupling Invariance (Novel)",
+        "mean_recovery": 0.37712003801441124,
+        "mean_persistence": 0.2763433959904047,
+        "invariance_score": 0.326731717002408,
+        "per_trial": [
+          {
+            "recovery": 0.37492663759668987,
+            "persistence": 0.27777180053032824
+          },
+          {
+            "recovery": 0.3766113964608909,
+            "persistence": 0.2765224104470423
+          },
+          {
+            "recovery": 0.37533529651943354,
+            "persistence": 0.2778494199113415
+          },
+          {
+            "recovery": 0.37773825729474686,
+            "persistence": 0.2761303841114304
+          },
+          {
+            "recovery": 0.37793166459309635,
+            "persistence": 0.27700000732705454
+          },
+          {
+            "recovery": 0.37973920050537846,
+            "persistence": 0.2754256059060961
+          },
+          {
+            "recovery": 0.3767084791926344,
+            "persistence": 0.2747713938660903
+          },
+          {
+            "recovery": 0.3779693719524194,
+            "persistence": 0.27527614582385396
+          }
+        ],
+        "passed": false
+      }
+    }
+  ]
+}

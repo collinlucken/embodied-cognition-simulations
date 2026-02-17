@@ -1,0 +1,1080 @@
+{
+  "conditions": {
+    "net2_seed42": {
+      "num_neurons": 2,
+      "seed": 42,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.6367707822064596,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.5,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.5,
+        "functional_interdependence": 0.5,
+        "autonomy_of_pair": 0.5,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.096884250640869
+      }
+    },
+    "net2_seed137": {
+      "num_neurons": 2,
+      "seed": 137,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.5161392790186295,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.5000000000000001,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.5000000000000001,
+        "functional_interdependence": 0.5000000000000001,
+        "autonomy_of_pair": 0.4999999999999999,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.027166843414307
+      }
+    },
+    "net2_seed256": {
+      "num_neurons": 2,
+      "seed": 256,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2512874320693631,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.25000000000000006,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.25000000000000006,
+        "functional_interdependence": 0.25000000000000006,
+        "autonomy_of_pair": 0.75,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 3.9858243465423584
+      }
+    },
+    "net2_seed512": {
+      "num_neurons": 2,
+      "seed": 512,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.1073345257480473,
+        "synchronization_index": 0.9312453339497792,
+        "joint_behavior_entropy": 0.028628881717266838,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.5000000000000003,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.5000000000000003,
+        "functional_interdependence": 0.5000000000000003,
+        "autonomy_of_pair": 0.49999999999999967,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.049703598022461
+      }
+    },
+    "net2_seed1024": {
+      "num_neurons": 2,
+      "seed": 1024,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574727756,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.304203809306347,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.4721877979801919,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.4721877979801919,
+        "functional_interdependence": 0.4721877979801919,
+        "autonomy_of_pair": 0.5278122020198082,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.154054164886475
+      }
+    },
+    "net3_seed42": {
+      "num_neurons": 3,
+      "seed": 42,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.029182879320683256,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2896580881423329,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.5000000000000001,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.5000000000000001,
+        "functional_interdependence": 0.5000000000000001,
+        "autonomy_of_pair": 0.4999999999999999,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.142886638641357
+      }
+    },
+    "net3_seed137": {
+      "num_neurons": 3,
+      "seed": 137,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.28292240195823826,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.36574097318275456,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.36574097318275456,
+        "functional_interdependence": 0.36574097318275456,
+        "autonomy_of_pair": 0.6342590268172454,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.119763612747192
+      }
+    },
+    "net3_seed256": {
+      "num_neurons": 3,
+      "seed": 256,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2779213416721346,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.5,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.5,
+        "functional_interdependence": 0.5,
+        "autonomy_of_pair": 0.5,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.219325065612793
+      }
+    },
+    "net3_seed512": {
+      "num_neurons": 3,
+      "seed": 512,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.050116688786824265,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.45574007107932163,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.45574007107932163,
+        "functional_interdependence": 0.45574007107932163,
+        "autonomy_of_pair": 0.5442599289206784,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.240192413330078
+      }
+    },
+    "net3_seed1024": {
+      "num_neurons": 3,
+      "seed": 1024,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.274122872758059,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.24999999999999997,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.24999999999999997,
+        "functional_interdependence": 0.24999999999999997,
+        "autonomy_of_pair": 0.75,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.226504802703857
+      }
+    },
+    "net4_seed42": {
+      "num_neurons": 4,
+      "seed": 42,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574727756,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.32950575576656466,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.9999999999945616,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.9999999999945616,
+        "functional_interdependence": 0.9999999999945616,
+        "autonomy_of_pair": 5.438427486126329e-12,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.251518249511719
+      }
+    },
+    "net4_seed137": {
+      "num_neurons": 4,
+      "seed": 137,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574729138,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.4023881717236983,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.8078114049338656,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.8078114049338656,
+        "functional_interdependence": 0.8078114049338656,
+        "autonomy_of_pair": 0.1921885950661344,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.343833923339844
+      }
+    },
+    "net4_seed256": {
+      "num_neurons": 4,
+      "seed": 256,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.4071303318510893,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.36701628450750745,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.36701628450750745,
+        "functional_interdependence": 0.36701628450750745,
+        "autonomy_of_pair": 0.6329837154924925,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.297488212585449
+      }
+    },
+    "net4_seed512": {
+      "num_neurons": 4,
+      "seed": 512,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.34791501272397163,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.9999999999999998,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.9999999999999998,
+        "functional_interdependence": 0.9999999999999998,
+        "autonomy_of_pair": 2.220446049250313e-16,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.291138172149658
+      }
+    },
+    "net4_seed1024": {
+      "num_neurons": 4,
+      "seed": 1024,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.3283868393495173,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.8365583665394067,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.8365583665394067,
+        "functional_interdependence": 0.8365583665394067,
+        "autonomy_of_pair": 0.16344163346059326,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.258946418762207
+      }
+    },
+    "net5_seed42": {
+      "num_neurons": 5,
+      "seed": 42,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.3396413467212408,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.7287475454899237,
+        "informational_individuation": 0.7191945576377995,
+        "dynamical_coupling_strength": 0.7287475454899237,
+        "functional_interdependence": 0.7287475454899237,
+        "autonomy_of_pair": 0.2712524545100763,
+        "autonomy_of_individuals": 0.719193808817985
+      },
+      "timing": {
+        "elapsed_seconds": 4.321849346160889
+      }
+    },
+    "net5_seed137": {
+      "num_neurons": 5,
+      "seed": 137,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.427047599424173,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.9986002289589854,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.9986002289589854,
+        "functional_interdependence": 0.9986002289589854,
+        "autonomy_of_pair": 0.0013997710410146302,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.403043985366821
+      }
+    },
+    "net5_seed256": {
+      "num_neurons": 5,
+      "seed": 256,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.33452346098557983,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.501724935802356,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.501724935802356,
+        "functional_interdependence": 0.501724935802356,
+        "autonomy_of_pair": 0.498275064197644,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.335596561431885
+      }
+    },
+    "net5_seed512": {
+      "num_neurons": 5,
+      "seed": 512,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452572841735,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2895756166920087,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.2468252756598706,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.2468252756598706,
+        "functional_interdependence": 0.2468252756598706,
+        "autonomy_of_pair": 0.7531747243401294,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.38878607749939
+      }
+    },
+    "net5_seed1024": {
+      "num_neurons": 5,
+      "seed": 1024,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.3217173012272005,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.2837410819134789,
+        "informational_individuation": 0.8559715954080219,
+        "dynamical_coupling_strength": 0.2837410819134789,
+        "functional_interdependence": 0.2837410819134789,
+        "autonomy_of_pair": 0.7162589180865211,
+        "autonomy_of_individuals": 0.8559703466172464
+      },
+      "timing": {
+        "elapsed_seconds": 4.334045171737671
+      }
+    },
+    "net6_seed42": {
+      "num_neurons": 6,
+      "seed": 42,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2927755851605287,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.5079094409035633,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.5079094409035633,
+        "functional_interdependence": 0.5079094409035633,
+        "autonomy_of_pair": 0.49209055909643673,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.320770978927612
+      }
+    },
+    "net6_seed137": {
+      "num_neurons": 6,
+      "seed": 137,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574727756,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2960812095182127,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.02997123839150761,
+        "informational_individuation": 0.9800687884755491,
+        "dynamical_coupling_strength": 0.02997123839150761,
+        "functional_interdependence": 0.02997123839150761,
+        "autonomy_of_pair": 0.9700287616084924,
+        "autonomy_of_individuals": 0.980067102082694
+      },
+      "timing": {
+        "elapsed_seconds": 4.349113702774048
+      }
+    },
+    "net6_seed256": {
+      "num_neurons": 6,
+      "seed": 256,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.24840148535816203,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.25000000000000006,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.25000000000000006,
+        "functional_interdependence": 0.25000000000000006,
+        "autonomy_of_pair": 0.75,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.371326923370361
+      }
+    },
+    "net6_seed512": {
+      "num_neurons": 6,
+      "seed": 512,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574729138,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.32468117205733454,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.49170546781007557,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.49170546781007557,
+        "functional_interdependence": 0.49170546781007557,
+        "autonomy_of_pair": 0.5082945321899244,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.297465085983276
+      }
+    },
+    "net6_seed1024": {
+      "num_neurons": 6,
+      "seed": 1024,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574729138,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.3378413770360873,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.9223812204919712,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.9223812204919712,
+        "functional_interdependence": 0.9223812204919712,
+        "autonomy_of_pair": 0.07761877950802876,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.372702121734619
+      }
+    },
+    "net8_seed42": {
+      "num_neurons": 8,
+      "seed": 42,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.3223178666796483,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.7817818199685567,
+        "informational_individuation": 0.38495137551056213,
+        "dynamical_coupling_strength": 0.7817818199685567,
+        "functional_interdependence": 0.7817818199685567,
+        "autonomy_of_pair": 0.21821818003144333,
+        "autonomy_of_individuals": 0.38495107368703724
+      },
+      "timing": {
+        "elapsed_seconds": 4.3086769580841064
+      }
+    },
+    "net8_seed137": {
+      "num_neurons": 8,
+      "seed": 137,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722886,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2847136967232969,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.7889199956424207,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.7889199956424207,
+        "functional_interdependence": 0.7889199956424207,
+        "autonomy_of_pair": 0.21108000435757934,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.298294544219971
+      }
+    },
+    "net8_seed256": {
+      "num_neurons": 8,
+      "seed": 256,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.029182879320683183,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2953201200403999,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.43719636112877747,
+        "informational_individuation": 0.0,
+        "dynamical_coupling_strength": 0.43719636112877747,
+        "functional_interdependence": 0.43719636112877747,
+        "autonomy_of_pair": 0.5628036388712225,
+        "autonomy_of_individuals": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 4.272682428359985
+      }
+    },
+    "net8_seed512": {
+      "num_neurons": 8,
+      "seed": 512,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 0.10733452574722419,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.33062608911082475,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.2950547351384646,
+        "informational_individuation": 0.18384620840374247,
+        "dynamical_coupling_strength": 0.2950547351384646,
+        "functional_interdependence": 0.2950547351384646,
+        "autonomy_of_pair": 0.7049452648615354,
+        "autonomy_of_individuals": 0.1838453574874151
+      },
+      "timing": {
+        "elapsed_seconds": 4.324610948562622
+      }
+    },
+    "net8_seed1024": {
+      "num_neurons": 8,
+      "seed": 1024,
+      "evolution": {
+        "best_fitness": 1.0,
+        "generations": 300
+      },
+      "coordination": {
+        "mutual_perception_events": 0,
+        "mutual_perception_duration_total": 0,
+        "coordination_duration_avg": 0.0,
+        "coordination_stability": 1.0,
+        "synchronization_index": 0.0,
+        "joint_behavior_entropy": 0.2860584826515387,
+        "phase_coupling": 0.0
+      },
+      "perturbations": {
+        "frozen_agent": 0.0,
+        "sensor_noise": 0.0,
+        "speed_mismatch": 0.0
+      },
+      "individuation": {
+        "informational_coupling_strength": 0.0022836706710298595,
+        "informational_individuation": 0.9976670789344168,
+        "dynamical_coupling_strength": 0.0022836706710298595,
+        "functional_interdependence": 0.0022836706710298595,
+        "autonomy_of_pair": 0.9977163293289701,
+        "autonomy_of_individuals": 0.9976662684171522
+      },
+      "timing": {
+        "elapsed_seconds": 4.289377927780151
+      }
+    }
+  },
+  "size_aggregates": {
+    "2": {
+      "perception_mean": 0.0,
+      "perception_std": 0.0,
+      "sync_mean": 0.18624906678995584,
+      "sync_std": 0.3724981335799117,
+      "coupling_mean": 0.0,
+      "entropy_mean": 0.34740603686361327,
+      "info_coupling_mean": 0.4444375595960385
+    },
+    "3": {
+      "perception_mean": 0.0,
+      "perception_std": 0.0,
+      "sync_mean": 0.0,
+      "sync_std": 0.0,
+      "coupling_mean": 0.0,
+      "entropy_mean": 0.23494827866351783,
+      "info_coupling_mean": 0.41429620885241525
+    },
+    "4": {
+      "perception_mean": 0.0,
+      "perception_std": 0.0,
+      "sync_mean": 0.0,
+      "sync_std": 0.0,
+      "coupling_mean": 0.0,
+      "entropy_mean": 0.3630652222829682,
+      "info_coupling_mean": 0.8022772111950683
+    },
+    "5": {
+      "perception_mean": 0.0,
+      "perception_std": 0.0,
+      "sync_mean": 0.0,
+      "sync_std": 0.0,
+      "coupling_mean": 0.0,
+      "entropy_mean": 0.3425010650100406,
+      "info_coupling_mean": 0.5519278135649228
+    },
+    "6": {
+      "perception_mean": 0.0,
+      "perception_std": 0.0,
+      "sync_mean": 0.0,
+      "sync_std": 0.0,
+      "coupling_mean": 0.0,
+      "entropy_mean": 0.2999561658260651,
+      "info_coupling_mean": 0.4403934735194236
+    },
+    "8": {
+      "perception_mean": 0.0,
+      "perception_std": 0.0,
+      "sync_mean": 0.0,
+      "sync_std": 0.0,
+      "coupling_mean": 0.0,
+      "entropy_mean": 0.3038072510411417,
+      "info_coupling_mean": 0.4610473165098499
+    }
+  },
+  "correlations": {
+    "size_vs_perception": {
+      "rho": NaN,
+      "p": NaN
+    },
+    "size_vs_sync": {
+      "rho": -0.2718301411097812,
+      "p": 0.14618597675757714
+    }
+  },
+  "meta": {
+    "timestamp": "20260217_143657",
+    "network_sizes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "seeds": [
+      42,
+      137,
+      256,
+      512,
+      1024
+    ],
+    "generations": 300,
+    "population_size": 30
+  }
+}

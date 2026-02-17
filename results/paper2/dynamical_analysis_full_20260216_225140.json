@@ -1,0 +1,820 @@
+{
+  "conditions": {
+    "net2_seed42": {
+      "num_neurons": 2,
+      "seed": 42,
+      "genotype_source": "evolved",
+      "fitness": 0.3915063493118503,
+      "lyapunov": {
+        "max_lyapunov": -0.07327597576320016,
+        "mean_lyapunov": -0.09868644704967935,
+        "std_lyapunov": 0.03511213707735305,
+        "per_condition": [
+          -0.15919905548403857,
+          -0.08312294405327011,
+          -0.07327597576320016,
+          -0.0791478128982086
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.5934743394678585,
+        "variance_explained": [
+          0.7525465553774181,
+          0.24745344462258195
+        ],
+        "total_variance": 3.42428327369061,
+        "state_entropy": -0.07780121247971712,
+        "autocorrelation_timescale": 44.0,
+        "inter_trial_distance_mean": 0.03293250277835794,
+        "inter_trial_distance_std": 0.014750332642988704
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -2.8273222236215028,
+        "std_growth_rate": 1.115113281126167,
+        "max_growth_rate": -0.8559322726502581,
+        "min_growth_rate": -5.028427773198124,
+        "fraction_amplifying": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 76.93380069732666
+      }
+    },
+    "net2_seed137": {
+      "num_neurons": 2,
+      "seed": 137,
+      "genotype_source": "evolved",
+      "fitness": 0.47742279455514713,
+      "lyapunov": {
+        "max_lyapunov": -0.011600302569269645,
+        "mean_lyapunov": -0.01916861856405578,
+        "std_lyapunov": 0.006831031668047723,
+        "per_condition": [
+          -0.011600302569269645,
+          -0.027295434636970463,
+          -0.013269249889636524,
+          -0.024509487160346476
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.372574643753256,
+        "variance_explained": [
+          0.8380516433258504,
+          0.16194835667414959
+        ],
+        "total_variance": 22.226322568362274,
+        "state_entropy": 1.4835842005895543,
+        "autocorrelation_timescale": 92.5,
+        "inter_trial_distance_mean": 0.36419336355095,
+        "inter_trial_distance_std": 0.1108923250576751
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.7263453797707553,
+        "std_growth_rate": 0.7754006052461224,
+        "max_growth_rate": 0.06345334227987054,
+        "min_growth_rate": -2.4902967778919107,
+        "fraction_amplifying": 0.05
+      },
+      "timing": {
+        "elapsed_seconds": 76.5442225933075
+      }
+    },
+    "net2_seed256": {
+      "num_neurons": 2,
+      "seed": 256,
+      "genotype_source": "evolved",
+      "fitness": 0.3856828995929092,
+      "lyapunov": {
+        "max_lyapunov": -0.1282176374369507,
+        "mean_lyapunov": -0.14359684896901517,
+        "std_lyapunov": 0.016565191302442172,
+        "per_condition": [
+          -0.1282176374369507,
+          -0.13827069426638716,
+          -0.1715333042190032,
+          -0.13636575995371963
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.0492302341459363,
+        "variance_explained": [
+          0.975962007378475,
+          0.024037992621524996
+        ],
+        "total_variance": 3.9045773175196308,
+        "state_entropy": -0.005933621819101176,
+        "autocorrelation_timescale": 31.5,
+        "inter_trial_distance_mean": 0.3476431260354483,
+        "inter_trial_distance_std": 0.16348647584141385
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -2.3786866308023664,
+        "std_growth_rate": 0.418275277776273,
+        "max_growth_rate": -1.9892406649743792,
+        "min_growth_rate": -3.1874417206135988,
+        "fraction_amplifying": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 77.17787051200867
+      }
+    },
+    "net3_seed42": {
+      "num_neurons": 3,
+      "seed": 42,
+      "genotype_source": "evolved",
+      "fitness": 0.36919557558342975,
+      "lyapunov": {
+        "max_lyapunov": -0.0685278058020454,
+        "mean_lyapunov": -0.06904902633059243,
+        "std_lyapunov": 0.0003599908500216891,
+        "per_condition": [
+          -0.06918340167770119,
+          -0.06896512106668194,
+          -0.0685278058020454,
+          -0.06951977677594115
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.084218556960377,
+        "variance_explained": [
+          0.9595286445669414,
+          0.040348863399296414,
+          0.00012249203376225347
+        ],
+        "total_variance": 317.08346724235486,
+        "state_entropy": 2.6685254503542786,
+        "autocorrelation_timescale": 132.66666666666666,
+        "inter_trial_distance_mean": 0.829988614177119,
+        "inter_trial_distance_std": 0.5379571914279482
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": 0.990890228550837,
+        "std_growth_rate": 0.4717177893809522,
+        "max_growth_rate": 1.6047771599918952,
+        "min_growth_rate": -0.4476939444411625,
+        "fraction_amplifying": 0.95
+      },
+      "timing": {
+        "elapsed_seconds": 76.85426688194275
+      }
+    },
+    "net3_seed137": {
+      "num_neurons": 3,
+      "seed": 137,
+      "genotype_source": "evolved",
+      "fitness": 0.3944660734168532,
+      "lyapunov": {
+        "max_lyapunov": 0.009065160200277379,
+        "mean_lyapunov": 0.006746957029835345,
+        "std_lyapunov": 0.0016741985719095757,
+        "per_condition": [
+          0.009065160200277379,
+          0.004415487162156327,
+          0.006305339473956287,
+          0.007201841282951386
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.5108295544456607,
+        "variance_explained": [
+          0.7999660013696894,
+          0.1311267086613991,
+          0.06890728996891146
+        ],
+        "total_variance": 284.5362919899161,
+        "state_entropy": 3.1350452997390335,
+        "autocorrelation_timescale": 17.666666666666668,
+        "inter_trial_distance_mean": 1.2479135720673662,
+        "inter_trial_distance_std": 0.6310033466819946
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.07359287203416207,
+        "std_growth_rate": 1.1665275418832124,
+        "max_growth_rate": 1.6514022150984424,
+        "min_growth_rate": -2.6543149453149026,
+        "fraction_amplifying": 0.65
+      },
+      "timing": {
+        "elapsed_seconds": 77.34755635261536
+      }
+    },
+    "net3_seed256": {
+      "num_neurons": 3,
+      "seed": 256,
+      "genotype_source": "evolved",
+      "fitness": 0.3787701823343565,
+      "lyapunov": {
+        "max_lyapunov": -0.032516051532971456,
+        "mean_lyapunov": -0.03637003939549515,
+        "std_lyapunov": 0.0038761108629479777,
+        "per_condition": [
+          -0.034204556770128354,
+          -0.042729206812579267,
+          -0.032516051532971456,
+          -0.036030342466301525
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.089990099177527,
+        "variance_explained": [
+          0.9573174490930969,
+          0.027338259960827175,
+          0.015344290946075943
+        ],
+        "total_variance": 13.643371981886013,
+        "state_entropy": 0.5458663225436438,
+        "autocorrelation_timescale": 52.0,
+        "inter_trial_distance_mean": 0.3531083245254552,
+        "inter_trial_distance_std": 0.20200934971743864
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.563963003432595,
+        "std_growth_rate": 0.9373155275922982,
+        "max_growth_rate": 0.1426943391834439,
+        "min_growth_rate": -4.187645533260697,
+        "fraction_amplifying": 0.25
+      },
+      "timing": {
+        "elapsed_seconds": 76.66134738922119
+      }
+    },
+    "net4_seed42": {
+      "num_neurons": 4,
+      "seed": 42,
+      "genotype_source": "evolved",
+      "fitness": 0.38547215793048095,
+      "lyapunov": {
+        "max_lyapunov": -0.11845146335822371,
+        "mean_lyapunov": -0.13144369931766992,
+        "std_lyapunov": 0.007503596682636444,
+        "per_condition": [
+          -0.13551336201286907,
+          -0.11845146335822371,
+          -0.13574790922309726,
+          -0.13606206267648968
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.2935412010518885,
+        "variance_explained": [
+          0.8709425277752029,
+          0.1203690880990928,
+          0.00580676622039118,
+          0.0028816179053132666
+        ],
+        "total_variance": 2854.462859780179,
+        "state_entropy": 3.2589005367342256,
+        "autocorrelation_timescale": 101.5,
+        "inter_trial_distance_mean": 3.5377274951335096,
+        "inter_trial_distance_std": 1.9052313026012369
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.6989701097338499,
+        "std_growth_rate": 0.7815050949199105,
+        "max_growth_rate": 1.7153305079854058,
+        "min_growth_rate": -1.8480243039590805,
+        "fraction_amplifying": 0.15
+      },
+      "timing": {
+        "elapsed_seconds": 77.91628098487854
+      }
+    },
+    "net4_seed137": {
+      "num_neurons": 4,
+      "seed": 137,
+      "genotype_source": "evolved",
+      "fitness": 0.4068239081866817,
+      "lyapunov": {
+        "max_lyapunov": -0.08541791231131374,
+        "mean_lyapunov": -0.08630715722676728,
+        "std_lyapunov": 0.0006856696303799928,
+        "per_condition": [
+          -0.08541791231131374,
+          -0.08724162149694764,
+          -0.08595624206576319,
+          -0.08661285303304457
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.760426828562825,
+        "variance_explained": [
+          0.7288687062209596,
+          0.17077647017635622,
+          0.08619351441318561,
+          0.014161309189498553
+        ],
+        "total_variance": 2984.2403539623174,
+        "state_entropy": 4.171481310202588,
+        "autocorrelation_timescale": 101.75,
+        "inter_trial_distance_mean": 2.0347135695425655,
+        "inter_trial_distance_std": 1.0673252798668773
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.07343070422488915,
+        "std_growth_rate": 1.0269667465568886,
+        "max_growth_rate": 2.2891612066866363,
+        "min_growth_rate": -1.6244633226106104,
+        "fraction_amplifying": 0.25
+      },
+      "timing": {
+        "elapsed_seconds": 77.36686563491821
+      }
+    },
+    "net4_seed256": {
+      "num_neurons": 4,
+      "seed": 256,
+      "genotype_source": "evolved",
+      "fitness": 0.37461721170282614,
+      "lyapunov": {
+        "max_lyapunov": -0.11186757142111615,
+        "mean_lyapunov": -0.14245081685700242,
+        "std_lyapunov": 0.0435811304173086,
+        "per_condition": [
+          -0.12562011184173355,
+          -0.21741503953309615,
+          -0.11490054463206381,
+          -0.11186757142111615
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.5445132007894755,
+        "variance_explained": [
+          0.7883978199239903,
+          0.14991388294638877,
+          0.05827745845770959,
+          0.0034108386719114273
+        ],
+        "total_variance": 60.949670140460505,
+        "state_entropy": 0.9629474955343746,
+        "autocorrelation_timescale": 35.0,
+        "inter_trial_distance_mean": 0.44798828052591516,
+        "inter_trial_distance_std": 0.29337414388106625
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.47642973220715523,
+        "std_growth_rate": 1.070065843650348,
+        "max_growth_rate": 0.5205313745545249,
+        "min_growth_rate": -4.046938241843206,
+        "fraction_amplifying": 0.4
+      },
+      "timing": {
+        "elapsed_seconds": 74.45888209342957
+      }
+    },
+    "net5_seed42": {
+      "num_neurons": 5,
+      "seed": 42,
+      "genotype_source": "evolved",
+      "fitness": 0.3825413643449933,
+      "lyapunov": {
+        "max_lyapunov": -0.10868677728688889,
+        "mean_lyapunov": -0.11089556770326832,
+        "std_lyapunov": 0.0019690126901586334,
+        "per_condition": [
+          -0.10868677728688889,
+          -0.10987629867447216,
+          -0.1139894953190698,
+          -0.11102969953264245
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.0210362688052457,
+        "variance_explained": [
+          0.9896159341428046,
+          0.006942702515391319,
+          0.0030126687064343884,
+          0.00040439603198164727,
+          2.4298603388061206e-05
+        ],
+        "total_variance": 256.8771197393767,
+        "state_entropy": 0.7516392042446955,
+        "autocorrelation_timescale": 44.8,
+        "inter_trial_distance_mean": 0.44188398969566517,
+        "inter_trial_distance_std": 0.21319190905131713
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.9370126492107204,
+        "std_growth_rate": 0.4965541653796848,
+        "max_growth_rate": -0.242205406514981,
+        "min_growth_rate": -2.1070332829415577,
+        "fraction_amplifying": 0.0
+      },
+      "timing": {
+        "elapsed_seconds": 76.40185546875
+      }
+    },
+    "net5_seed137": {
+      "num_neurons": 5,
+      "seed": 137,
+      "genotype_source": "evolved",
+      "fitness": 0.5252019197570396,
+      "lyapunov": {
+        "max_lyapunov": -0.03313956604894551,
+        "mean_lyapunov": -0.04242690366808525,
+        "std_lyapunov": 0.008644368869439579,
+        "per_condition": [
+          -0.03698949030545628,
+          -0.043678992637937605,
+          -0.03313956604894551,
+          -0.05589956568000161
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.5052900545416066,
+        "variance_explained": [
+          0.8018068916649606,
+          0.13456314444376488,
+          0.05742284547540033,
+          0.004779152414230873,
+          0.001427966001643311
+        ],
+        "total_variance": 879.8482969518293,
+        "state_entropy": 2.6052100763030133,
+        "autocorrelation_timescale": 123.2,
+        "inter_trial_distance_mean": 2.97453547675185,
+        "inter_trial_distance_std": 1.3618652190531344
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.1065994090073092,
+        "std_growth_rate": 1.4427006011439198,
+        "max_growth_rate": 3.7493086880984468,
+        "min_growth_rate": -1.5682088692208678,
+        "fraction_amplifying": 0.35
+      },
+      "timing": {
+        "elapsed_seconds": 74.90140891075134
+      }
+    },
+    "net5_seed256": {
+      "num_neurons": 5,
+      "seed": 256,
+      "genotype_source": "evolved",
+      "fitness": 0.40753687890049084,
+      "lyapunov": {
+        "max_lyapunov": -0.08056858589352489,
+        "mean_lyapunov": -0.08104049978496461,
+        "std_lyapunov": 0.0003461792355166986,
+        "per_condition": [
+          -0.0815440334963689,
+          -0.08056858589352489,
+          -0.08098855522090867,
+          -0.08106082452905594
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.256858362966922,
+        "variance_explained": [
+          0.8873605451588027,
+          0.08808957931532031,
+          0.02135088350331872,
+          0.003198122502937943,
+          8.695196203472002e-07
+        ],
+        "total_variance": 2186.691824935859,
+        "state_entropy": 3.2673559681587,
+        "autocorrelation_timescale": 153.4,
+        "inter_trial_distance_mean": 0.0475926263469957,
+        "inter_trial_distance_std": 0.034191980739570166
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": 0.3085720837895841,
+        "std_growth_rate": 1.0820195245034478,
+        "max_growth_rate": 2.722052246956494,
+        "min_growth_rate": -1.0642240396214537,
+        "fraction_amplifying": 0.4
+      },
+      "timing": {
+        "elapsed_seconds": 76.8574469089508
+      }
+    },
+    "net6_seed42": {
+      "num_neurons": 6,
+      "seed": 42,
+      "genotype_source": "evolved",
+      "fitness": 0.467213108685665,
+      "lyapunov": {
+        "max_lyapunov": -0.07651595406889102,
+        "mean_lyapunov": -0.07790912078305752,
+        "std_lyapunov": 0.0011463750368750952,
+        "per_condition": [
+          -0.0790600402243324,
+          -0.07651595406889102,
+          -0.07902065644898999,
+          -0.07703983239001665
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.4778993451135614,
+        "variance_explained": [
+          0.8103401279559778,
+          0.1319203341759403,
+          0.05051522954768106,
+          0.005103511072990209,
+          0.0020315115226925435
+        ],
+        "total_variance": 2466.560911151284,
+        "state_entropy": 3.368378566487008,
+        "autocorrelation_timescale": 117.33333333333333,
+        "inter_trial_distance_mean": 2.297292897557207,
+        "inter_trial_distance_std": 1.1482976802527913
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.13975124995509103,
+        "std_growth_rate": 0.8259042231294578,
+        "max_growth_rate": 1.6537544220248357,
+        "min_growth_rate": -1.850827732539462,
+        "fraction_amplifying": 0.3
+      },
+      "timing": {
+        "elapsed_seconds": 75.08404970169067
+      }
+    },
+    "net6_seed137": {
+      "num_neurons": 6,
+      "seed": 137,
+      "genotype_source": "evolved",
+      "fitness": 0.5207418192927635,
+      "lyapunov": {
+        "max_lyapunov": -0.016262256276158887,
+        "mean_lyapunov": -0.019335892452561954,
+        "std_lyapunov": 0.0021383336017289315,
+        "per_condition": [
+          -0.01854276817785961,
+          -0.02066195121628416,
+          -0.016262256276158887,
+          -0.021876594139945155
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 2.6525717713978594,
+        "variance_explained": [
+          0.4844626983253918,
+          0.3416755510098916,
+          0.15941071720258965,
+          0.011121384234943786,
+          0.003297826792177701
+        ],
+        "total_variance": 1919.1811951317504,
+        "state_entropy": 3.516084645368602,
+        "autocorrelation_timescale": 41.666666666666664,
+        "inter_trial_distance_mean": 3.642583220370567,
+        "inter_trial_distance_std": 0.9173167502865445
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": 1.9223908299506516,
+        "std_growth_rate": 0.5425986890809238,
+        "max_growth_rate": 3.140411800725256,
+        "min_growth_rate": 1.1610446298234294,
+        "fraction_amplifying": 1.0
+      },
+      "timing": {
+        "elapsed_seconds": 76.56071400642395
+      }
+    },
+    "net6_seed256": {
+      "num_neurons": 6,
+      "seed": 256,
+      "genotype_source": "evolved",
+      "fitness": 0.37668807997138226,
+      "lyapunov": {
+        "max_lyapunov": -0.09819672788127203,
+        "mean_lyapunov": -0.09825054614484627,
+        "std_lyapunov": 4.971239567997191e-05,
+        "per_condition": [
+          -0.09819672788127203,
+          -0.09820536294137966,
+          -0.0983048799172242,
+          -0.09829521383950919
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.348391268559368,
+        "variance_explained": [
+          0.8535578854534676,
+          0.11170128566702996,
+          0.019593818331442067,
+          0.01419296597148421,
+          0.000949039653423587
+        ],
+        "total_variance": 1794.27336585907,
+        "state_entropy": 2.773962130027749,
+        "autocorrelation_timescale": 90.66666666666667,
+        "inter_trial_distance_mean": 0.6242291747543592,
+        "inter_trial_distance_std": 0.42733958257015453
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.4976880638844635,
+        "std_growth_rate": 0.6837048310336145,
+        "max_growth_rate": 1.8496369526371896,
+        "min_growth_rate": -1.365750667521744,
+        "fraction_amplifying": 0.1
+      },
+      "timing": {
+        "elapsed_seconds": 75.34143590927124
+      }
+    },
+    "net8_seed42": {
+      "num_neurons": 8,
+      "seed": 42,
+      "genotype_source": "evolved",
+      "fitness": 0.38174741585121225,
+      "lyapunov": {
+        "max_lyapunov": -0.05909030287323458,
+        "mean_lyapunov": -0.05934021918724136,
+        "std_lyapunov": 0.00018230967058818594,
+        "per_condition": [
+          -0.059449384150948394,
+          -0.05909030287323458,
+          -0.05925460345341882,
+          -0.059566586271363645
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.4791339445919551,
+        "variance_explained": [
+          0.8075516471400139,
+          0.1486421127288743,
+          0.042852947678472635,
+          0.0008801620817058574,
+          6.0120780585628694e-05
+        ],
+        "total_variance": 2508.219682414962,
+        "state_entropy": 2.639917446774459,
+        "autocorrelation_timescale": 97.375,
+        "inter_trial_distance_mean": 0.388086573496252,
+        "inter_trial_distance_std": 0.19927776162659044
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.011658617021868666,
+        "std_growth_rate": 0.6097104408464593,
+        "max_growth_rate": 1.472393140958086,
+        "min_growth_rate": -0.8387119173149243,
+        "fraction_amplifying": 0.25
+      },
+      "timing": {
+        "elapsed_seconds": 77.40159845352173
+      }
+    },
+    "net8_seed137": {
+      "num_neurons": 8,
+      "seed": 137,
+      "genotype_source": "evolved",
+      "fitness": 0.5052113593438828,
+      "lyapunov": {
+        "max_lyapunov": -0.08962443625381251,
+        "mean_lyapunov": -0.08975650250852368,
+        "std_lyapunov": 0.00012257518143685419,
+        "per_condition": [
+          -0.08982925288614246,
+          -0.0899195872073213,
+          -0.08962443625381251,
+          -0.08965273368681845
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 2.405572068041469,
+        "variance_explained": [
+          0.5832600593187304,
+          0.25019048227746155,
+          0.0923467950314057,
+          0.06589969078702278,
+          0.006417177144810105
+        ],
+        "total_variance": 3473.4448874380787,
+        "state_entropy": 3.5489364335384206,
+        "autocorrelation_timescale": 126.125,
+        "inter_trial_distance_mean": 1.4984778594682648,
+        "inter_trial_distance_std": 0.5677565883756492
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": 1.1209484437367114,
+        "std_growth_rate": 1.2866994610540288,
+        "max_growth_rate": 3.41163343460153,
+        "min_growth_rate": -1.0626419521249295,
+        "fraction_amplifying": 0.7
+      },
+      "timing": {
+        "elapsed_seconds": 78.1061623096466
+      }
+    },
+    "net8_seed256": {
+      "num_neurons": 8,
+      "seed": 256,
+      "genotype_source": "evolved",
+      "fitness": 0.45333203759514795,
+      "lyapunov": {
+        "max_lyapunov": -0.08134688108233111,
+        "mean_lyapunov": -0.08332380615659127,
+        "std_lyapunov": 0.0019542782977711197,
+        "per_condition": [
+          -0.08382169446102365,
+          -0.0818242494797468,
+          -0.08630239960326351,
+          -0.08134688108233111
+        ]
+      },
+      "trajectory_complexity": {
+        "participation_ratio": 1.442938910638564,
+        "variance_explained": [
+          0.8182317943070501,
+          0.15236158075768266,
+          0.014338569253331317,
+          0.009250407560446481,
+          0.004477920518719309
+        ],
+        "total_variance": 2462.937155821509,
+        "state_entropy": 3.089277546453782,
+        "autocorrelation_timescale": 143.125,
+        "inter_trial_distance_mean": 1.0294230398818287,
+        "inter_trial_distance_std": 0.4813878843700259
+      },
+      "perturbation_sensitivity": {
+        "mean_growth_rate": -0.30308913817982763,
+        "std_growth_rate": 0.9039017343321675,
+        "max_growth_rate": 1.938409948905495,
+        "min_growth_rate": -1.2939827478316388,
+        "fraction_amplifying": 0.2
+      },
+      "timing": {
+        "elapsed_seconds": 76.22044491767883
+      }
+    }
+  },
+  "aggregate": {
+    "net2": {
+      "participation_ratio_mean": 1.338426405789017,
+      "participation_ratio_std": 0.2234949487295878,
+      "growth_rate_mean": -1.9774514113982082,
+      "growth_rate_std": 0.9034261455027703,
+      "fraction_amplifying_mean": 0.016666666666666666,
+      "fraction_amplifying_std": 0.023570226039551587,
+      "max_lyapunov_mean": -0.0710313052564735,
+      "max_lyapunov_std": 0.04763527829366971
+    },
+    "net3": {
+      "participation_ratio_mean": 1.2283460701945215,
+      "participation_ratio_std": 0.19975988391214214,
+      "growth_rate_mean": 0.1177781176946933,
+      "growth_rate_std": 0.6490296783325511,
+      "fraction_amplifying_mean": 0.6166666666666667,
+      "fraction_amplifying_std": 0.2867441755680875,
+      "max_lyapunov_mean": -0.030659565711579823,
+      "max_lyapunov_std": 0.03170438453340669
+    },
+    "net4": {
+      "participation_ratio_mean": 1.5328270768013965,
+      "participation_ratio_std": 0.19078429602471444,
+      "growth_rate_mean": -0.41627684872196474,
+      "growth_rate_std": 0.2588933680170444,
+      "fraction_amplifying_mean": 0.26666666666666666,
+      "fraction_amplifying_std": 0.10274023338281629,
+      "max_lyapunov_mean": -0.10524564903021787,
+      "max_lyapunov_std": 0.014275649799699997
+    },
+    "net5": {
+      "participation_ratio_mean": 1.2610615621045915,
+      "participation_ratio_std": 0.19771811991189633,
+      "growth_rate_mean": -0.2450133248094818,
+      "growth_rate_std": 0.5178411216043187,
+      "fraction_amplifying_mean": 0.25,
+      "fraction_amplifying_std": 0.17795130420052185,
+      "max_lyapunov_mean": -0.07413164307645309,
+      "max_lyapunov_std": 0.031176069413149765
+    },
+    "net6": {
+      "participation_ratio_mean": 1.826287461690263,
+      "participation_ratio_std": 0.5866585638597128,
+      "growth_rate_mean": 0.4283171720370323,
+      "growth_rate_std": 1.0665276249414934,
+      "fraction_amplifying_mean": 0.46666666666666673,
+      "fraction_amplifying_std": 0.3858612300930075,
+      "max_lyapunov_mean": -0.06365831274210731,
+      "max_lyapunov_std": 0.034663175606287
+    },
+    "net8": {
+      "participation_ratio_mean": 1.7758816410906626,
+      "participation_ratio_std": 0.4455034945361173,
+      "growth_rate_mean": 0.26873356284500505,
+      "growth_rate_std": 0.614239686971109,
+      "fraction_amplifying_mean": 0.3833333333333333,
+      "fraction_amplifying_std": 0.22484562605386735,
+      "max_lyapunov_mean": -0.0766872067364594,
+      "max_lyapunov_std": 0.012893609504528775
+    }
+  },
+  "meta": {
+    "network_sizes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "seeds": [
+      42,
+      137,
+      256
+    ],
+    "timestamp": "20260216_225140"
+  }
+}

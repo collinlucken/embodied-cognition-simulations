@@ -1,0 +1,763 @@
+{
+  "conditions": {
+    "net2_seed42": {
+      "num_neurons": 2,
+      "seed": 42,
+      "best_fitness": 0.48283391938040704,
+      "mean_discrimination": 0.917864476386037,
+      "mean_partner_fraction": 0.2802,
+      "mean_shadow_fraction": 0.012000000000000002,
+      "mean_exploration": 0.08843644917677788,
+      "episodes": [
+        {
+          "fitness": 0.30073093475303336,
+          "partner_fraction": 0.2802,
+          "shadow_fraction": 0.012,
+          "discrimination": 0.917864476386037,
+          "exploration": 0.08843644917677787,
+          "partner_encounters": 1401,
+          "shadow_encounters": 60,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.30073093475303336,
+          "partner_fraction": 0.2802,
+          "shadow_fraction": 0.012,
+          "discrimination": 0.917864476386037,
+          "exploration": 0.08843644917677787,
+          "partner_encounters": 1401,
+          "shadow_encounters": 60,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.30073093475303336,
+          "partner_fraction": 0.2802,
+          "shadow_fraction": 0.012,
+          "discrimination": 0.917864476386037,
+          "exploration": 0.08843644917677787,
+          "partner_encounters": 1401,
+          "shadow_encounters": 60,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net2_seed137": {
+      "num_neurons": 2,
+      "seed": 137,
+      "best_fitness": 0.2045746215063238,
+      "mean_discrimination": -0.01045296167247387,
+      "mean_partner_fraction": 0.142,
+      "mean_shadow_fraction": 0.145,
+      "mean_exploration": 0.09321735434248835,
+      "episodes": [
+        {
+          "fitness": 0.0974652063027465,
+          "partner_fraction": 0.142,
+          "shadow_fraction": 0.145,
+          "discrimination": -0.010452961672473868,
+          "exploration": 0.09321735434248835,
+          "partner_encounters": 710,
+          "shadow_encounters": 725,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.0974652063027465,
+          "partner_fraction": 0.142,
+          "shadow_fraction": 0.145,
+          "discrimination": -0.010452961672473868,
+          "exploration": 0.09321735434248835,
+          "partner_encounters": 710,
+          "shadow_encounters": 725,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.0974652063027465,
+          "partner_fraction": 0.142,
+          "shadow_fraction": 0.145,
+          "discrimination": -0.010452961672473868,
+          "exploration": 0.09321735434248835,
+          "partner_encounters": 710,
+          "shadow_encounters": 725,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net2_seed256": {
+      "num_neurons": 2,
+      "seed": 256,
+      "best_fitness": 0.18806165533457458,
+      "mean_discrimination": 0.258391881342701,
+      "mean_partner_fraction": 0.1612,
+      "mean_shadow_fraction": 0.09500000000000001,
+      "mean_exploration": 0.05853559422812369,
+      "episodes": [
+        {
+          "fitness": 0.13126067826843713,
+          "partner_fraction": 0.1612,
+          "shadow_fraction": 0.095,
+          "discrimination": 0.258391881342701,
+          "exploration": 0.0585355942281237,
+          "partner_encounters": 806,
+          "shadow_encounters": 475,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.13126067826843713,
+          "partner_fraction": 0.1612,
+          "shadow_fraction": 0.095,
+          "discrimination": 0.258391881342701,
+          "exploration": 0.0585355942281237,
+          "partner_encounters": 806,
+          "shadow_encounters": 475,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.13126067826843713,
+          "partner_fraction": 0.1612,
+          "shadow_fraction": 0.095,
+          "discrimination": 0.258391881342701,
+          "exploration": 0.0585355942281237,
+          "partner_encounters": 806,
+          "shadow_encounters": 475,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net3_seed42": {
+      "num_neurons": 3,
+      "seed": 42,
+      "best_fitness": 0.8710482000141292,
+      "mean_discrimination": 0.9778260869565217,
+      "mean_partner_fraction": 0.9098,
+      "mean_shadow_fraction": 0.0102,
+      "mean_exploration": 0.09976306669493391,
+      "episodes": [
+        {
+          "fitness": 0.9346289200084802,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.09976306669493393,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9346289200084802,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.09976306669493393,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9346289200084802,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.09976306669493393,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net3_seed137": {
+      "num_neurons": 3,
+      "seed": 137,
+      "best_fitness": 0.14181978341485124,
+      "mean_discrimination": 0.23076923076923075,
+      "mean_partner_fraction": 0.1024,
+      "mean_shadow_fraction": 0.064,
+      "mean_exploration": 0.0815725351129605,
+      "episodes": [
+        {
+          "fitness": 0.09487176053388816,
+          "partner_fraction": 0.1024,
+          "shadow_fraction": 0.064,
+          "discrimination": 0.23076923076923078,
+          "exploration": 0.0815725351129605,
+          "partner_encounters": 512,
+          "shadow_encounters": 320,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.09487176053388816,
+          "partner_fraction": 0.1024,
+          "shadow_fraction": 0.064,
+          "discrimination": 0.23076923076923078,
+          "exploration": 0.0815725351129605,
+          "partner_encounters": 512,
+          "shadow_encounters": 320,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.09487176053388816,
+          "partner_fraction": 0.1024,
+          "shadow_fraction": 0.064,
+          "discrimination": 0.23076923076923078,
+          "exploration": 0.0815725351129605,
+          "partner_encounters": 512,
+          "shadow_encounters": 320,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net3_seed256": {
+      "num_neurons": 3,
+      "seed": 256,
+      "best_fitness": 0.870498485086394,
+      "mean_discrimination": 0.9778212654924984,
+      "mean_partner_fraction": 0.9095999999999999,
+      "mean_shadow_fraction": 0.0102,
+      "mean_exploration": 0.09933030350603202,
+      "episodes": [
+        {
+          "fitness": 0.9342990910518095,
+          "partner_fraction": 0.9096,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778212654924984,
+          "exploration": 0.09933030350603202,
+          "partner_encounters": 4548,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9342990910518095,
+          "partner_fraction": 0.9096,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778212654924984,
+          "exploration": 0.09933030350603202,
+          "partner_encounters": 4548,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9342990910518095,
+          "partner_fraction": 0.9096,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778212654924984,
+          "exploration": 0.09933030350603202,
+          "partner_encounters": 4548,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net4_seed42": {
+      "num_neurons": 4,
+      "seed": 42,
+      "best_fitness": 0.30307876855156296,
+      "mean_discrimination": 0.8577586206896551,
+      "mean_partner_fraction": 0.1724,
+      "mean_shadow_fraction": 0.013199999999999998,
+      "mean_exploration": 0.08831872018578392,
+      "episodes": [
+        {
+          "fitness": 0.19229561605573517,
+          "partner_fraction": 0.1724,
+          "shadow_fraction": 0.0132,
+          "discrimination": 0.8577586206896551,
+          "exploration": 0.08831872018578392,
+          "partner_encounters": 862,
+          "shadow_encounters": 66,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.19229561605573517,
+          "partner_fraction": 0.1724,
+          "shadow_fraction": 0.0132,
+          "discrimination": 0.8577586206896551,
+          "exploration": 0.08831872018578392,
+          "partner_encounters": 862,
+          "shadow_encounters": 66,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.19229561605573517,
+          "partner_fraction": 0.1724,
+          "shadow_fraction": 0.0132,
+          "discrimination": 0.8577586206896551,
+          "exploration": 0.08831872018578392,
+          "partner_encounters": 862,
+          "shadow_encounters": 66,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net4_seed137": {
+      "num_neurons": 4,
+      "seed": 137,
+      "best_fitness": 0.8703595374255136,
+      "mean_discrimination": 0.9778212654924984,
+      "mean_partner_fraction": 0.9095999999999999,
+      "mean_shadow_fraction": 0.0102,
+      "mean_exploration": 0.0990495624832221,
+      "episodes": [
+        {
+          "fitness": 0.9342148687449666,
+          "partner_fraction": 0.9096,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778212654924984,
+          "exploration": 0.0990495624832221,
+          "partner_encounters": 4548,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9342148687449666,
+          "partner_fraction": 0.9096,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778212654924984,
+          "exploration": 0.0990495624832221,
+          "partner_encounters": 4548,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9342148687449666,
+          "partner_fraction": 0.9096,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778212654924984,
+          "exploration": 0.0990495624832221,
+          "partner_encounters": 4548,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net4_seed256": {
+      "num_neurons": 4,
+      "seed": 256,
+      "best_fitness": 0.09869749339192382,
+      "mean_discrimination": -0.04956268221574344,
+      "mean_partner_fraction": 0.0978,
+      "mean_shadow_fraction": 0.108,
+      "mean_exploration": 0.08414963114902489,
+      "episodes": [
+        {
+          "fitness": 0.06904488934470747,
+          "partner_fraction": 0.0978,
+          "shadow_fraction": 0.108,
+          "discrimination": -0.04956268221574344,
+          "exploration": 0.08414963114902489,
+          "partner_encounters": 489,
+          "shadow_encounters": 540,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.06904488934470747,
+          "partner_fraction": 0.0978,
+          "shadow_fraction": 0.108,
+          "discrimination": -0.04956268221574344,
+          "exploration": 0.08414963114902489,
+          "partner_encounters": 489,
+          "shadow_encounters": 540,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.06904488934470747,
+          "partner_fraction": 0.0978,
+          "shadow_fraction": 0.108,
+          "discrimination": -0.04956268221574344,
+          "exploration": 0.08414963114902489,
+          "partner_encounters": 489,
+          "shadow_encounters": 540,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net5_seed42": {
+      "num_neurons": 5,
+      "seed": 42,
+      "best_fitness": 0.1546753365658718,
+      "mean_discrimination": 0.33928571428571425,
+      "mean_partner_fraction": 0.105,
+      "mean_shadow_fraction": 0.05179999999999999,
+      "mean_exploration": 0.08181303153955713,
+      "episodes": [
+        {
+          "fitness": 0.10364390946186713,
+          "partner_fraction": 0.105,
+          "shadow_fraction": 0.0518,
+          "discrimination": 0.3392857142857143,
+          "exploration": 0.08181303153955713,
+          "partner_encounters": 525,
+          "shadow_encounters": 259,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.10364390946186713,
+          "partner_fraction": 0.105,
+          "shadow_fraction": 0.0518,
+          "discrimination": 0.3392857142857143,
+          "exploration": 0.08181303153955713,
+          "partner_encounters": 525,
+          "shadow_encounters": 259,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.10364390946186713,
+          "partner_fraction": 0.105,
+          "shadow_fraction": 0.0518,
+          "discrimination": 0.3392857142857143,
+          "exploration": 0.08181303153955713,
+          "partner_encounters": 525,
+          "shadow_encounters": 259,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net5_seed137": {
+      "num_neurons": 5,
+      "seed": 137,
+      "best_fitness": 0.22186640513731526,
+      "mean_discrimination": 0.8168389955686853,
+      "mean_partner_fraction": 0.123,
+      "mean_shadow_fraction": 0.0124,
+      "mean_exploration": 0.0906012067661443,
+      "episodes": [
+        {
+          "fitness": 0.1439803620298433,
+          "partner_fraction": 0.123,
+          "shadow_fraction": 0.0124,
+          "discrimination": 0.8168389955686853,
+          "exploration": 0.0906012067661443,
+          "partner_encounters": 615,
+          "shadow_encounters": 62,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.1439803620298433,
+          "partner_fraction": 0.123,
+          "shadow_fraction": 0.0124,
+          "discrimination": 0.8168389955686853,
+          "exploration": 0.0906012067661443,
+          "partner_encounters": 615,
+          "shadow_encounters": 62,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.1439803620298433,
+          "partner_fraction": 0.123,
+          "shadow_fraction": 0.0124,
+          "discrimination": 0.8168389955686853,
+          "exploration": 0.0906012067661443,
+          "partner_encounters": 615,
+          "shadow_encounters": 62,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net5_seed256": {
+      "num_neurons": 5,
+      "seed": 256,
+      "best_fitness": 0.6662678855351948,
+      "mean_discrimination": 0.8729783037475345,
+      "mean_partner_fraction": 0.47479999999999994,
+      "mean_shadow_fraction": 0.0322,
+      "mean_exploration": 0.03410219512764354,
+      "episodes": [
+        {
+          "fitness": 0.4689306585382931,
+          "partner_fraction": 0.4748,
+          "shadow_fraction": 0.0322,
+          "discrimination": 0.8729783037475345,
+          "exploration": 0.03410219512764354,
+          "partner_encounters": 2374,
+          "shadow_encounters": 161,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.4689306585382931,
+          "partner_fraction": 0.4748,
+          "shadow_fraction": 0.0322,
+          "discrimination": 0.8729783037475345,
+          "exploration": 0.03410219512764354,
+          "partner_encounters": 2374,
+          "shadow_encounters": 161,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.4689306585382931,
+          "partner_fraction": 0.4748,
+          "shadow_fraction": 0.0322,
+          "discrimination": 0.8729783037475345,
+          "exploration": 0.03410219512764354,
+          "partner_encounters": 2374,
+          "shadow_encounters": 161,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net6_seed42": {
+      "num_neurons": 6,
+      "seed": 42,
+      "best_fitness": 0.7572585170043965,
+      "mean_discrimination": 0.9671524404348831,
+      "mean_partner_fraction": 0.8504,
+      "mean_shadow_fraction": 0.014199999999999999,
+      "mean_exploration": 0.06182191430388578,
+      "episodes": [
+        {
+          "fitness": 0.8618465742911657,
+          "partner_fraction": 0.8504,
+          "shadow_fraction": 0.0142,
+          "discrimination": 0.9671524404348831,
+          "exploration": 0.06182191430388578,
+          "partner_encounters": 4252,
+          "shadow_encounters": 71,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.8618465742911657,
+          "partner_fraction": 0.8504,
+          "shadow_fraction": 0.0142,
+          "discrimination": 0.9671524404348831,
+          "exploration": 0.06182191430388578,
+          "partner_encounters": 4252,
+          "shadow_encounters": 71,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.8618465742911657,
+          "partner_fraction": 0.8504,
+          "shadow_fraction": 0.0142,
+          "discrimination": 0.9671524404348831,
+          "exploration": 0.06182191430388578,
+          "partner_encounters": 4252,
+          "shadow_encounters": 71,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net6_seed137": {
+      "num_neurons": 6,
+      "seed": 137,
+      "best_fitness": 0.8531340532729174,
+      "mean_discrimination": 0.9776364832273624,
+      "mean_partner_fraction": 0.902,
+      "mean_shadow_fraction": 0.0102,
+      "mean_exploration": 0.08278081140849766,
+      "episodes": [
+        {
+          "fitness": 0.9217342434225493,
+          "partner_fraction": 0.902,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9776364832273624,
+          "exploration": 0.08278081140849766,
+          "partner_encounters": 4510,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9217342434225493,
+          "partner_fraction": 0.902,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9776364832273624,
+          "exploration": 0.08278081140849766,
+          "partner_encounters": 4510,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9217342434225493,
+          "partner_fraction": 0.902,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9776364832273624,
+          "exploration": 0.08278081140849766,
+          "partner_encounters": 4510,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net6_seed256": {
+      "num_neurons": 6,
+      "seed": 256,
+      "best_fitness": 0.31965844797301496,
+      "mean_discrimination": 0.09641873278236916,
+      "mean_partner_fraction": 0.2786,
+      "mean_shadow_fraction": 0.2296,
+      "mean_exploration": 0.09932340650848688,
+      "episodes": [
+        {
+          "fitness": 0.19359702195254608,
+          "partner_fraction": 0.2786,
+          "shadow_fraction": 0.2296,
+          "discrimination": 0.09641873278236915,
+          "exploration": 0.0993234065084869,
+          "partner_encounters": 1393,
+          "shadow_encounters": 1148,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.19359702195254608,
+          "partner_fraction": 0.2786,
+          "shadow_fraction": 0.2296,
+          "discrimination": 0.09641873278236915,
+          "exploration": 0.0993234065084869,
+          "partner_encounters": 1393,
+          "shadow_encounters": 1148,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.19359702195254608,
+          "partner_fraction": 0.2786,
+          "shadow_fraction": 0.2296,
+          "discrimination": 0.09641873278236915,
+          "exploration": 0.0993234065084869,
+          "partner_encounters": 1393,
+          "shadow_encounters": 1148,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net8_seed42": {
+      "num_neurons": 8,
+      "seed": 42,
+      "best_fitness": 0.6351633948575461,
+      "mean_discrimination": 0.8390941597139451,
+      "mean_partner_fraction": 0.6172,
+      "mean_shadow_fraction": 0.054,
+      "mean_exploration": 0.07890338742702427,
+      "episodes": [
+        {
+          "fitness": 0.6138710162281072,
+          "partner_fraction": 0.6172,
+          "shadow_fraction": 0.054,
+          "discrimination": 0.8390941597139452,
+          "exploration": 0.07890338742702427,
+          "partner_encounters": 3086,
+          "shadow_encounters": 270,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.6138710162281072,
+          "partner_fraction": 0.6172,
+          "shadow_fraction": 0.054,
+          "discrimination": 0.8390941597139452,
+          "exploration": 0.07890338742702427,
+          "partner_encounters": 3086,
+          "shadow_encounters": 270,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.6138710162281072,
+          "partner_fraction": 0.6172,
+          "shadow_fraction": 0.054,
+          "discrimination": 0.8390941597139452,
+          "exploration": 0.07890338742702427,
+          "partner_encounters": 3086,
+          "shadow_encounters": 270,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net8_seed137": {
+      "num_neurons": 8,
+      "seed": 137,
+      "best_fitness": 0.8711622692452478,
+      "mean_discrimination": 0.9778260869565217,
+      "mean_partner_fraction": 0.9098,
+      "mean_shadow_fraction": 0.0102,
+      "mean_exploration": 0.0999912051571711,
+      "episodes": [
+        {
+          "fitness": 0.9346973615471514,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.0999912051571711,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9346973615471514,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.0999912051571711,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9346973615471514,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.0999912051571711,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        }
+      ]
+    },
+    "net8_seed256": {
+      "num_neurons": 8,
+      "seed": 256,
+      "best_fitness": 0.8710037643122027,
+      "mean_discrimination": 0.9778260869565217,
+      "mean_partner_fraction": 0.9098,
+      "mean_shadow_fraction": 0.0102,
+      "mean_exploration": 0.09967419517521442,
+      "episodes": [
+        {
+          "fitness": 0.9346022585525644,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.09967419517521442,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9346022585525644,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.09967419517521442,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        },
+        {
+          "fitness": 0.9346022585525644,
+          "partner_fraction": 0.9098,
+          "shadow_fraction": 0.0102,
+          "discrimination": 0.9778260869565217,
+          "exploration": 0.09967419517521442,
+          "partner_encounters": 4549,
+          "shadow_encounters": 51,
+          "total_steps": 5000
+        }
+      ]
+    }
+  },
+  "meta": {
+    "timestamp": "20260217_171815",
+    "sizes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "seeds": [
+      42,
+      137,
+      256
+    ],
+    "generations": 300,
+    "evo_episode": 3000,
+    "analysis_episode": 5000,
+    "max_speed": 5.0,
+    "features": "shadow_mirror"
+  }
+}

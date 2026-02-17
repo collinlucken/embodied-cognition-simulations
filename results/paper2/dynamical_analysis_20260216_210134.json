@@ -1,0 +1,129 @@
+{
+  "net3": {
+    "num_neurons": 3,
+    "fitness": 0.36919557558342975,
+    "lyapunov": {
+      "max_lyapunov": -0.0685278058020454,
+      "mean_lyapunov": -0.06904902633059243,
+      "std_lyapunov": 0.0003599908500216891,
+      "per_condition": [
+        -0.06918340167770119,
+        -0.06896512106668194,
+        -0.0685278058020454,
+        -0.06951977677594115
+      ]
+    },
+    "trajectory_complexity": {
+      "participation_ratio": 1.084218556960377,
+      "variance_explained": [
+        0.9595286445669414,
+        0.040348863399296414,
+        0.00012249203376225347
+      ],
+      "total_variance": 317.08346724235486,
+      "state_entropy": 2.6685254503542786,
+      "autocorrelation_timescale": 132.66666666666666,
+      "inter_trial_distance_mean": 0.829988614177119,
+      "inter_trial_distance_std": 0.5379571914279482
+    },
+    "perturbation_sensitivity": {
+      "mean_growth_rate": 0.990890228550837,
+      "std_growth_rate": 0.4717177893809522,
+      "max_growth_rate": 1.6047771599918952,
+      "min_growth_rate": -0.4476939444411625,
+      "fraction_amplifying": 0.95
+    },
+    "timing": {
+      "evolution_s": 81.02062225341797,
+      "lyapunov_s": 0.20947861671447754,
+      "complexity_s": 0.0900418758392334,
+      "perturbation_s": 0.04201054573059082
+    }
+  },
+  "net5": {
+    "num_neurons": 5,
+    "fitness": 0.3825413643449933,
+    "lyapunov": {
+      "max_lyapunov": -0.10868677728688889,
+      "mean_lyapunov": -0.11089556770326832,
+      "std_lyapunov": 0.0019690126901586334,
+      "per_condition": [
+        -0.10868677728688889,
+        -0.10987629867447216,
+        -0.1139894953190698,
+        -0.11102969953264245
+      ]
+    },
+    "trajectory_complexity": {
+      "participation_ratio": 1.0210362688052457,
+      "variance_explained": [
+        0.9896159341428046,
+        0.006942702515391319,
+        0.0030126687064343884,
+        0.00040439603198164727,
+        2.4298603388061206e-05
+      ],
+      "total_variance": 256.8771197393767,
+      "state_entropy": 0.7516392042446955,
+      "autocorrelation_timescale": 44.8,
+      "inter_trial_distance_mean": 0.44188398969566517,
+      "inter_trial_distance_std": 0.21319190905131713
+    },
+    "perturbation_sensitivity": {
+      "mean_growth_rate": -0.9370126492107204,
+      "std_growth_rate": 0.4965541653796848,
+      "max_growth_rate": -0.242205406514981,
+      "min_growth_rate": -2.1070332829415577,
+      "fraction_amplifying": 0.0
+    },
+    "timing": {
+      "evolution_s": 80.94979524612427,
+      "lyapunov_s": 0.3398447036743164,
+      "complexity_s": 0.08515024185180664,
+      "perturbation_s": 0.03844594955444336
+    }
+  },
+  "net8": {
+    "num_neurons": 8,
+    "fitness": 0.38174741585121225,
+    "lyapunov": {
+      "max_lyapunov": -0.05909030287323458,
+      "mean_lyapunov": -0.05934021918724136,
+      "std_lyapunov": 0.00018230967058818594,
+      "per_condition": [
+        -0.059449384150948394,
+        -0.05909030287323458,
+        -0.05925460345341882,
+        -0.059566586271363645
+      ]
+    },
+    "trajectory_complexity": {
+      "participation_ratio": 1.4791339445919551,
+      "variance_explained": [
+        0.8075516471400139,
+        0.1486421127288743,
+        0.042852947678472635,
+        0.0008801620817058574,
+        6.0120780585628694e-05
+      ],
+      "total_variance": 2508.219682414962,
+      "state_entropy": 2.639917446774459,
+      "autocorrelation_timescale": 97.375,
+      "inter_trial_distance_mean": 0.388086573496252,
+      "inter_trial_distance_std": 0.19927776162659044
+    },
+    "perturbation_sensitivity": {
+      "mean_growth_rate": -0.011658617021868666,
+      "std_growth_rate": 0.6097104408464593,
+      "max_growth_rate": 1.472393140958086,
+      "min_growth_rate": -0.8387119173149243,
+      "fraction_amplifying": 0.25
+    },
+    "timing": {
+      "evolution_s": 81.62373661994934,
+      "lyapunov_s": 0.5464863777160645,
+      "complexity_s": 0.09218025207519531,
+      "perturbation_s": 0.042899131774902344
+    }
+  }
+}

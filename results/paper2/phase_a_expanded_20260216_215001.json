@@ -1,0 +1,3362 @@
+{
+  "conditions": {
+    "net2_seed42": {
+      "config": {
+        "num_neurons": 2,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 42
+      },
+      "evolution": {
+        "best_fitness": 0.3953007033183703,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.34209621096215403
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3482749787929531
+          },
+          {
+            "gen": 500,
+            "fitness": 0.34925024738436633
+          },
+          {
+            "gen": 750,
+            "fitness": 0.36123296992766774
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.36676302526398874
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.38305131657103764
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.3915063493118503
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.3915063493118503
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.3915063493118503
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.3915063493118503
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.3922488275367181
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.3922488275367181
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.3922488275367181
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.3953007033183703
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.3953007033183703
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.3953007033183703
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.3953007033183703
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.3953007033183703
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.3953007033183703
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.3953007033183703
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.3953007033183703
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.5076626259781609,
+        "per_trial_fitness": [
+          0.6200143587320287,
+          0.35996064689176116,
+          0.6180929825139678,
+          0.3826419778742562,
+          0.5576031638787906
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.032694234683270665,
+        "output_divergence": 0.013006126229073846,
+        "time_to_divergence": 1000.0,
+        "max_divergence": 0.06803779463867356,
+        "divergence_at_end": 0.0330843616299641,
+        "neural_divergence_std": 0.005234252690415899,
+        "output_divergence_std": 0.0020098437182873236,
+        "time_to_divergence_std": 0.0,
+        "max_divergence_std": 0.0062293124784419986,
+        "divergence_at_end_std": 0.01628484021594687,
+        "neural_divergence_std_std": 0.004081781015749292
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.06486441931141362,
+        "output_divergence": 0.023250998027113817,
+        "time_to_divergence": 11.8,
+        "max_divergence": 0.14121544667881816,
+        "divergence_at_end": 0.055193214328956394,
+        "neural_divergence_std": 0.020199902720104117,
+        "output_divergence_std": 0.007799772161730286,
+        "time_to_divergence_std": 1.469693845669907,
+        "max_divergence_std": 0.018023392354787674,
+        "divergence_at_end_std": 0.026280877845894078,
+        "neural_divergence_std_std": 0.003752055101027929
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.03702924988373908,
+        "output_divergence": 0.013808129454204194,
+        "time_to_divergence": 1000.0,
+        "max_divergence": 0.07897151933061139,
+        "divergence_at_end": 0.024304854138984398,
+        "neural_divergence_std": 0.009450856696399354,
+        "output_divergence_std": 0.003350885024404869,
+        "time_to_divergence_std": 0.0,
+        "max_divergence_std": 0.018194233440168777,
+        "divergence_at_end_std": 0.021481956724403957,
+        "neural_divergence_std_std": 0.008600943621829215
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.5076626259781609,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.5081974899892826,
+          "degradation": 0.0
+        },
+        "narrower_sensors": {
+          "fitness": 0.5074778340405647,
+          "degradation": 0.00036400468369224834
+        },
+        "larger_body": {
+          "fitness": 0.5066882954351587,
+          "degradation": 0.0019192443443725009
+        },
+        "faster_motors": {
+          "fitness": 0.5556291288175322,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.342743139350184,
+          "degradation": 0.3248597657754419
+        }
+      },
+      "scores": {
+        "constitutive": 0.04042877616903978,
+        "causal": 0.9345713970392987,
+        "classification": "CAUSAL_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 191.01586890220642
+      }
+    },
+    "net2_seed137": {
+      "config": {
+        "num_neurons": 2,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 137
+      },
+      "evolution": {
+        "best_fitness": 0.47742279455514713,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3477616522627278
+          },
+          {
+            "gen": 250,
+            "fitness": 0.4554226457929317
+          },
+          {
+            "gen": 500,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 750,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.47742279455514713
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.47742279455514713
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.6292144038184638,
+        "per_trial_fitness": [
+          0.6421011239662903,
+          0.5991597869818797,
+          0.5526677697187502,
+          0.6791963091798254,
+          0.6729470292455738
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.27175580125252685,
+        "output_divergence": 0.021854463699643948,
+        "time_to_divergence": 185.6,
+        "max_divergence": 0.6450119071008665,
+        "divergence_at_end": 0.4657426526820612,
+        "neural_divergence_std": 0.05607871862238582,
+        "output_divergence_std": 0.002201571904487671,
+        "time_to_divergence_std": 20.828826179120128,
+        "max_divergence_std": 0.1840818809212641,
+        "divergence_at_end_std": 0.32841740209855785,
+        "neural_divergence_std_std": 0.049195106273241355
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 1.6387054286276637,
+        "output_divergence": 0.07325250547680011,
+        "time_to_divergence": 11.6,
+        "max_divergence": 2.7678763689967343,
+        "divergence_at_end": 2.7678763689967343,
+        "neural_divergence_std": 0.20937617976735404,
+        "output_divergence_std": 0.008453186046930402,
+        "time_to_divergence_std": 1.3564659966250536,
+        "max_divergence_std": 0.2779061401886621,
+        "divergence_at_end_std": 0.2779061401886621,
+        "neural_divergence_std_std": 0.08550551760805276
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.888825244380107,
+        "output_divergence": 0.04380832208075388,
+        "time_to_divergence": 29.0,
+        "max_divergence": 1.6808215308797183,
+        "divergence_at_end": 1.6757984442482325,
+        "neural_divergence_std": 0.2021422588601644,
+        "output_divergence_std": 0.006607835496704816,
+        "time_to_divergence_std": 6.899275324264136,
+        "max_divergence_std": 0.26934801044825507,
+        "divergence_at_end_std": 0.27338367747130904,
+        "neural_divergence_std_std": 0.07890782119057062
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.6292144038184638,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.6247371518497594,
+          "degradation": 0.007115610872737233
+        },
+        "narrower_sensors": {
+          "fitness": 0.6307848672562395,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.6343450342960087,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.6455299162402491,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.26322110781590713,
+          "degradation": 0.5816661413269376
+        }
+      },
+      "scores": {
+        "constitutive": 0.6025254739402955,
+        "causal": 0.8822436495600651,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 192.47416758537292
+      }
+    },
+    "net2_seed256": {
+      "config": {
+        "num_neurons": 2,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 256
+      },
+      "evolution": {
+        "best_fitness": 0.41804600652594004,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.37218902044615315
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3842329567201326
+          },
+          {
+            "gen": 500,
+            "fitness": 0.3842329567201326
+          },
+          {
+            "gen": 750,
+            "fitness": 0.3842329567201326
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.3856828995929092
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.3857588670942742
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.38668075658218665
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.38748044277083654
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.39431170267720433
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.4027112183867907
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.41804600652594004
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.6288845013144813,
+        "per_trial_fitness": [
+          0.49183933694626264,
+          0.7150692382589737,
+          0.5735185213601263,
+          0.6029757430377647,
+          0.7610196669692787
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.1150304700924707,
+        "output_divergence": 0.013557567224207132,
+        "time_to_divergence": 62.6,
+        "max_divergence": 0.268418587003871,
+        "divergence_at_end": 0.16363624749662614,
+        "neural_divergence_std": 0.021190546598639205,
+        "output_divergence_std": 0.0017698462654981838,
+        "time_to_divergence_std": 12.563439019631527,
+        "max_divergence_std": 0.05210618648484551,
+        "divergence_at_end_std": 0.1035735884908459,
+        "neural_divergence_std_std": 0.017468023970713877
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.49801115245079225,
+        "output_divergence": 0.05447017501887637,
+        "time_to_divergence": 9.2,
+        "max_divergence": 0.7224543285880463,
+        "divergence_at_end": 0.639138961768829,
+        "neural_divergence_std": 0.11425027863330266,
+        "output_divergence_std": 0.012993067176513998,
+        "time_to_divergence_std": 1.1661903789690602,
+        "max_divergence_std": 0.09053776974572819,
+        "divergence_at_end_std": 0.12125876370818053,
+        "neural_divergence_std_std": 0.006038876432485699
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.2684217582852837,
+        "output_divergence": 0.030835791978470806,
+        "time_to_divergence": 45.0,
+        "max_divergence": 0.4747720036453627,
+        "divergence_at_end": 0.388344674598521,
+        "neural_divergence_std": 0.10374245134827233,
+        "output_divergence_std": 0.011602849406222877,
+        "time_to_divergence_std": 45.40044052649709,
+        "max_divergence_std": 0.09293648395952196,
+        "divergence_at_end_std": 0.11540659973857474,
+        "neural_divergence_std_std": 0.00894056634535086
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.6288845013144813,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.6239763737412185,
+          "degradation": 0.007804485177355664
+        },
+        "narrower_sensors": {
+          "fitness": 0.6308328294869441,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.6340612444353975,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.6261013031786377,
+          "degradation": 0.004425603913631698
+        },
+        "slower_motors": {
+          "fitness": 0.4410971547429668,
+          "degradation": 0.29860339629233923
+        }
+      },
+      "scores": {
+        "constitutive": 0.2376439930219789,
+        "causal": 0.9378333029233347,
+        "classification": "WEAK_CONSTITUTIVE"
+      },
+      "timing": {
+        "elapsed_seconds": 194.63995099067688
+      }
+    },
+    "net3_seed42": {
+      "config": {
+        "num_neurons": 3,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 42
+      },
+      "evolution": {
+        "best_fitness": 0.36919557558342975,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.34287145248904366
+          },
+          {
+            "gen": 250,
+            "fitness": 0.36591006668055326
+          },
+          {
+            "gen": 500,
+            "fitness": 0.36633982588749414
+          },
+          {
+            "gen": 750,
+            "fitness": 0.36633982588749414
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.3681359572181541
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.3681359572181541
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.3681359572181541
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.3681359572181541
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.36919557558342975
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.36919557558342975
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.5316100441941943,
+        "per_trial_fitness": [
+          0.1799940865388303,
+          0.9569409523847622,
+          0.4011382735278758,
+          0.4264162272132851,
+          0.6935606813062177
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.4618686155940151,
+        "output_divergence": 0.027687284351164264,
+        "time_to_divergence": 90.6,
+        "max_divergence": 0.7387944120556361,
+        "divergence_at_end": 0.725668352005793,
+        "neural_divergence_std": 0.2666917184499881,
+        "output_divergence_std": 0.017009136940712582,
+        "time_to_divergence_std": 48.701540016718155,
+        "max_divergence_std": 0.43800320485263544,
+        "divergence_at_end_std": 0.4568381683788106,
+        "neural_divergence_std_std": 0.1443692029265825
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.7695214263199123,
+        "output_divergence": 0.04478541158927189,
+        "time_to_divergence": 12.0,
+        "max_divergence": 1.1612804214692065,
+        "divergence_at_end": 1.1335428498653601,
+        "neural_divergence_std": 0.5633135458995712,
+        "output_divergence_std": 0.03446047939149086,
+        "time_to_divergence_std": 1.8973665961010275,
+        "max_divergence_std": 0.8810731365092331,
+        "divergence_at_end_std": 0.9134770764435093,
+        "neural_divergence_std_std": 0.27823524946454165
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.482222404790701,
+        "output_divergence": 0.028733006307400104,
+        "time_to_divergence": 227.6,
+        "max_divergence": 0.7839080384974239,
+        "divergence_at_end": 0.7464819541157336,
+        "neural_divergence_std": 0.4460484735286584,
+        "output_divergence_std": 0.02739449902576875,
+        "time_to_divergence_std": 386.82378417051865,
+        "max_divergence_std": 0.6999215300543709,
+        "divergence_at_end_std": 0.7341927319905689,
+        "neural_divergence_std_std": 0.22667537070708318
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.5316100441941943,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.5315827454217615,
+          "degradation": 5.135102577519298e-05
+        },
+        "narrower_sensors": {
+          "fitness": 0.5315921096797099,
+          "degradation": 3.373615856980839e-05
+        },
+        "larger_body": {
+          "fitness": 0.5319264216088541,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.5843149210808269,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.41387272057979124,
+          "degradation": 0.221472681766548
+        }
+      },
+      "scores": {
+        "constitutive": 0.5295053144982003,
+        "causal": 0.9556884462098214,
+        "classification": "MIXED"
+      },
+      "timing": {
+        "elapsed_seconds": 192.07652068138123
+      }
+    },
+    "net3_seed137": {
+      "config": {
+        "num_neurons": 3,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 137
+      },
+      "evolution": {
+        "best_fitness": 0.3978798535661857,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.34654256445081066
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3913378419460179
+          },
+          {
+            "gen": 500,
+            "fitness": 0.3913378419460179
+          },
+          {
+            "gen": 750,
+            "fitness": 0.39158331877907004
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.3924944708883137
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.3924944708883137
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.3944660734168532
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.3944660734168532
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.3944660734168532
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.3959033929183887
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.3978798535661857
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.3978798535661857
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.4527995143142065,
+        "per_trial_fitness": [
+          0.5014457192338465,
+          0.3666711756002512,
+          0.25517962685534895,
+          0.7801029146644384,
+          0.36059813521714773
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.6625003450290126,
+        "output_divergence": 0.055780666627988716,
+        "time_to_divergence": 76.6,
+        "max_divergence": 2.0096692132136305,
+        "divergence_at_end": 1.0372424951888264,
+        "neural_divergence_std": 0.22832660056875323,
+        "output_divergence_std": 0.019121706752590308,
+        "time_to_divergence_std": 49.204064872731806,
+        "max_divergence_std": 0.4315855217444917,
+        "divergence_at_end_std": 0.3259074522604129,
+        "neural_divergence_std_std": 0.14888794452443838
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.8516091321311698,
+        "output_divergence": 0.06842670233098413,
+        "time_to_divergence": 8.0,
+        "max_divergence": 2.672276202624002,
+        "divergence_at_end": 0.8502277132180662,
+        "neural_divergence_std": 0.5045431080280547,
+        "output_divergence_std": 0.042238376916686596,
+        "time_to_divergence_std": 1.0954451150103321,
+        "max_divergence_std": 0.803604459189192,
+        "divergence_at_end_std": 0.5420506867292639,
+        "neural_divergence_std_std": 0.13579028952180572
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.6556664129799824,
+        "output_divergence": 0.05412326798981114,
+        "time_to_divergence": 25.0,
+        "max_divergence": 1.7195919277302836,
+        "divergence_at_end": 0.8882459595887436,
+        "neural_divergence_std": 0.3693093241547351,
+        "output_divergence_std": 0.03193821618976369,
+        "time_to_divergence_std": 14.099645385611653,
+        "max_divergence_std": 0.8255698868354223,
+        "divergence_at_end_std": 0.5923970582690093,
+        "neural_divergence_std_std": 0.15054019221632375
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.4527995143142065,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.4525769265804631,
+          "degradation": 0.0004915801256995438
+        },
+        "narrower_sensors": {
+          "fitness": 0.4528726191643818,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.453204878023176,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.5791752609014672,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.5992633858531752,
+          "degradation": 0.0
+        }
+      },
+      "scores": {
+        "constitutive": 0.6982719228347349,
+        "causal": 0.9999016839748601,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 188.6795370578766
+      }
+    },
+    "net3_seed256": {
+      "config": {
+        "num_neurons": 3,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 256
+      },
+      "evolution": {
+        "best_fitness": 0.3787701823343565,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.37526164774174015
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 500,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 750,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.3787701823343565
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.3787701823343565
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.5526257286162503,
+        "per_trial_fitness": [
+          0.2555528334165849,
+          0.8599359560130132,
+          0.4412978162400237,
+          0.4850244437623625,
+          0.721317593649267
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.1910810138725507,
+        "output_divergence": 0.009501965136200292,
+        "time_to_divergence": 341.6,
+        "max_divergence": 0.31127004772228684,
+        "divergence_at_end": 0.3007778608874866,
+        "neural_divergence_std": 0.11760424732849975,
+        "output_divergence_std": 0.004980477779054826,
+        "time_to_divergence_std": 332.42358520417895,
+        "max_divergence_std": 0.18437994014329903,
+        "divergence_at_end_std": 0.1933336278380641,
+        "neural_divergence_std_std": 0.05650476607472026
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.42612313406291025,
+        "output_divergence": 0.019743205367459896,
+        "time_to_divergence": 127.6,
+        "max_divergence": 0.660783250186306,
+        "divergence_at_end": 0.6524901106768886,
+        "neural_divergence_std": 0.24401867579407982,
+        "output_divergence_std": 0.011506409247737067,
+        "time_to_divergence_std": 149.71386041379068,
+        "max_divergence_std": 0.3806135558310207,
+        "divergence_at_end_std": 0.38608330698054316,
+        "neural_divergence_std_std": 0.11169215607007223
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.2470509955327164,
+        "output_divergence": 0.012173235306778737,
+        "time_to_divergence": 341.0,
+        "max_divergence": 0.39590157683604826,
+        "divergence_at_end": 0.3801682251942801,
+        "neural_divergence_std": 0.1835950513419281,
+        "output_divergence_std": 0.008125226922561466,
+        "time_to_divergence_std": 346.8999855866241,
+        "max_divergence_std": 0.2861015443030766,
+        "divergence_at_end_std": 0.295657508854113,
+        "neural_divergence_std_std": 0.08114397003704589
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.5526257286162503,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.551702477223445,
+          "degradation": 0.001670660040488852
+        },
+        "narrower_sensors": {
+          "fitness": 0.5528056744372135,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.5554328605487209,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.5352327873487448,
+          "degradation": 0.03147321757501038
+        },
+        "slower_motors": {
+          "fitness": 0.507582784984874,
+          "degradation": 0.08150699432175777
+        }
+      },
+      "scores": {
+        "constitutive": 0.2548804324086723,
+        "causal": 0.9770698256125486,
+        "classification": "WEAK_CONSTITUTIVE"
+      },
+      "timing": {
+        "elapsed_seconds": 188.1193127632141
+      }
+    },
+    "net4_seed42": {
+      "config": {
+        "num_neurons": 4,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 42
+      },
+      "evolution": {
+        "best_fitness": 0.38547215793048095,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.34036506585244924
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3405185209735022
+          },
+          {
+            "gen": 500,
+            "fitness": 0.3467159218869085
+          },
+          {
+            "gen": 750,
+            "fitness": 0.3808019257154071
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.3808019257154071
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.3815685055092475
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.38547215793048095
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.38547215793048095
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.5640732208338953,
+        "per_trial_fitness": [
+          0.272298217964086,
+          0.9572226154687871,
+          0.41790362922659957,
+          0.4889252048338528,
+          0.684016436676151
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 1.6658007027787138,
+        "output_divergence": 0.027745799425069318,
+        "time_to_divergence": 40.8,
+        "max_divergence": 13.194871381866559,
+        "divergence_at_end": 0.3390657920824278,
+        "neural_divergence_std": 1.0887592762234264,
+        "output_divergence_std": 0.017819620574924453,
+        "time_to_divergence_std": 9.967948635501688,
+        "max_divergence_std": 8.115097283100084,
+        "divergence_at_end_std": 0.23245418276197677,
+        "neural_divergence_std_std": 1.7367710621586698
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 5.772173151224896,
+        "output_divergence": 0.10412121796693148,
+        "time_to_divergence": 8.6,
+        "max_divergence": 41.873721385366835,
+        "divergence_at_end": 0.640761009998835,
+        "neural_divergence_std": 2.430983332903662,
+        "output_divergence_std": 0.041971062018939694,
+        "time_to_divergence_std": 1.2,
+        "max_divergence_std": 13.459191985664669,
+        "divergence_at_end_std": 0.43208521950295375,
+        "neural_divergence_std_std": 3.6394677920734835
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 3.5292799796187326,
+        "output_divergence": 0.0637859808540976,
+        "time_to_divergence": 17.0,
+        "max_divergence": 26.887061162311248,
+        "divergence_at_end": 0.38848456664855435,
+        "neural_divergence_std": 2.4511953415631735,
+        "output_divergence_std": 0.043296990401468005,
+        "time_to_divergence_std": 3.9496835316262997,
+        "max_divergence_std": 16.689629126044185,
+        "divergence_at_end_std": 0.35173302916891536,
+        "neural_divergence_std_std": 4.029216076672637
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.5640732208338953,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.5636728280730932,
+          "degradation": 0.0007098228318433924
+        },
+        "narrower_sensors": {
+          "fitness": 0.5638536759237477,
+          "degradation": 0.0003892128057599887
+        },
+        "larger_body": {
+          "fitness": 0.5680223655502787,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.6058344827087183,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.5030003836142953,
+          "degradation": 0.10827092422219434
+        }
+      },
+      "scores": {
+        "constitutive": 1.0,
+        "causal": 0.9781260080280405,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 187.5336766242981
+      }
+    },
+    "net4_seed137": {
+      "config": {
+        "num_neurons": 4,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 137
+      },
+      "evolution": {
+        "best_fitness": 0.4068239081866817,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3874305458660754
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3874305458660754
+          },
+          {
+            "gen": 500,
+            "fitness": 0.4019262413638748
+          },
+          {
+            "gen": 750,
+            "fitness": 0.4019262413638748
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.4032943813903098
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.4032943813903098
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.4032943813903098
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.4068239081866817
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.4068239081866817
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.4981820774556029,
+        "per_trial_fitness": [
+          0.5544967286005643,
+          0.34006605679493945,
+          0.6971978385422214,
+          0.30035536534485596,
+          0.5987943979954333
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 1.4018094711989075,
+        "output_divergence": 0.05986615050349806,
+        "time_to_divergence": 178.2,
+        "max_divergence": 7.0486997646021425,
+        "divergence_at_end": 3.1861934299665693,
+        "neural_divergence_std": 0.6423841681274219,
+        "output_divergence_std": 0.029156689155988447,
+        "time_to_divergence_std": 126.70343326050798,
+        "max_divergence_std": 3.173654383928825,
+        "divergence_at_end_std": 1.9297214266091627,
+        "neural_divergence_std_std": 0.8199531275416557
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 2.0564485892274083,
+        "output_divergence": 0.08033475723471781,
+        "time_to_divergence": 8.0,
+        "max_divergence": 8.481020345158825,
+        "divergence_at_end": 4.119514490536162,
+        "neural_divergence_std": 1.3142799629256556,
+        "output_divergence_std": 0.057714738875862585,
+        "time_to_divergence_std": 1.0954451150103321,
+        "max_divergence_std": 5.616768673542914,
+        "divergence_at_end_std": 3.012662796546728,
+        "neural_divergence_std_std": 1.3622109136051435
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 1.3850784136460075,
+        "output_divergence": 0.055715937768655376,
+        "time_to_divergence": 13.2,
+        "max_divergence": 6.074010641472334,
+        "divergence_at_end": 2.9752499385475697,
+        "neural_divergence_std": 0.6603852182135727,
+        "output_divergence_std": 0.029891777527776643,
+        "time_to_divergence_std": 0.7483314773547882,
+        "max_divergence_std": 2.781936031814033,
+        "divergence_at_end_std": 1.2290931384176451,
+        "neural_divergence_std_std": 0.723547015258077
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.4981820774556029,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.49761396375518296,
+          "degradation": 0.001140371333609891
+        },
+        "narrower_sensors": {
+          "fitness": 0.49834643573443194,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.49939823778168274,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.5657191163693025,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.5650471830600813,
+          "degradation": 0.0
+        }
+      },
+      "scores": {
+        "constitutive": 1.0,
+        "causal": 0.999771925733278,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 190.11371064186096
+      }
+    },
+    "net4_seed256": {
+      "config": {
+        "num_neurons": 4,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 256
+      },
+      "evolution": {
+        "best_fitness": 0.37461721170282614,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3533030727184587
+          },
+          {
+            "gen": 250,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 500,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 750,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.37461721170282614
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.37461721170282614
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.47201615937792274,
+        "per_trial_fitness": [
+          0.9637686574032572,
+          0.18848547282687123,
+          0.42537803063975,
+          0.4186808387493193,
+          0.3637677972704158
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.33860159335236134,
+        "output_divergence": 0.017294093600162513,
+        "time_to_divergence": 64.2,
+        "max_divergence": 0.3937279994674678,
+        "divergence_at_end": 0.3907171362325971,
+        "neural_divergence_std": 0.12717166091360577,
+        "output_divergence_std": 0.006513677167203406,
+        "time_to_divergence_std": 15.765785740013087,
+        "max_divergence_std": 0.1410921325597713,
+        "divergence_at_end_std": 0.1414494252225833,
+        "neural_divergence_std_std": 0.03339309368147105
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.33766936194300984,
+        "output_divergence": 0.017108239940541885,
+        "time_to_divergence": 18.0,
+        "max_divergence": 0.49863101413938365,
+        "divergence_at_end": 0.3569976800569638,
+        "neural_divergence_std": 0.30043334039109,
+        "output_divergence_std": 0.015331565531196297,
+        "time_to_divergence_std": 1.6733200530681511,
+        "max_divergence_std": 0.278058861583499,
+        "divergence_at_end_std": 0.3450071081945988,
+        "neural_divergence_std_std": 0.06915580065861576
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.20586421938087537,
+        "output_divergence": 0.010974542849882626,
+        "time_to_divergence": 48.2,
+        "max_divergence": 0.30990834245956356,
+        "divergence_at_end": 0.2216644531420616,
+        "neural_divergence_std": 0.23953082974020795,
+        "output_divergence_std": 0.011893439550626592,
+        "time_to_divergence_std": 20.75957610357206,
+        "max_divergence_std": 0.2353751126975094,
+        "divergence_at_end_std": 0.2743724086555843,
+        "neural_divergence_std_std": 0.055885098036681284
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.47201615937792274,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.4718949476630449,
+          "degradation": 0.00025679514498494076
+        },
+        "narrower_sensors": {
+          "fitness": 0.47206407670934525,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.47208780315705995,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.45499158216931823,
+          "degradation": 0.036067708282134084
+        },
+        "slower_motors": {
+          "fitness": 0.4544786626687289,
+          "degradation": 0.037154362634415114
+        }
+      },
+      "scores": {
+        "constitutive": 0.29859393487904523,
+        "causal": 0.9853042267876931,
+        "classification": "WEAK_CONSTITUTIVE"
+      },
+      "timing": {
+        "elapsed_seconds": 190.00653648376465
+      }
+    },
+    "net5_seed42": {
+      "config": {
+        "num_neurons": 5,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 42
+      },
+      "evolution": {
+        "best_fitness": 0.38334745436992185,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3497231403908087
+          },
+          {
+            "gen": 250,
+            "fitness": 0.38148428217602587
+          },
+          {
+            "gen": 500,
+            "fitness": 0.382024088659274
+          },
+          {
+            "gen": 750,
+            "fitness": 0.382024088659274
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.382024088659274
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.3822232550593119
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.3822232550593119
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.3822232550593119
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.3825413643449933
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.38334745436992185
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.38334745436992185
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.5696119853789826,
+        "per_trial_fitness": [
+          0.5090245767457677,
+          0.4881046753770779,
+          0.7885279065098162,
+          0.31316376789085193,
+          0.7492390003713989
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.3005145879216674,
+        "output_divergence": 0.007294919658010761,
+        "time_to_divergence": 56.0,
+        "max_divergence": 0.48299633836661393,
+        "divergence_at_end": 0.374876069877344,
+        "neural_divergence_std": 0.1765268803994426,
+        "output_divergence_std": 0.0031993046592159913,
+        "time_to_divergence_std": 13.784048752090222,
+        "max_divergence_std": 0.1988516109744565,
+        "divergence_at_end_std": 0.21061156631651867,
+        "neural_divergence_std_std": 0.03649791651388765
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.7853592620590166,
+        "output_divergence": 0.01699860543372091,
+        "time_to_divergence": 11.8,
+        "max_divergence": 1.0321886800632676,
+        "divergence_at_end": 0.8337400834416318,
+        "neural_divergence_std": 0.36883674769539504,
+        "output_divergence_std": 0.00809441376412921,
+        "time_to_divergence_std": 1.469693845669907,
+        "max_divergence_std": 0.390803615515735,
+        "divergence_at_end_std": 0.4798744029353965,
+        "neural_divergence_std_std": 0.06445747540138282
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.4343048363304792,
+        "output_divergence": 0.010056268111587377,
+        "time_to_divergence": 39.8,
+        "max_divergence": 0.665020703980838,
+        "divergence_at_end": 0.5208587882349589,
+        "neural_divergence_std": 0.28775361801796234,
+        "output_divergence_std": 0.005782148980935232,
+        "time_to_divergence_std": 23.6930369518135,
+        "max_divergence_std": 0.30687661294050417,
+        "divergence_at_end_std": 0.3358249860235418,
+        "neural_divergence_std_std": 0.041021299398023986
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.5696119853789826,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.5683742909355629,
+          "degradation": 0.002172869079865203
+        },
+        "narrower_sensors": {
+          "fitness": 0.5699951877857113,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.5720031933701917,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.587712266065995,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.45965269494462424,
+          "degradation": 0.19304210623147708
+        }
+      },
+      "scores": {
+        "constitutive": 0.4376205972717808,
+        "causal": 0.9609570049377315,
+        "classification": "MIXED"
+      },
+      "timing": {
+        "elapsed_seconds": 190.1965982913971
+      }
+    },
+    "net5_seed137": {
+      "config": {
+        "num_neurons": 5,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 137
+      },
+      "evolution": {
+        "best_fitness": 0.5597640351318786,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.34281627829300476
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3802396325681112
+          },
+          {
+            "gen": 500,
+            "fitness": 0.5134942142029952
+          },
+          {
+            "gen": 750,
+            "fitness": 0.5134942142029952
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.5134942142029952
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.5134942142029952
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.5134942142029952
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.5134942142029952
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.5252019197570396
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.5252019197570396
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.5252019197570396
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.5443501528011532
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.5498336240505995
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.5498336240505995
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.5498336240505995
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.5597640351318786
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.5597640351318786
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.5597640351318786
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.5597640351318786
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.5597640351318786
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.5597640351318786
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.6053437806584994,
+        "per_trial_fitness": [
+          0.7294412136345767,
+          0.7362224611321065,
+          0.2688640363570735,
+          0.6483571492831424,
+          0.6438340428855978
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 2.6128255456982847,
+        "output_divergence": 0.07905325917323443,
+        "time_to_divergence": 52.2,
+        "max_divergence": 31.65688494755441,
+        "divergence_at_end": 0.3671318301093615,
+        "neural_divergence_std": 0.9255099363030184,
+        "output_divergence_std": 0.026377314228682364,
+        "time_to_divergence_std": 28.095551249263643,
+        "max_divergence_std": 11.403375167746445,
+        "divergence_at_end_std": 0.11036698168270058,
+        "neural_divergence_std_std": 2.2972360755590553
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 7.053617920690011,
+        "output_divergence": 0.1897995430197086,
+        "time_to_divergence": 8.0,
+        "max_divergence": 68.62764539421526,
+        "divergence_at_end": 0.8465747239747105,
+        "neural_divergence_std": 2.3743780961398793,
+        "output_divergence_std": 0.05730724282406303,
+        "time_to_divergence_std": 1.0954451150103321,
+        "max_divergence_std": 16.111235236183212,
+        "divergence_at_end_std": 0.3189241063108656,
+        "neural_divergence_std_std": 4.4984611194524335
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 4.125620562222616,
+        "output_divergence": 0.1157708639688902,
+        "time_to_divergence": 23.6,
+        "max_divergence": 44.76924570259676,
+        "divergence_at_end": 0.5181628687763875,
+        "neural_divergence_std": 2.286652534393095,
+        "output_divergence_std": 0.06035220467608598,
+        "time_to_divergence_std": 13.078226179417452,
+        "max_divergence_std": 23.50864911531192,
+        "divergence_at_end_std": 0.1818562258463658,
+        "neural_divergence_std_std": 5.186802771065784
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.6053437806584994,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.6054981335467232,
+          "degradation": 0.0
+        },
+        "narrower_sensors": {
+          "fitness": 0.6052979876125647,
+          "degradation": 7.564787439787137e-05
+        },
+        "larger_body": {
+          "fitness": 0.6045866384240675,
+          "degradation": 0.0012507619766842306
+        },
+        "faster_motors": {
+          "fitness": 0.3803782306849154,
+          "degradation": 0.3716320965530825
+        },
+        "slower_motors": {
+          "fitness": 0.229877233063812,
+          "degradation": 0.6202523910196294
+        }
+      },
+      "scores": {
+        "constitutive": 1.0,
+        "causal": 0.8013578205152412,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 189.46772003173828
+      }
+    },
+    "net5_seed256": {
+      "config": {
+        "num_neurons": 5,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 256
+      },
+      "evolution": {
+        "best_fitness": 0.40962306288173034,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3651527376027013
+          },
+          {
+            "gen": 250,
+            "fitness": 0.4003714887984832
+          },
+          {
+            "gen": 500,
+            "fitness": 0.4035295626273392
+          },
+          {
+            "gen": 750,
+            "fitness": 0.4035295626273392
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.40753687890049084
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.40962306288173034
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.40962306288173034
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.32334851293339717,
+        "per_trial_fitness": [
+          0.29974037504728096,
+          0.301100577028185,
+          0.27439462694756106,
+          0.3871292635047435,
+          0.3543777221392154
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.139631592070894,
+        "output_divergence": 0.00047527927346886263,
+        "time_to_divergence": 477.4,
+        "max_divergence": 0.43166688681027754,
+        "divergence_at_end": 0.43166688681027754,
+        "neural_divergence_std": 0.021309791365071173,
+        "output_divergence_std": 0.00026207886210855767,
+        "time_to_divergence_std": 85.29618983284071,
+        "max_divergence_std": 0.06568466154787378,
+        "divergence_at_end_std": 0.06568466154787378,
+        "neural_divergence_std_std": 0.02346384755059312
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 1.233479286904546,
+        "output_divergence": 0.016684918547608417,
+        "time_to_divergence": 77.8,
+        "max_divergence": 6.77352096979641,
+        "divergence_at_end": 0.6782777365058775,
+        "neural_divergence_std": 0.14306736223959604,
+        "output_divergence_std": 0.001997572697126315,
+        "time_to_divergence_std": 8.4,
+        "max_divergence_std": 0.8080222329744982,
+        "divergence_at_end_std": 0.07993080793148945,
+        "neural_divergence_std_std": 0.17267909746442184
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.5521578402220475,
+        "output_divergence": 0.0082121493459611,
+        "time_to_divergence": 175.6,
+        "max_divergence": 3.345807568380092,
+        "divergence_at_end": 0.1296280459720311,
+        "neural_divergence_std": 0.1389081500697477,
+        "output_divergence_std": 0.0019754648826900575,
+        "time_to_divergence_std": 35.578645280561204,
+        "max_divergence_std": 0.805631865811955,
+        "divergence_at_end_std": 0.07192330328858058,
+        "neural_divergence_std_std": 0.1713389366880006
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.32334851293339717,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.3233478692830071,
+          "degradation": 1.990571701199909e-06
+        },
+        "narrower_sensors": {
+          "fitness": 0.32334906662081436,
+          "degradation": 0.0
+        },
+        "larger_body": {
+          "fitness": 0.32333617494498706,
+          "degradation": 3.815681767439764e-05
+        },
+        "faster_motors": {
+          "fitness": 0.32283189887388747,
+          "degradation": 0.0015976954930997914
+        },
+        "slower_motors": {
+          "fitness": 0.3215118141494449,
+          "degradation": 0.005680227464361702
+        }
+      },
+      "scores": {
+        "constitutive": 0.43546314810206127,
+        "causal": 0.9985363859306325,
+        "classification": "MIXED"
+      },
+      "timing": {
+        "elapsed_seconds": 190.68175673484802
+      }
+    },
+    "net6_seed42": {
+      "config": {
+        "num_neurons": 6,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 42
+      },
+      "evolution": {
+        "best_fitness": 0.467213108685665,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.35814670303293356
+          },
+          {
+            "gen": 250,
+            "fitness": 0.43027095451489494
+          },
+          {
+            "gen": 500,
+            "fitness": 0.4376278786560899
+          },
+          {
+            "gen": 750,
+            "fitness": 0.4376278786560899
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.4376278786560899
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.4376278786560899
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.44242706446223967
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.4532718222840445
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.467213108685665
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.467213108685665
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.5085998077973859,
+        "per_trial_fitness": [
+          0.6109360104588382,
+          0.4395853116762424,
+          0.5157093281568009,
+          0.5447842058977465,
+          0.4319841827973016
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 1.5692104670450966,
+        "output_divergence": 0.03504405331534248,
+        "time_to_divergence": 31.8,
+        "max_divergence": 4.933316430119319,
+        "divergence_at_end": 1.150282031636834,
+        "neural_divergence_std": 0.6537534449941715,
+        "output_divergence_std": 0.0151707576945275,
+        "time_to_divergence_std": 3.1240998703626617,
+        "max_divergence_std": 2.4448109852830515,
+        "divergence_at_end_std": 0.4132143800191096,
+        "neural_divergence_std_std": 0.48053935541418785
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 188.56936418365652,
+        "output_divergence": 3.4490547020233455,
+        "time_to_divergence": 11.6,
+        "max_divergence": 250.87983652624092,
+        "divergence_at_end": 250.87983652624092,
+        "neural_divergence_std": 0.6263882737032338,
+        "output_divergence_std": 0.010836618992455345,
+        "time_to_divergence_std": 1.3564659966250536,
+        "max_divergence_std": 0.4759396808199386,
+        "divergence_at_end_std": 0.4759396808199386,
+        "neural_divergence_std_std": 0.2689508889571433
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 187.9535604137874,
+        "output_divergence": 3.439627306273222,
+        "time_to_divergence": 24.6,
+        "max_divergence": 250.60147349586526,
+        "divergence_at_end": 250.60147349586526,
+        "neural_divergence_std": 0.6419111267877526,
+        "output_divergence_std": 0.011185030031242486,
+        "time_to_divergence_std": 3.5552777669262356,
+        "max_divergence_std": 0.47569612891565866,
+        "divergence_at_end_std": 0.47569612891565866,
+        "neural_divergence_std_std": 0.30025631018162324
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.5085998077973859,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.44346071927857666,
+          "degradation": 0.12807507876542548
+        },
+        "narrower_sensors": {
+          "fitness": 0.502487526747957,
+          "degradation": 0.012017835905333106
+        },
+        "larger_body": {
+          "fitness": 0.4884589037689575,
+          "degradation": 0.039600613525671055
+        },
+        "faster_motors": {
+          "fitness": 0.6268782749022422,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.31677601448311876,
+          "degradation": 0.377159828245269
+        }
+      },
+      "scores": {
+        "constitutive": 1.0,
+        "causal": 0.8886293287116602,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 190.46848154067993
+      }
+    },
+    "net6_seed137": {
+      "config": {
+        "num_neurons": 6,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 137
+      },
+      "evolution": {
+        "best_fitness": 0.5207418192927635,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3503058970160041
+          },
+          {
+            "gen": 250,
+            "fitness": 0.4010314420491381
+          },
+          {
+            "gen": 500,
+            "fitness": 0.4015453728608887
+          },
+          {
+            "gen": 750,
+            "fitness": 0.4060253264219663
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.42041626895104034
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.42041626895104034
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.5207418192927635
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.5207418192927635
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.6359548512742687,
+        "per_trial_fitness": [
+          0.5408336884456317,
+          0.7531118626884893,
+          0.6529026814104993,
+          0.42310077806000723,
+          0.8098252457667159
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 2.426861038580348,
+        "output_divergence": 0.12161317687708458,
+        "time_to_divergence": 173.2,
+        "max_divergence": 10.366685727029209,
+        "divergence_at_end": 3.672625153727651,
+        "neural_divergence_std": 0.269898199353148,
+        "output_divergence_std": 0.017353935113702975,
+        "time_to_divergence_std": 68.2448532857973,
+        "max_divergence_std": 1.410082040789641,
+        "divergence_at_end_std": 1.6049001783802435,
+        "neural_divergence_std_std": 0.24312456003724725
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 5.8678556346384365,
+        "output_divergence": 0.2455407728461604,
+        "time_to_divergence": 11.6,
+        "max_divergence": 18.149732450093513,
+        "divergence_at_end": 8.813880036772336,
+        "neural_divergence_std": 1.9282494434178272,
+        "output_divergence_std": 0.08509975126421211,
+        "time_to_divergence_std": 1.3564659966250536,
+        "max_divergence_std": 6.361207028270778,
+        "divergence_at_end_std": 3.806177742050825,
+        "neural_divergence_std_std": 1.2425154302525352
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 3.67251676823646,
+        "output_divergence": 0.1767912819718887,
+        "time_to_divergence": 28.6,
+        "max_divergence": 13.826301833818528,
+        "divergence_at_end": 6.242010189861838,
+        "neural_divergence_std": 1.8035706632399642,
+        "output_divergence_std": 0.0834063653560711,
+        "time_to_divergence_std": 6.216108107168021,
+        "max_divergence_std": 6.055313516001901,
+        "divergence_at_end_std": 3.554502881123654,
+        "neural_divergence_std_std": 1.2120066479983147
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.6359548512742687,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.6370439019314887,
+          "degradation": 0.0
+        },
+        "narrower_sensors": {
+          "fitness": 0.6352959817987552,
+          "degradation": 0.0010360302121495257
+        },
+        "larger_body": {
+          "fitness": 0.6363121277768761,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.4536237396100602,
+          "degradation": 0.28670403975192693
+        },
+        "slower_motors": {
+          "fitness": 0.40021318532468575,
+          "degradation": 0.3706887285921277
+        }
+      },
+      "scores": {
+        "constitutive": 1.0,
+        "causal": 0.8683142402887591,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 189.43278622627258
+      }
+    },
+    "net6_seed256": {
+      "config": {
+        "num_neurons": 6,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 256
+      },
+      "evolution": {
+        "best_fitness": 0.4904159205575696,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3413725559107632
+          },
+          {
+            "gen": 250,
+            "fitness": 0.3743853123263776
+          },
+          {
+            "gen": 500,
+            "fitness": 0.3743853123263776
+          },
+          {
+            "gen": 750,
+            "fitness": 0.3743853123263776
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.3743853123263776
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.37668807997138226
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.37668807997138226
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.37668807997138226
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.37668807997138226
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.37668807997138226
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.37668807997138226
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.3776676122485153
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.3776676122485153
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.3776676122485153
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.40446961627051914
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.40446961627051914
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.42339425965939015
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.42339425965939015
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.4904159205575696
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.4904159205575696
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.4904159205575696
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.331600728023281,
+        "per_trial_fitness": [
+          0.35207381060287674,
+          0.21093240536328756,
+          0.4557705603080304,
+          0.2858245449737917,
+          0.35340231886841866
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 9.080475631325731,
+        "output_divergence": 0.25434149356528507,
+        "time_to_divergence": 209.2,
+        "max_divergence": 52.78978658461608,
+        "divergence_at_end": 25.25808009355419,
+        "neural_divergence_std": 5.967000475991292,
+        "output_divergence_std": 0.15999812110028538,
+        "time_to_divergence_std": 159.2412006988141,
+        "max_divergence_std": 13.031068670343897,
+        "divergence_at_end_std": 6.552370209366829,
+        "neural_divergence_std_std": 5.18317591326527
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 16.239801066671028,
+        "output_divergence": 0.42870366305683827,
+        "time_to_divergence": 8.2,
+        "max_divergence": 59.10032745347282,
+        "divergence_at_end": 19.491126621897923,
+        "neural_divergence_std": 9.481432644543066,
+        "output_divergence_std": 0.24663107480987068,
+        "time_to_divergence_std": 1.1661903789690602,
+        "max_divergence_std": 28.476839995188,
+        "divergence_at_end_std": 18.71726891961347,
+        "neural_divergence_std_std": 8.94714488953503
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 10.42590140704716,
+        "output_divergence": 0.2832627878234018,
+        "time_to_divergence": 17.6,
+        "max_divergence": 45.82920277783816,
+        "divergence_at_end": 15.495747734591301,
+        "neural_divergence_std": 7.474516734283771,
+        "output_divergence_std": 0.20315092309309202,
+        "time_to_divergence_std": 4.127953488110059,
+        "max_divergence_std": 25.56986821913196,
+        "divergence_at_end_std": 15.959179439063085,
+        "neural_divergence_std_std": 7.73189258945901
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.331600728023281,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.3316436407529818,
+          "degradation": 0.0
+        },
+        "narrower_sensors": {
+          "fitness": 0.3315844597665338,
+          "degradation": 4.905962596816862e-05
+        },
+        "larger_body": {
+          "fitness": 0.33160646549620115,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.322107981444877,
+          "degradation": 0.028626951478785793
+        },
+        "slower_motors": {
+          "fitness": 0.24875357777000043,
+          "degradation": 0.24983932003956286
+        }
+      },
+      "scores": {
+        "constitutive": 1.0,
+        "causal": 0.9442969337711367,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 189.93313241004944
+      }
+    },
+    "net8_seed42": {
+      "config": {
+        "num_neurons": 8,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 42
+      },
+      "evolution": {
+        "best_fitness": 0.38542042998906934,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3348214781271869
+          },
+          {
+            "gen": 250,
+            "fitness": 0.37270548989513064
+          },
+          {
+            "gen": 500,
+            "fitness": 0.3766326707619
+          },
+          {
+            "gen": 750,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.38174741585121225
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.38542042998906934
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.38542042998906934
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.38542042998906934
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.38542042998906934
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.38542042998906934
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.5008703451961866,
+        "per_trial_fitness": [
+          0.8224985708763999,
+          0.2912375330719431,
+          0.452869869775131,
+          0.49923416126577386,
+          0.4385115909916848
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.28692368919825306,
+        "output_divergence": 0.004667595203605508,
+        "time_to_divergence": 232.4,
+        "max_divergence": 0.49530333660019366,
+        "divergence_at_end": 0.48897766193009334,
+        "neural_divergence_std": 0.11478705706491056,
+        "output_divergence_std": 0.001765836011374576,
+        "time_to_divergence_std": 74.62600083080963,
+        "max_divergence_std": 0.19745736994402346,
+        "divergence_at_end_std": 0.2018726976141831,
+        "neural_divergence_std_std": 0.07062790342344798
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 0.5085446760802551,
+        "output_divergence": 0.008286758195321133,
+        "time_to_divergence": 59.0,
+        "max_divergence": 1.1014456630502152,
+        "divergence_at_end": 0.6721882473561831,
+        "neural_divergence_std": 0.2321926655481489,
+        "output_divergence_std": 0.003931347513320817,
+        "time_to_divergence_std": 2.0,
+        "max_divergence_std": 0.21763726887322135,
+        "divergence_at_end_std": 0.42837450498868174,
+        "neural_divergence_std_std": 0.10950317674226893
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 0.24582225215552186,
+        "output_divergence": 0.004371201364186691,
+        "time_to_divergence": 93.0,
+        "max_divergence": 0.5988266155594898,
+        "divergence_at_end": 0.3295308166634904,
+        "neural_divergence_std": 0.18430382041638402,
+        "output_divergence_std": 0.0029172729813566416,
+        "time_to_divergence_std": 25.43226297441893,
+        "max_divergence_std": 0.23098422211022449,
+        "divergence_at_end_std": 0.34298051997502044,
+        "neural_divergence_std_std": 0.09592370420593056
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.5008703451961866,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.5007746396843419,
+          "degradation": 0.00019107803383559962
+        },
+        "narrower_sensors": {
+          "fitness": 0.5008356938190308,
+          "degradation": 6.918219117161736e-05
+        },
+        "larger_body": {
+          "fitness": 0.5017095833704591,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.6114731812367038,
+          "degradation": 0.0
+        },
+        "slower_motors": {
+          "fitness": 0.361557817088803,
+          "degradation": 0.2781403437100522
+        }
+      },
+      "scores": {
+        "constitutive": 0.3189174554618341,
+        "causal": 0.9443198792129881,
+        "classification": "MIXED"
+      },
+      "timing": {
+        "elapsed_seconds": 190.28054308891296
+      }
+    },
+    "net8_seed137": {
+      "config": {
+        "num_neurons": 8,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 137
+      },
+      "evolution": {
+        "best_fitness": 0.5052113593438828,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.35531599045485834
+          },
+          {
+            "gen": 250,
+            "fitness": 0.4255685203371191
+          },
+          {
+            "gen": 500,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 750,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.5052113593438828
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.5052113593438828
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.6609115719518709,
+        "per_trial_fitness": [
+          0.7368818924876838,
+          0.40242327207528317,
+          0.8252625059461585,
+          0.5685663248380476,
+          0.7714238644121811
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.8637477236343397,
+        "output_divergence": 0.022983594483321983,
+        "time_to_divergence": 247.8,
+        "max_divergence": 8.737784947007817,
+        "divergence_at_end": 0.4808109532087731,
+        "neural_divergence_std": 0.49243257914427835,
+        "output_divergence_std": 0.016510103913615033,
+        "time_to_divergence_std": 89.87635951683846,
+        "max_divergence_std": 6.268613319919232,
+        "divergence_at_end_std": 0.09926984976628861,
+        "neural_divergence_std_std": 0.9773507324464998
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 6.811440232181584,
+        "output_divergence": 0.1767385852894338,
+        "time_to_divergence": 11.8,
+        "max_divergence": 63.61927494797654,
+        "divergence_at_end": 2.2641290512260306,
+        "neural_divergence_std": 1.5598275476842243,
+        "output_divergence_std": 0.03281716976049167,
+        "time_to_divergence_std": 1.469693845669907,
+        "max_divergence_std": 10.889413914653664,
+        "divergence_at_end_std": 0.5523409224441661,
+        "neural_divergence_std_std": 2.4441532949682503
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 3.7578668392381447,
+        "output_divergence": 0.10362719116564093,
+        "time_to_divergence": 27.8,
+        "max_divergence": 38.27958945248215,
+        "divergence_at_end": 1.2992505977474933,
+        "neural_divergence_std": 1.6606842895351195,
+        "output_divergence_std": 0.041736279779645245,
+        "time_to_divergence_std": 4.707440918375928,
+        "max_divergence_std": 15.104608041009525,
+        "divergence_at_end_std": 0.552572368776474,
+        "neural_divergence_std_std": 2.8077591573054654
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.6609115719518709,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.6609318166377608,
+          "degradation": 0.0
+        },
+        "narrower_sensors": {
+          "fitness": 0.6608961616052642,
+          "degradation": 2.3316770266859886e-05
+        },
+        "larger_body": {
+          "fitness": 0.6614751797694716,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.5520118301077709,
+          "degradation": 0.1647717814210838
+        },
+        "slower_motors": {
+          "fitness": 0.5667682616096316,
+          "degradation": 0.14244442357058848
+        }
+      },
+      "scores": {
+        "constitutive": 0.9318738618171698,
+        "causal": 0.9385520956476122,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 189.4701943397522
+      }
+    },
+    "net8_seed256": {
+      "config": {
+        "num_neurons": 8,
+        "generations": 5000,
+        "population_size": 50,
+        "seed": 256
+      },
+      "evolution": {
+        "best_fitness": 0.5386305612018125,
+        "fitness_history": [
+          {
+            "gen": 0,
+            "fitness": 0.3909790059992063
+          },
+          {
+            "gen": 250,
+            "fitness": 0.41755965240835524
+          },
+          {
+            "gen": 500,
+            "fitness": 0.4372444716294127
+          },
+          {
+            "gen": 750,
+            "fitness": 0.4372444716294127
+          },
+          {
+            "gen": 1000,
+            "fitness": 0.4372444716294127
+          },
+          {
+            "gen": 1250,
+            "fitness": 0.4372444716294127
+          },
+          {
+            "gen": 1500,
+            "fitness": 0.4372444716294127
+          },
+          {
+            "gen": 1750,
+            "fitness": 0.4372444716294127
+          },
+          {
+            "gen": 2000,
+            "fitness": 0.45333203759514795
+          },
+          {
+            "gen": 2250,
+            "fitness": 0.45333203759514795
+          },
+          {
+            "gen": 2500,
+            "fitness": 0.47965583923033916
+          },
+          {
+            "gen": 2750,
+            "fitness": 0.47965583923033916
+          },
+          {
+            "gen": 3000,
+            "fitness": 0.47965583923033916
+          },
+          {
+            "gen": 3250,
+            "fitness": 0.47965583923033916
+          },
+          {
+            "gen": 3500,
+            "fitness": 0.47965583923033916
+          },
+          {
+            "gen": 3750,
+            "fitness": 0.47965583923033916
+          },
+          {
+            "gen": 4000,
+            "fitness": 0.47965583923033916
+          },
+          {
+            "gen": 4250,
+            "fitness": 0.5130905179607352
+          },
+          {
+            "gen": 4500,
+            "fitness": 0.5130905179607352
+          },
+          {
+            "gen": 4750,
+            "fitness": 0.5130905179607352
+          },
+          {
+            "gen": 5000,
+            "fitness": 0.5386305612018125
+          }
+        ]
+      },
+      "embodied": {
+        "avg_fitness": 0.3426925544213468,
+        "per_trial_fitness": [
+          0.3658267531197633,
+          0.2897375783000178,
+          0.3266370898408365,
+          0.4177243383607908,
+          0.3135370124853255
+        ]
+      },
+      "ghost_frozen_body": {
+        "neural_divergence": 0.7762684761232974,
+        "output_divergence": 0.014962896378447072,
+        "time_to_divergence": 140.8,
+        "max_divergence": 4.236026813803697,
+        "divergence_at_end": 0.6384661658792222,
+        "neural_divergence_std": 0.3358500679357921,
+        "output_divergence_std": 0.007527763181191868,
+        "time_to_divergence_std": 53.454279529332354,
+        "max_divergence_std": 2.206983822296635,
+        "divergence_at_end_std": 0.14904187523534423,
+        "neural_divergence_std_std": 0.4869886437958875
+      },
+      "ghost_disconnected": {
+        "neural_divergence": 5.02159726343965,
+        "output_divergence": 0.1142179130104779,
+        "time_to_divergence": 21.8,
+        "max_divergence": 28.880310449524654,
+        "divergence_at_end": 1.4801976486170338,
+        "neural_divergence_std": 0.8395925576668428,
+        "output_divergence_std": 0.018852887087178,
+        "time_to_divergence_std": 2.4,
+        "max_divergence_std": 4.475147117735877,
+        "divergence_at_end_std": 0.2595711347030829,
+        "neural_divergence_std_std": 1.1452861143180832
+      },
+      "ghost_counterfactual": {
+        "neural_divergence": 2.516712090830469,
+        "output_divergence": 0.05867482120165255,
+        "time_to_divergence": 52.4,
+        "max_divergence": 15.496980007555901,
+        "divergence_at_end": 0.7055720243324053,
+        "neural_divergence_std": 0.8289981051994103,
+        "output_divergence_std": 0.019075154741020395,
+        "time_to_divergence_std": 13.908270920570969,
+        "max_divergence_std": 5.144844108005917,
+        "divergence_at_end_std": 0.23906390628047494,
+        "neural_divergence_std_std": 1.2094480724341146
+      },
+      "morphology": {
+        "baseline": {
+          "fitness": 0.3426925544213468,
+          "degradation": 0.0
+        },
+        "wider_sensors": {
+          "fitness": 0.34263938554670764,
+          "degradation": 0.00015514991149719528
+        },
+        "narrower_sensors": {
+          "fitness": 0.3426914119653399,
+          "degradation": 3.3337539971593824e-06
+        },
+        "larger_body": {
+          "fitness": 0.342922192374221,
+          "degradation": 0.0
+        },
+        "faster_motors": {
+          "fitness": 0.3212558669665571,
+          "degradation": 0.06255351808698724
+        },
+        "slower_motors": {
+          "fitness": 0.34524239215841346,
+          "degradation": 0.0
+        }
+      },
+      "scores": {
+        "constitutive": 0.8881342380616486,
+        "causal": 0.9874575996495036,
+        "classification": "CONSTITUTIVE_DOMINANT"
+      },
+      "timing": {
+        "elapsed_seconds": 190.2589750289917
+      }
+    }
+  },
+  "aggregate": {
+    "net2": {
+      "num_conditions": 3,
+      "fitness_mean": 0.4302565014664858,
+      "fitness_std": 0.03462014449512687,
+      "constitutive_mean": 0.2935327477104381,
+      "constitutive_std": 0.23285308542341698,
+      "frozen_div_mean": 0.13982683534275606,
+      "frozen_div_std": 0.09915897320248228,
+      "disconn_div_mean": 0.7338603334632898,
+      "disconn_div_std": 0.6638084602200636,
+      "cf_div_mean": 0.3980920841830433,
+      "cf_div_std": 0.35962934541352204,
+      "ttd_frozen_mean": 416.0666666666666,
+      "ttd_frozen_std": 415.94539171493284
+    },
+    "net3": {
+      "num_conditions": 3,
+      "fitness_mean": 0.381948537161324,
+      "fitness_std": 0.011924020725761519,
+      "constitutive_mean": 0.4942192232472025,
+      "constitutive_std": 0.1827253578869877,
+      "frozen_div_mean": 0.4384833248318594,
+      "frozen_div_std": 0.19316521480332907,
+      "disconn_div_mean": 0.6824178975046641,
+      "disconn_div_std": 0.18430021194975574,
+      "cf_div_mean": 0.46164660443446665,
+      "cf_div_std": 0.16744981838175793,
+      "ttd_frozen_mean": 169.6,
+      "ttd_frozen_std": 121.75658777522747
+    },
+    "net4": {
+      "num_conditions": 3,
+      "fitness_mean": 0.38897109260666296,
+      "fitness_std": 0.013379081495676745,
+      "constitutive_mean": 0.7661979782930151,
+      "constitutive_std": 0.33064599000826683,
+      "frozen_div_mean": 1.1354039224433274,
+      "frozen_div_std": 0.5736394374641891,
+      "disconn_div_mean": 2.7220970341317714,
+      "disconn_div_std": 2.268005547918331,
+      "cf_div_mean": 1.7067408708818717,
+      "cf_div_std": 1.3757114840802933,
+      "ttd_frozen_mean": 94.39999999999999,
+      "ttd_frozen_std": 60.020663108632846
+    },
+    "net5": {
+      "num_conditions": 3,
+      "fitness_mean": 0.4509115174611769,
+      "fitness_std": 0.07771424087902322,
+      "constitutive_mean": 0.6243612484579474,
+      "constitutive_std": 0.26561816879596667,
+      "frozen_div_mean": 1.0176572418969487,
+      "frozen_div_std": 1.1298649691232439,
+      "disconn_div_mean": 3.024152156551191,
+      "disconn_div_std": 2.855129728219253,
+      "cf_div_mean": 1.704027746258381,
+      "cf_div_std": 1.713000517100284,
+      "ttd_frozen_mean": 195.20000000000002,
+      "ttd_frozen_std": 199.55156392939307
+    },
+    "net6": {
+      "num_conditions": 3,
+      "fitness_mean": 0.4927902828453327,
+      "fitness_std": 0.021917404226166764,
+      "constitutive_mean": 1.0,
+      "constitutive_std": 0.0,
+      "frozen_div_mean": 4.358849045650392,
+      "frozen_div_std": 3.3570035583965656,
+      "disconn_div_mean": 70.22567362832199,
+      "disconn_div_std": 83.78868711906098,
+      "cf_div_mean": 67.35065952969033,
+      "cf_div_std": 85.32368497771465,
+      "ttd_frozen_mean": 138.06666666666666,
+      "ttd_frozen_std": 76.56567261000338
+    },
+    "net8": {
+      "num_conditions": 3,
+      "fitness_mean": 0.4764207835115883,
+      "fitness_std": 0.06577744810659059,
+      "constitutive_mean": 0.7129751851135508,
+      "constitutive_std": 0.27921247512156727,
+      "frozen_div_mean": 0.6423132963186301,
+      "frozen_div_std": 0.2538234088536838,
+      "disconn_div_mean": 4.113860723900497,
+      "disconn_div_std": 2.6519945093823702,
+      "cf_div_mean": 2.1734670607413786,
+      "cf_div_std": 1.4541841145294574,
+      "ttd_frozen_mean": 207.0,
+      "ttd_frozen_std": 47.230780923743644
+    }
+  },
+  "statistics": {
+    "spearman_rho": 0.47898638771960844,
+    "spearman_p": 0.04431391169992879,
+    "pearson_r": 0.4669480733471197,
+    "pearson_p": 0.05074249724371649,
+    "n": 18
+  },
+  "meta": {
+    "network_sizes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "seeds": [
+      42,
+      137,
+      256
+    ],
+    "generations": 5000,
+    "population_size": 50,
+    "total_conditions": 18,
+    "total_elapsed_seconds": 3424.85009264946
+  }
+}

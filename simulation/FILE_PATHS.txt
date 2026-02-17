@@ -1,0 +1,235 @@
+ABSOLUTE FILE PATHS FOR CTRNN SIMULATION FRAMEWORK
+====================================================
+
+Base Directory:
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/
+
+CORE MODULE FILES (Fully Functional)
+====================================
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/ctrnn.py
+  - CTRNN class implementation with Beer (1995) formulation
+  - 500+ lines, ~12 KB
+  - Complete neural network simulation
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/evolutionary.py
+  - MicrobialGA and CMAES implementations
+  - GenotypeDecoder for parameter mapping
+  - 600+ lines, ~17 KB
+  - Ready for integration with fitness functions
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/microworld.py
+  - Agent class with embodied morphology
+  - Three environment implementations
+  - CategoricalPerceptionEnv, PhototaxisEnv, PerceptualCrossingEnv
+  - 700+ lines, ~21 KB
+  - Full physics simulation
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/analysis.py
+  - Dynamical systems analysis tools
+  - Information-theoretic analysis
+  - PhasePortrait, BifurcationAnalyzer, InformationAnalyzer, EmbodimentAnalyzer
+  - 600+ lines, ~20 KB
+  - Requires scipy (optional dependency)
+
+EXPERIMENT SCAFFOLDS (Research Frameworks)
+==========================================
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/paper2/constitutive_vs_causal.py
+  - Framework for testing embodiment theories
+  - ConstitutiveEmbodimentExperiment class
+  - 5-phase investigation methodology
+  - 350+ lines
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/paper3/representation_criteria.py
+  - Framework for comparing representation theories
+  - RamseyRepresentationTest, SheaTeleosemanticTest, GladziejewskiMilkowskiTest
+  - RepresentationCriteriaExperiment master class
+  - 450+ lines
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/paper4/perceptual_crossing.py
+  - Framework for studying emergence and autonomy
+  - PerceptualCrossingExperiment class
+  - 5-phase investigation of coupled systems
+  - 500+ lines
+
+PACKAGE INITIALIZATION FILES
+============================
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/__init__.py
+  - Main experiments package initialization
+  - 1 line (package docstring)
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/paper2/__init__.py
+  - Paper 2 experiments subpackage initialization
+  - 1 line (package docstring)
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/paper3/__init__.py
+  - Paper 3 experiments subpackage initialization
+  - 1 line (package docstring)
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/paper4/__init__.py
+  - Paper 4 experiments subpackage initialization
+  - 1 line (package docstring)
+
+CONFIGURATION & DEPENDENCIES
+============================
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/requirements.txt
+  - Python package dependencies
+  - Core: numpy
+  - Optional: scipy, scikit-learn, matplotlib, seaborn, jpype1
+  - 340 bytes
+
+DOCUMENTATION FILES
+===================
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/README.md
+  - Comprehensive user guide and overview
+  - 600+ lines, ~13 KB
+  - Usage examples, installation, references
+  - Researcher notes by use case
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/IMPLEMENTATION_SUMMARY.md
+  - Technical implementation details
+  - Design features and philosophy
+  - Testing results and quality assurance
+  - ~15 KB
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/DIRECTORY_STRUCTURE.txt
+  - Complete file inventory with class/method listing
+  - Summary statistics
+  - ~12 KB
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/FILE_PATHS.txt
+  - This file - absolute paths for all files
+  - Quick reference guide
+
+TOTAL FILES CREATED: 13
+TOTAL CODE LINES: ~3700
+TOTAL SIZE: ~100 KB (compressed)
+
+IMPORT STRUCTURE
+================
+
+To import core modules:
+  from ctrnn import CTRNN
+  from evolutionary import MicrobialGA, CMAES, GenotypeDecoder
+  from microworld import Agent, CategoricalPerceptionEnv, PhototaxisEnv, PerceptualCrossingEnv
+  from analysis import PhasePortrait, BifurcationAnalyzer, InformationAnalyzer, EmbodimentAnalyzer
+
+To import experiment frameworks:
+  from experiments.paper2.constitutive_vs_causal import ConstitutiveEmbodimentExperiment
+  from experiments.paper3.representation_criteria import RepresentationCriteriaExperiment
+  from experiments.paper4.perceptual_crossing import PerceptualCrossingExperiment
+
+QUICK COMMAND REFERENCE
+=======================
+
+To change to simulation directory:
+  cd "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/"
+
+To install dependencies:
+  pip install numpy
+  pip install scipy scikit-learn matplotlib seaborn  # Optional
+
+To verify installation:
+  python -c "from ctrnn import CTRNN; print('CTRNN imported successfully')"
+
+To run comprehensive test:
+  python -c "from ctrnn import CTRNN; from evolutionary import MicrobialGA; from microworld import Agent; print('All core modules imported successfully')"
+
+To view a module:
+  cat "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/ctrnn.py"
+
+To read documentation:
+  cat "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/README.md"
+
+RESEARCH WORKFLOW EXAMPLE
+==========================
+
+1. Read overview:
+   cat "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/README.md"
+
+2. Review CTRNN implementation:
+   cat "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/ctrnn.py" | less
+
+3. Review evolutionary algorithm:
+   cat "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/evolutionary.py" | less
+
+4. Review environment implementations:
+   cat "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/microworld.py" | less
+
+5. Check paper2 experiment framework:
+   cat "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/experiments/paper2/constitutive_vs_causal.py" | less
+
+6. Create evolution script and run experiments
+
+7. Use analysis tools for post-hoc analysis
+
+DIRECTORY TREE
+==============
+
+/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/
+│
+├── ctrnn.py                                    [CTRNN implementation]
+├── evolutionary.py                             [Evolution algorithms]
+├── microworld.py                               [Agents and environments]
+├── analysis.py                                 [Dynamical analysis tools]
+├── requirements.txt                            [Dependencies]
+│
+├── experiments/
+│   ├── __init__.py
+│   ├── paper2/
+│   │   ├── __init__.py
+│   │   └── constitutive_vs_causal.py          [Embodiment experiment]
+│   ├── paper3/
+│   │   ├── __init__.py
+│   │   └── representation_criteria.py          [Representation experiment]
+│   └── paper4/
+│       ├── __init__.py
+│       └── perceptual_crossing.py              [Coordination experiment]
+│
+└── Documentation/
+    ├── README.md                               [User guide]
+    ├── IMPLEMENTATION_SUMMARY.md               [Technical details]
+    ├── DIRECTORY_STRUCTURE.txt                 [File inventory]
+    └── FILE_PATHS.txt                          [This file]
+
+FILES AT A GLANCE
+=================
+
+Functional Python modules (importable):
+  • ctrnn.py
+  • evolutionary.py
+  • microworld.py
+  • analysis.py
+  • experiments/__init__.py
+  • experiments/paper2/__init__.py
+  • experiments/paper2/constitutive_vs_causal.py
+  • experiments/paper3/__init__.py
+  • experiments/paper3/representation_criteria.py
+  • experiments/paper4/__init__.py
+  • experiments/paper4/perceptual_crossing.py
+
+Configuration/Dependencies:
+  • requirements.txt
+
+Documentation:
+  • README.md
+  • IMPLEMENTATION_SUMMARY.md
+  • DIRECTORY_STRUCTURE.txt
+  • FILE_PATHS.txt
+
+VERIFICATION
+============
+
+All files exist and are readable:
+  ls -la "/sessions/nice-vibrant-hamilton/mnt/Robotics Program/simulation/"
+
+All Python files are syntactically correct:
+  python -m py_compile ctrnn.py evolutionary.py microworld.py analysis.py
+
+All core modules import successfully:
+  python -c "from ctrnn import CTRNN; from evolutionary import MicrobialGA; from microworld import Agent; print('Success')"
+
