@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "timestamp": "20260219_140028",
+    "test_type": "minimal_test",
+    "n_agents": 2,
+    "notes": "Quick validation test"
+  },
+  "conditions": [
+    {
+      "run_id": "net2_seed42",
+      "num_neurons": 2,
+      "seed": 42,
+      "evolved_fitness": 0.0,
+      "evolution_generations": 100,
+      "ramsey": {
+        "criterion_name": "Ramsey (1997)",
+        "passed": 

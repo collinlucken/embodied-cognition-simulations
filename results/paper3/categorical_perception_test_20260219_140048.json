@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "timestamp": "20260219_140048",
+    "test_type": "minimal_test",
+    "n_agents": 2,
+    "notes": "Quick validation test"
+  },
+  "conditions": [
+    {
+      "run_id": "net2_seed42",
+      "num_neurons": 2,
+      "seed": 42,
+      "evolved_fitness": 0.0,
+      "evolution_generations": 100,
+      "ramsey": {
+        "criterion_name": "Ramsey (1997)",
+        "passed": false,
+        "score": 0.0,
+        "details": {
+          "mean_targeted_disruption": 0.0,
+          "mean_random_disruption": 0.0,
+          "trials": 5.0
+        }
+      },
+      "shea": {
+        "criterion_name": "Shea (2018) - Teleosemantics",
+        "passed": false,
+        "score": 0.0,
+        "details": {
+          "small_object_response": 1.0,
+          "large_object_response": 1.0,
+          "discrimination_strength": 0.0,
+          "trials": 5.0
+        }
+      },
+      "gm_mutual_info": {
+        "criterion_name": "G&M (2017) - Mutual Information",
+        "passed": false,
+        "score": 0.0,
+        "details": {
+          "mi_actual": 5.000000413701855e-10,
+          "mi_baseline": 5.000000413701855e-10,
+          "information_gain": 0.0,
+          "trials": 10.0
+        }
+      },
+      "gm_transfer_entropy": {
+        "criterion_name": "G&M (2017) - Transfer Entropy",
+        "passed": false,
+        "score": 0.0,
+        "details": {
+          "te_sensor_state": 0.0,
+          "te_state_motor": 1.2924697071141057e-26,
+          "mediation": 0.0,
+          "trials": 10.0
+        }
+      },
+      "decoupling": {
+        "criterion_name": "Decoupling (Ghost Condition)",
+        "passed": true,
+        "score": 1.0,
+        "details": {
+          "embodied_fitness": 0.0,
+          "ghost_fitness": 0.9999999999999999,
+          "ed_score": 0.0,
+          "state_correlation": 1.0,
+          "trials": 3.0
+        }
+      },
+      "ghost_condition": {
+        "embodied_fitness": 0.0,
+        "ghost_fitness": 0.9999999999999999,
+        "ed_score": 0.0,
+        "neural_correlation": 1.0,
+        "fitness_correlation": 0.0
+      },
+      "noise_invariance": {
+        "0.1": {
+          "noise_sigma": 0.1,
+          "state_invariance": 0.9998929229114156,
+          "behavioral_preservation": 0.0,
+          "trajectory_divergence": 0.016252494711366274
+        },
+        "0.3": {
+          "noise_sigma": 0.3,
+          "state_invariance": 0.9997273167015582,
+          "behavioral_preservation": 0.0,
+          "trajectory_divergence": 0.04784877300316711
+        }
+      },
+      "num_criteria_passed": 1.0,
+      "mean_criterion_score": 0.2
+    },
+    {
+      "run_id": "net4_seed42",
+      "num_neurons": 4,
+      "seed": 42,
+      "evolved_fitness": 0.0,
+      "evolution_generations": 100,
+      "ramsey": {
+        "criterion_name": "Ramsey (1997)",
+        "passed": false,
+        "score": 0.08260065506092087,
+        "details": {
+          "mean_targeted_disruption": 4.856854400867028e-05,
+          "mean_random_disruption": 4.10808450883815e-05,
+          "trials": 5.0
+        }
+      },
+      "shea": {
+        "criterion_name": "Shea (2018) - Teleosemantics",
+        "passed": false,
+        "score": 0.0,
+        "details": {
+          "small_object_response": 0.9015534595738508,
+          "large_object_response": 0.9015534595738508,
+          "discrimination_strength": 0.0,
+          "trials": 5.0
+        }
+      },
+      "gm_mutual_info": {
+        "criterion_name": "G&M (2017) - Mutual Information",
+        "passed": false,
+        "score": 0.0,
+        "details": {
+          "mi_actual": 5.000000413701855e-10,
+          "mi_baseline": 5.000000413701855e-10,
+          "information_gain": 0.0,
+          "trials": 10.0
+        }
+      },
+      "gm_transfer_entropy": {
+        "criterion_name": "G&M (2017) - Transfer Entropy",
+        "passed": false,
+        "score": 0.0,
+        "details": {
+          "te_sensor_state": 0.0,
+          "te_state_motor": 0.022638396356803064,
+          "mediation": 0.0,
+          "trials": 10.0
+        }
+      },
+      "decoupling": {
+        "criterion_name": "Decoupling (Ghost Condition)",
+        "passed": true,
+        "score": 1.0,
+        "details": {
+          "embodied_fitness": 0.0,
+          "ghost_fitness": 1.0,
+          "ed_score": 0.0,
+          "state_correlation": 1.0,
+          "trials": 3.0
+        }
+      },
+      "ghost_condition": {
+        "embodied_fitness": 0.0,
+        "ghost_fitness": 1.0,
+        "ed_score": 0.0,
+        "neural_correlation": 1.0,
+        "fitness_correlation": 0.0
+      },
+      "noise_invariance": {
+        "0.1": {
+          "noise_sigma": 0.1,
+          "state_invariance": 0.9999904496872157,
+          "behavioral_preservation": 0.9539066011424397,
+          "trajectory_divergence": 0.014724285881683397
+        },
+        "0.3": {
+          "noise_sigma": 0.3,
+          "state_invariance": 0.9999366598189031,
+          "behavioral_preservation": 0.9519016806745064,
+          "trajectory_divergence": 0.04611820718830718
+        }
+      },
+      "num_criteria_passed": 1.0,
+      "mean_criterion_score": 0.21652013101218417
+    }
+  ]
+}

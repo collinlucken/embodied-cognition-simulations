@@ -1,10 +1,10 @@
 # Embodied Cognition Simulation Framework
 
-A research framework for investigating embodiment, representation, and social cognition through evolutionary robotics simulation. Uses Continuous-Time Recurrent Neural Networks (CTRNNs) controlling minimal agents in simulated microworlds, analyzed with dynamical systems theory and information-theoretic methods.
+A research framework for investigating philosophical questions about embodiment, representation, and social cognition through evolutionary robotics simulation. Uses Continuous-Time Recurrent Neural Networks (CTRNNs) controlling minimal agents in simulated microworlds, analyzed with dynamical systems theory and information-theoretic methods.
 
 ## Research Program
 
-This framework supports a multi-paper research program examining what causal patterns are revealed by minimal agent simulations — drawing on philosophy of science , embodied cognitive science , and enactivist theory.
+This framework supports a multi-paper research program examining what causal patterns are revealed by minimal agent simulations — drawing on philosophy of science (Potochnik, Wimsatt, Woodward), embodied cognitive science (Beer, Chemero, Di Paolo), and enactivist theory (Thompson, Varela, De Jaegher).
 
 ### Core Questions
 
@@ -120,4 +120,3 @@ Bowdoin College
 ## License
 
 MIT
-

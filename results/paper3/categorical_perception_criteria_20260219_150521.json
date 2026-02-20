@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "timestamp": "20260219_150521",
+    "experiment": "Categorical Perception Representation Criteria",
+    "n_agents": 18,
+    "network_sizes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "seeds": [
+      42,
+      137,
+      256
+    ],
+    "notes": "Full cross-task comparison for Paper 3 publication"
+  },
+  "conditions": [
+    {
+      "run_id": "net2_seed42",
+      "num_neurons": 2,
+      "seed": 42,
+      "evolved_fitness": 0.0,
+      "evolution_generations": 2000,
+      "ramsey": {
+        "criterion_name": "Ramsey (1997)",
+        "passed": 

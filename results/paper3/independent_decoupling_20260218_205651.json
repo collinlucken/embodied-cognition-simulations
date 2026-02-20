@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "timestamp": "2026-02-18T20:56:51.486972",
+    "script": "independent_decoupling.py",
+    "description": "Independent decoupling measure via noise injection (no shared data with ED)",
+    "n_agents_total": 42,
+    "n_agents_tested": 7,
+    "noise_levels": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "trials_per_agent": 3,
+    "trial_duration": 500
+  },
+  "noise_decoupling_by_agent": {
+    "net2_seed512": {
+      "invariance_score": 0.38140421723609225,
+      "recovery_ratio": 0.01997760473620352,
+      "behavioral_preservation": 0.08649595665049326,
+      "by_noise_level": {
+        "0.1": {
+          "invariance": 0.4645153966695565,
+          "recovery": 0.0016969372134222373,
+          "behavioral": 0.14257985031940126,
+          "divergence": 0.0330122828116238
+        },
+        "0.3": {
+          "invariance": 0.3705371706402043,
+          "recovery": 0.013332618148465985,
+          "behavioral": 0.08292834771339085,
+          "divergence": 0.09703164131605511
+        },
+        "0.5": {
+          "invariance": 0.30916008439851583,
+          "recovery": 0.04490325884672234,
+          "behavioral": 0.03397967191868767,
+          "divergence": 0.17244318141685178
+        }
+      }
+    },
+    "net2_seed1024": {
+      "invariance_score": 0.9999245759135723,
+      "recovery_ratio": 0.149351042246852,
+      "behavioral_preservation": 0.9357284682472063,
+      "by_noise_level": {
+        "0.1": {
+          "invariance": 0.9999946484990135,
+          "recovery": 0.14733682375973903,
+          "behavioral": 0.960938035752143,
+          "divergence": 0.009569334968434888
+        },
+        "0.3": {
+          "invariance": 0.9999327586456296,
+          "recovery": 0.15018852202546504,
+          "behavioral": 0.9306121064484257,
+          "divergence": 0.02495280649396858
+        },
+        "0.5": {
+          "invariance": 0.9998463205960736,
+          "recovery": 0.15052778095535188,
+          "behavioral": 0.9156352625410502,
+          "divergence": 0.043080992236471105
+        }
+      }
+    },
+    "net2_seed2048": {
+      "invariance_score": 0.8154794104379411,
+      "recovery_ratio": 0.000456759926098983,
+      "behavioral_preservation": 0.5245351748334368,
+      "by_noise_level": {
+        "0.1": {
+          "invariance": 0.8757319633081534,
+          "recovery": 3.8321551542534125e-05,
+          "behavioral": 0.6006208517896642,
+          "divergence": 0.025119836576293936
+        },
+        "0.3": {
+          "invariance": 0.8219648087812166,
+          "recovery": 0.0003552448780854809,
+          "behavioral": 0.5069051630892231,
+          "divergence": 0.07486070939962744
+        },
+        "0.5": {
+          "invariance": 0.7487414592244536,
+          "recovery": 0.000976713348668934,
+          "behavioral": 0.4660795096214232,
+          "divergence": 0.12096654043507143
+        }
+      }
+    },
+    "net2_seed3141": {
+      "invariance_score": 0.497412670873077,
+      "recovery_ratio": 0.010865148191930267,
+      "behavioral_preservation": 0.5105714556191558,
+      "by_noise_level": {
+        "0.1": {
+          "invariance": 0.6574261284173607,
+          "recovery": 0.0020667378955636813,
+          "behavioral": 0.5615840703362813,
+          "divergence": 0.04897322300545089
+        },
+        "0.3": {
+          "invariance": 0.5231491456317388,
+          "recovery": 0.009368447694291227,
+          "behavioral": 0.5662010008040032,
+          "divergence": 0.11347837888051399
+        },
+        "0.5": {
+          "invariance": 0.3116627385701313,
+          "recovery": 0.02116025898593589,
+          "behavioral": 0.4039292957171829,
+          "divergence": 0.16527718040097214
+        }
+      }
+    },
+    "net2_seed4096": {
+      "invariance_score": 0.9986316161019123,
+      "recovery_ratio": 0.06259537232324353,
+      "behavioral_preservation": 0.592604637085215,
+      "by_noise_level": {
+        "0.1": {
+          "invariance": 0.9999525305213964,
+          "recovery": 0.05943490295374987,
+          "behavioral": 0.6415090460361842,
+          "divergence": 0.019677930038259194
+        },
+        "0.3": {
+          "invariance": 0.9992904103386957,
+          "recovery": 0.061352150248819216,
+          "behavioral": 0.5689518758075033,
+          "divergence": 0.05725623621921531
+        },
+        "0.5": {
+          "invariance": 0.9966519074456448,
+          "recovery": 0.06699906376716151,
+          "behavioral": 0.5673529894119577,
+          "divergence": 0.10060784677977759
+        }
+      }
+    },
+    "net2_seed5555": {
+      "invariance_score": 0.4883227122320198,
+      "recovery_ratio": 0.0589108912142897,
+      "behavioral_preservation": 0.28870165613995785,
+      "by_noise_level": {
+        "0.1": {
+          "invariance": 0.6037751123473315,
+          "recovery": 0.005476916478998208,
+          "behavioral": 0.44547454989819957,
+          "divergence": 0.023970318203896043
+        },
+        "0.3": {
+          "invariance": 0.4411129290198106,
+          "recovery": 0.045858869200468604,
+          "behavioral": 0.24996211984847938,
+          "divergence": 0.06546306435843584
+        },
+        "0.5": {
+          "invariance": 0.4200800953289175,
+          "recovery": 0.1253968879634023,
+          "behavioral": 0.17066829867319466,
+          "divergence": 0.11356291449792832
+        }
+      }
+    },
+    "net2_seed7777": {
+      "invariance_score": 0.9999825334392698,
+      "recovery_ratio": 0.03537697454002586,
+      "behavioral_preservation": 0.990708896168918,
+      "by_noise_level": {
+        "0.1": {
+          "invariance": 0.9999990632848782,
+          "recovery": 0.035284156952795125,
+          "behavioral": 0.9975255581022324,
+          "divergence": 0.007323296684353466
+        },
+        "0.3": {
+          "invariance": 0.9999895822792833,
+          "recovery": 0.035465478652996006,
+          "behavioral": 0.985812471249885,
+          "divergence": 0.024538432820771904
+        },
+        "0.5": {
+          "invariance": 0.9999589547536482,
+          "recovery": 0.035381288014286465,
+          "behavioral": 0.9887886591546365,
+          "divergence": 0.0428776225837099
+        }
+      }
+    },
+    "net3_seed512": {
+      "error": "operands could not be broadcast together with shapes (3,) (2,) "
+    },
+    "net3_seed1024": {
+      "error": "operands could not be broadcast together with shapes (3,) (2,) "
+    },
+    "net3_seed2048": {
+      "error": "operands could not be broadcast together with shapes (3,) (2,) "
+    },
+    "net3_seed3141": {
+      "error": "operands could not be broadcast together with shapes (3,) (2,) "
+    },
+    "net3_seed4096": {
+      "error": "operands could not be broadcast together with shapes (3,) (2,) "
+    },
+    "net3_seed5555": {
+      "error": "operands could not be broadcast together with shapes (3,) (2,) "
+    },
+    "net3_seed7777": {
+      "error": "operands could not be broadcast together with shapes (3,) (2,) "
+    },
+    "net4_seed512": {
+      "error": "operands could not be broadcast together with shapes (4,) (2,) "
+    },
+    "net4_seed1024": {
+      "error": "operands could not be broadcast together with shapes (4,) (2,) "
+    },
+    "net4_seed2048": {
+      "error": "operands could not be broadcast together with shapes (4,) (2,) "
+    },
+    "net4_seed3141": {
+      "error": "operands could not be broadcast together with shapes (4,) (2,) "
+    },
+    "net4_seed4096": {
+      "error": "operands could not be broadcast together with shapes (4,) (2,) "
+    },
+    "net4_seed5555": {
+      "error": "operands could not be broadcast together with shapes (4,) (2,) "
+    },
+    "net4_seed7777": {
+      "error": "operands could not be broadcast together with shapes (4,) (2,) "
+    },
+    "net5_seed512": {
+      "error": "operands could not be broadcast together with shapes (5,) (2,) "
+    },
+    "net5_seed1024": {
+      "error": "operands could not be broadcast together with shapes (5,) (2,) "
+    },
+    "net5_seed2048": {
+      "error": "operands could not be broadcast together with shapes (5,) (2,) "
+    },
+    "net5_seed3141": {
+      "error": "operands could not be broadcast together with shapes (5,) (2,) "
+    },
+    "net5_seed4096": {
+      "error": "operands could not be broadcast together with shapes (5,) (2,) "
+    },
+    "net5_seed5555": {
+      "error": "operands could not be broadcast together with shapes (5,) (2,) "
+    },
+    "net5_seed7777": {
+      "error": "operands could not be broadcast together with shapes (5,) (2,) "
+    },
+    "net6_seed512": {
+      "error": "operands could not be broadcast together with shapes (6,) (2,) "
+    },
+    "net6_seed1024": {
+      "error": "operands could not be broadcast together with shapes (6,) (2,) "
+    },
+    "net6_seed2048": {
+      "error": "operands could not be broadcast together with shapes (6,) (2,) "
+    },
+    "net6_seed3141": {
+      "error": "operands could not be broadcast together with shapes (6,) (2,) "
+    },
+    "net6_seed4096": {
+      "error": "operands could not be broadcast together with shapes (6,) (2,) "
+    },
+    "net6_seed5555": {
+      "error": "operands could not be broadcast together with shapes (6,) (2,) "
+    },
+    "net6_seed7777": {
+      "error": "operands could not be broadcast together with shapes (6,) (2,) "
+    },
+    "net8_seed512": {
+      "error": "operands could not be broadcast together with shapes (8,) (2,) "
+    },
+    "net8_seed1024": {
+      "error": "operands could not be broadcast together with shapes (8,) (2,) "
+    },
+    "net8_seed2048": {
+      "error": "operands could not be broadcast together with shapes (8,) (2,) "
+    },
+    "net8_seed3141": {
+      "error": "operands could not be broadcast together with shapes (8,) (2,) "
+    },
+    "net8_seed4096": {
+      "error": "operands could not be broadcast together with shapes (8,) (2,) "
+    },
+    "net8_seed5555": {
+      "error": "operands could not be broadcast together with shapes (8,) (2,) "
+    },
+    "net8_seed7777": {
+      "error": "operands could not be broadcast together with shapes (8,) (2,) "
+    }
+  },
+  "correlations": {
+    "invariance_ed": {
+      "simple": {
+        "rho": 0.14285714285714288,
+        "p": 0.7599453002180929
+      },
+      "partial_size": {
+        "rho": 0.14285714285714288,
+        "p": 0.7599453002180929
+      },
+      "r_squared": 0.020408163265306128,
+      "n_agents": 7
+    },
+    "recovery_ed": {
+      "simple": {
+        "rho": -0.42857142857142866,
+        "p": 0.337368311085824
+      },
+      "partial_size": {
+        "rho": -0.42857142857142866,
+        "p": 0.337368311085824
+      },
+      "r_squared": 0.18367346938775517,
+      "n_agents": 7
+    },
+    "behavioral_ed": {
+      "simple": {
+        "rho": 0.14285714285714288,
+        "p": 0.7599453002180929
+      },
+      "partial_size": {
+        "rho": 0.14285714285714288,
+        "p": 0.7599453002180929
+      },
+      "r_squared": 0.020408163265306128,
+      "n_agents": 7
+    }
+  },
+  "mi_binning_sensitivity": {
+    "5": {
+      "simple_rho": 0.2924753841697635,
+      "simple_p": 0.06016439185291087,
+      "partial_rho": 0.3768891052888946,
+      "partial_p": 0.013882504964472327
+    },
+    "8": {
+      "simple_rho": 0.2924753841697635,
+      "simple_p": 0.06016439185291087,
+      "partial_rho": 0.3768891052888946,
+      "partial_p": 0.013882504964472327
+    },
+    "10": {
+      "simple_rho": 0.2924753841697635,
+      "simple_p": 0.06016439185291087,
+      "partial_rho": 0.3768891052888946,
+      "partial_p": 0.013882504964472327
+    },
+    "15": {
+      "simple_rho": 0.2924753841697635,
+      "simple_p": 0.06016439185291087,
+      "partial_rho": 0.3768891052888946,
+      "partial_p": 0.013882504964472327
+    },
+    "20": {
+      "simple_rho": 0.2924753841697635,
+      "simple_p": 0.06016439185291087,
+      "partial_rho": 0.3768891052888946,
+      "partial_p": 0.013882504964472327
+    }
+  },
+  "key_finding": {
+    "question": "Does the decoupling-ED negative correlation survive with an independent disruption method?",
+    "answer": "UNCERTAIN: correlation is weak or positive"
+  }
+}

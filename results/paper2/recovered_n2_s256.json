@@ -1,0 +1,190 @@
+{
+  "config": {
+    "num_neurons": 2,
+    "generations": 5000,
+    "population_size": 50,
+    "seed": 256
+  },
+  "evolution": {
+    "best_fitness": 0.41804600652594004,
+    "fitness_history": [
+      {
+        "gen": 0,
+        "fitness": 0.37218902044615315
+      },
+      {
+        "gen": 250,
+        "fitness": 0.3842329567201326
+      },
+      {
+        "gen": 500,
+        "fitness": 0.3842329567201326
+      },
+      {
+        "gen": 750,
+        "fitness": 0.3842329567201326
+      },
+      {
+        "gen": 1000,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 1250,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 1500,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 1750,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 2000,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 2250,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 2500,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 2750,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 3000,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 3250,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 3500,
+        "fitness": 0.3856828995929092
+      },
+      {
+        "gen": 3750,
+        "fitness": 0.3857588670942742
+      },
+      {
+        "gen": 4000,
+        "fitness": 0.38668075658218665
+      },
+      {
+        "gen": 4250,
+        "fitness": 0.38748044277083654
+      },
+      {
+        "gen": 4500,
+        "fitness": 0.39431170267720433
+      },
+      {
+        "gen": 4750,
+        "fitness": 0.4027112183867907
+      },
+      {
+        "gen": 5000,
+        "fitness": 0.41804600652594004
+      }
+    ],
+    "best_genotype": [
+      -1.7311629193954656,
+      -0.2976671806766281,
+      -0.5237081787776445,
+      0.5873211019879023,
+      -0.12287548990601879,
+      -2.042171874629294,
+      -0.020518250263653403,
+      -4.190330195020956
+    ]
+  },
+  "embodied": {
+    "avg_fitness": 0.6288845013144813,
+    "per_trial_fitness": [
+      0.49183933694626264,
+      0.7150692382589737,
+      0.5735185213601263,
+      0.6029757430377647,
+      0.7610196669692787
+    ]
+  },
+  "ghost_frozen_body": {
+    "neural_divergence": 0.1150304700924707,
+    "output_divergence": 0.013557567224207132,
+    "time_to_divergence": 62.6,
+    "max_divergence": 0.268418587003871,
+    "divergence_at_end": 0.16363624749662614,
+    "neural_divergence_std": 0.021190546598639205,
+    "output_divergence_std": 0.0017698462654981838,
+    "time_to_divergence_std": 12.563439019631527,
+    "max_divergence_std": 0.05210618648484551,
+    "divergence_at_end_std": 0.1035735884908459,
+    "neural_divergence_std_std": 0.017468023970713877
+  },
+  "ghost_disconnected": {
+    "neural_divergence": 0.49801115245079225,
+    "output_divergence": 0.05447017501887637,
+    "time_to_divergence": 9.2,
+    "max_divergence": 0.7224543285880463,
+    "divergence_at_end": 0.639138961768829,
+    "neural_divergence_std": 0.11425027863330266,
+    "output_divergence_std": 0.012993067176513998,
+    "time_to_divergence_std": 1.1661903789690602,
+    "max_divergence_std": 0.09053776974572819,
+    "divergence_at_end_std": 0.12125876370818053,
+    "neural_divergence_std_std": 0.006038876432485699
+  },
+  "ghost_counterfactual": {
+    "neural_divergence": 0.2684217582852837,
+    "output_divergence": 0.030835791978470806,
+    "time_to_divergence": 45.0,
+    "max_divergence": 0.4747720036453627,
+    "divergence_at_end": 0.388344674598521,
+    "neural_divergence_std": 0.10374245134827233,
+    "output_divergence_std": 0.011602849406222877,
+    "time_to_divergence_std": 45.40044052649709,
+    "max_divergence_std": 0.09293648395952196,
+    "divergence_at_end_std": 0.11540659973857474,
+    "neural_divergence_std_std": 0.00894056634535086
+  },
+  "morphology": {
+    "baseline": {
+      "fitness": 0.6288845013144813,
+      "degradation": 0.0
+    },
+    "wider_sensors": {
+      "fitness": 0.6239763737412185,
+      "degradation": 0.007804485177355664
+    },
+    "narrower_sensors": {
+      "fitness": 0.6308328294869441,
+      "degradation": 0.0
+    },
+    "larger_body": {
+      "fitness": 0.6340612444353975,
+      "degradation": 0.0
+    },
+    "faster_motors": {
+      "fitness": 0.6261013031786377,
+      "degradation": 0.004425603913631698
+    },
+    "slower_motors": {
+      "fitness": 0.4410971547429668,
+      "degradation": 0.29860339629233923
+    }
+  },
+  "scores": {
+    "constitutive": 0.2376439930219789,
+    "causal": 0.9378333029233347,
+    "classification": "WEAK_CONSTITUTIVE"
+  },
+  "timing": {
+    "elapsed_seconds": 200.7983434200287
+  }
+}

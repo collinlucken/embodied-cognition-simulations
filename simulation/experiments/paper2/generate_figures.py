@@ -13,6 +13,17 @@ import sys
 import os
 import json
 import numpy as np
+
+
+def compute_ed_equal_weight(cond):
+    """Compute ED using equal-weight, individually-capped formula.
+
+    ED = (min(1, FB) + min(1, DC) + min(1, CF)) / 3
+    """
+    fb = min(1.0, cond['ghost_frozen_body']['neural_divergence'])
+    dc = min(1.0, cond['ghost_disconnected']['neural_divergence'])
+    cf = min(1.0, cond['ghost_counterfactual']['neural_divergence'])
+    return (fb + dc + cf) / 3.0
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -61,7 +72,7 @@ def figure1_scatter_violin(data):
     for k, v in conditions.items():
         if 'error' not in v:
             sizes_list.append(v['config']['num_neurons'])
-            scores_list.append(v['scores']['constitutive'])
+            scores_list.append(compute_ed_equal_weight(v))
 
     sizes = np.array(sizes_list)
     scores = np.array(scores_list)
@@ -148,7 +159,7 @@ def figure2_cv_reduction(data):
     grouped = defaultdict(list)
     for k, v in conditions.items():
         if 'error' not in v:
-            grouped[v['config']['num_neurons']].append(v['scores']['constitutive'])
+            grouped[v['config']['num_neurons']].append(compute_ed_equal_weight(v))
 
     cvs = []
     means = []
@@ -207,22 +218,29 @@ def figure2_cv_reduction(data):
 def figure3_classification(data):
     """
     Figure 3: Stacked bar chart of solution classifications by network size.
-    Shows the shift from CAUSAL_DOMINANT at small sizes to CONSTITUTIVE_DOMINANT at large.
+    Uses 3-category scheme from paper text: Low ED (<0.30), Mixed (0.30-0.70), High ED (>=0.70).
+    Shows shift from Low ED at small sizes to High ED at large.
     """
     conditions = data['conditions']
     unique_sizes = [2, 3, 4, 5, 6, 8]
 
-    # Classify
-    classes = ['CAUSAL_DOMINANT', 'WEAK_CONSTITUTIVE', 'MIXED', 'CONSTITUTIVE_DOMINANT']
-    class_colors = ['#d73027', '#fdae61', '#abd9e9', '#4575b4']
+    # 3-category classification from raw scores (matches paper text thresholds)
+    classes = ['Causal-Dominant (<0.30)', 'Mixed (0.30\u20130.70)', 'Embodiment-Dominant (\u22650.70)']
+    class_colors = ['#d73027', '#abd9e9', '#4575b4']
 
     counts = {s: {c: 0 for c in classes} for s in unique_sizes}
     for k, v in conditions.items():
         if 'error' not in v:
             ns = v['config']['num_neurons']
-            cls = v['scores']['classification']
-            if cls in counts.get(ns, {}):
-                counts[ns][cls] += 1
+            score = compute_ed_equal_weight(v)
+            if score < 0.30:
+                cat = 'Causal-Dominant (<0.30)'
+            elif score < 0.70:
+                cat = 'Mixed (0.30\u20130.70)'
+            else:
+                cat = 'Embodiment-Dominant (\u22650.70)'
+            if ns in counts:
+                counts[ns][cat] += 1
 
     fig, ax = plt.subplots(1, 1, figsize=(5.5, 3.5))
 
@@ -234,7 +252,7 @@ def figure3_classification(data):
         heights = [counts[s][cls] / sum(counts[s].values()) * 100
                    if sum(counts[s].values()) > 0 else 0
                    for s in unique_sizes]
-        ax.bar(x, heights, width, bottom=bottoms, label=cls.replace('_', ' ').title(),
+        ax.bar(x, heights, width, bottom=bottoms, label=cls,
                color=color, edgecolor='white', linewidth=0.5)
         bottoms += heights
 
@@ -417,7 +435,8 @@ def figure4_trajectories(data):
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
 
-    fig.suptitle(f'Example: 8-neuron controller (seed 2048, constitutive score = 1.0)',
+    ed_score = compute_ed_equal_weight(cond)
+    fig.suptitle(f'Example: 8-neuron controller (seed 2048, ED = {ed_score:.2f})',
                  fontsize=10, y=1.02)
     fig.tight_layout()
     outpath = os.path.join(FIGURE_DIR, 'fig4_trajectories.pdf')
